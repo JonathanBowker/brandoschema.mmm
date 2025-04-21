@@ -1,65 +1,95 @@
-# Brando<sup>®</sup> Schema: AI-Native Optimisation and Governance Framework for Brands
+# Brando<sup>®</sup> - AI-Native Optimisation & Governance Framework for Brands
 
-<meta name="description" content="Brando is a Schema.org-compatible extension that transforms static brand guidelines into structured, machine-readable schemas for AI systems. Empower your brand to interact consistently and safely with LLMs, plugins, and intelligent agents.">
+<meta name="description" content="Brando is a Schema.org compatible extension that transforms static brand guidelines into structured, machine-readable schemas for AI systems. Empower your brand to interact consistently and safely with LLMs, plugins, and intelligent agents.">
 <meta name="keywords" content="Brando Schema, AI Guidelines, BrandObject, Verbal Identity, Visual Identity, JSON-LD, Schema.org extension, AI branding, brand governance, intelligent systems, LLM compliance">
 <meta name="author" content="Advanced Analytica">
 
+## Building AI controls using Brand Definition Vocabulary (BDV)
 
-**Brando<sup>®</sup>** is a Schema.org extension toolkit designed to transform static brand guidelines and policies into structured, machine-readable data. It enables brands to express how they are interpreted, represented, and governed within AI systems.
+**Brando** is a Schema.org-compatible extension that transforms brand guidelines and policies into structured, machine-readable schemas — enabling your brand to be consistently recognised, represented, and governed across AI systems.
 
-At the core of Brando is the `brando:BrandObject`, a comprehensive schema type that encapsulates a brand’s **Verbal Identity** and **Visual Identity** with behavioural guardrails, tone, and usage policies. It turns traditional brand guidelines into application control policies for intelligent agents.
+At the heart of the Brando Schema is `brando:BrandObject`, a powerful type that encodes:
 
-These AI facing policy datasets are published in a publicly accessible location:
+- **Verbal Identity**  
+- **Visual Identity** 
+- **Audio Identity** 
+- **Brand Positioning** 
+- **Brand Governance**  
+- **Brand Assets**
 
-``` text
-/.well-known/ai-control-policy.json
+Brando uses [Brand Definition Vocabulary (BDV)](https://brandoschema.com/bdv-classes) to turn static brand guidelines into machine-executable controls for intelligent agents.
+
+This AI-facing brand policy is published in a public, discoverable format:  
+ 
 ```
+/.well-known/ai-control-policy.json
+```  
+  
+Structured using **JSON-LD** and aligned to Schema.org principles, this file serves as the authoritative interface between your brand and AI systems — guiding how models interpret, generate, and respond.
 
-... formatted using **JSON-LD**, and aligned with Schema.org principles. This JSON file serves as the authoritative contract between a brand and AI systems to enforce schema compliance on model outputs. 
+## Why Brands Need Brando
 
-## Background and Motivation
+As AI-powered systems and large language models (LLMs) are becoming the dominant channels for customer interaction and content gatekeeping, **brands face new risks**:
 
-As AI systems, language models, and intelligent agents have become dominant interfaces for discovery, conversation, and decision-making, brands can no longer rely solely on static style guides, visual assets, or even traditional SEO techniques. While search engine optimisation remains important, it must now be complemented by AI optimisation using structured, AI-readable metadata that enables consistent brand behaviour and governance across intelligent systems. 
+- Being misrepresented in LLM answers  
+- Losing tone, intent, or uniqueness in AI-generated content  
+- Failing compliance, ethical, or reputational checks in automated outputs  
+- Becoming invisible in semantic and conversational search
 
-The rapid development of the AI-web is creating a critcal need for Brands to evolve into **AI-native entities** — capable of interacting, reasoning, responding, and adapting across platforms, agents, and voice-based systems. Without structured, machine-readable definitions of tone, values, usage policies, and interaction guardrails, brands risk being misrepresented, diluted, or ignored entirely in AI-mediated spaces.
-
-**Brando<sup>®</sup> was created to solve this challenge** — enabling brands to participate fully, safely, and consistently in the fast-changing AI ecosystem. It bridges the gap between human-authored brand guidelines and machine-executable identity by defining a structured schema for verbal, visual, and behavioural brand governance.
-
-## Why Brando<sup>®</sup> Exists
-
-Brando<sup>®</sup> transforms static brand concepts into dynamic, machine-actionable assets, enabling a future where **Brand <-> AI <-> User**
-interactions are:
-
-- Optimised
-- Governed
-- Compliant
-- On-brand by design
-- On-brand by default
-
-Brando<sup>®</sup> **breathes life into static brands**, allowing them to be experienced as:
-
-- Intelligent agents
-- AI-aware APIs
-- Governed conversational entities
-- Controlled outputs within large language models
-
-## Summary Statement
-
-> **Brando<sup>®</sup> is the first schema framework that enables brands to express who they are, what they believe, and how they should behave — in a way machines can understand, enforce and operate.**
+Search Engine Optimisation (SEO) is no longer enough. Brands need **AI Optimisation** — machine-readable operating policies that govern brand representation at inference time.
 
 
-## Quick Links
+## The Case for AI-Native Brand Governance
 
-<!-- 
+The rise of the **AI web** demands that brands become **AI-native entities** — able to interact, reason, and respond reliably across platforms, plugins, and voice agents.
+
+> Without clear policies guiding how a brand should — and should *not* — speak, appear, and behave, it risks losing visibility, control, and trust in AI-driven environments.
+
+**Brando solves this** — creating a semantic bridge between your brand guidelines and the systems interpreting them.
+
+## What Brando Enables
+
+Brando transforms brand assets into machine-actionable controls, enabling:
+
+- Brand-accurate LLM responses  
+- AI-safe usage of visual assets and tone  
+- Structured metadata for search and plugins  
+- Governed agent interactions  
+- Fully compliant and ethically-aware outputs
+
+Your brand becomes:
+
+- **Discoverable** by intelligent agents  
+- **Interpretable** by LLMs and APIs  
+- **Governable** in real-time across outputs  
+- **Consistent** across AI use cases
+
+
+## Brando as Operating Infrastructure
+
+Brando makes your brand:
+
+- **Machine-readable**
+- **AI-visible**
+- **Compliance-aware**
+- **On-brand by default**
+
+> **Brando is the first schema framework that enables brands to express who they are, what they believe, and how they should behave — in a format machines can enforce.**
+
+<!-- ## Quick Links
+
+
 - [Brando Vocabulary Reference](vocabulary.md)
-- [ai-guidelines.json Example](examples/ai-guidelines.md)
+- [ai-operating-policy.json Example](examples/ai-guidelines.md)
 - [Verbal Identity Specification](specs/verbal-identity.md)
 - [Visual Identity Specification](specs/visual-identity.md)
-- [Integration with AI Plugins](integration/openai-plugin.md)
+- [AI Plugin Integration](integration/openai-plugin.md)
 -->
----
 
 ## License
 
-Brando is distributed under the [Open Brand Data License](https://advancedanalytica.co.uk/licenses/open-brand-data).
+Brando® Schema and Brand Definition Vocabulary (BDV) are licensed by Advanced Analytica Ltd under a commercial license agreement.  
+Use of the Brando Vocabulary, BrandObject definitions, or related metadata schemas requires an active subscription and is subject to the Brando Licensing Framework.  
+Unauthorised reproduction, reuse, or redistribution is prohibited.
 
+For licensing inquiries, visit [https://brandoschema.com/license](https://brandoschema.com/license).

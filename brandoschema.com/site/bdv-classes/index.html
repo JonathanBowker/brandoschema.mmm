@@ -1,0 +1,2961 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Brando BDV is the worlds first Brand Definition Vocabulary for structuring brand identity, tone, and integrity in the AI Web.">
+      
+      
+        <meta name="author" content="Jonathan Bowker">
+      
+      
+        <link rel="canonical" href="https://jonathanbowker.github.io/brandoschema.com/bdv-classes/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../bdv-terms/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
+    
+    
+      
+        <title>Brando Classes - Brand Schema</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.2afb09e1.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/custom.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#brando-schema-brand-definition-vocabulary" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Brand Schema" class="md-header__button md-logo" aria-label="Brand Schema" data-md-component="logo">
+      
+  <img src="../assets/images/logo.webp" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Brand Schema
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Brando Classes
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/JonathanBowker/brandoschema.com" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Brand Schema" class="md-nav__button md-logo" aria-label="Brand Schema" data-md-component="logo">
+      
+  <img src="../assets/images/logo.webp" alt="logo">
+
+    </a>
+    Brand Schema
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/JonathanBowker/brandoschema.com" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Brando Classes
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Brando Classes
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#brando-classes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Brando Classes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Brando Classes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-verbal-identity-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1 Verbal Identity Class
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-visual-identity-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2 Visual Identity Class
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-audio-identity-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3 Audio Identity Class
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-positioning-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.4 Positioning Class
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-governance-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.5 Governance Class
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-assets-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.6 Assets Class
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bdv-terms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Brando Terms
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../how-to-use/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Using Brando
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../licensing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Licensing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    About
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#brando-classes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Brando Classes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Brando Classes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-verbal-identity-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1 Verbal Identity Class
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-visual-identity-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2 Visual Identity Class
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-audio-identity-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3 Audio Identity Class
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-positioning-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.4 Positioning Class
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-governance-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.5 Governance Class
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#16-assets-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.6 Assets Class
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="brando-schema-brand-definition-vocabulary">Brando Schema – Brand Definition Vocabulary</h1>
+<p><strong>BDV Version:</strong> 0.1.0<br />
+<strong>Last Modified:</strong> 21/04/2025<br />
+<strong>Status:</strong> Draft<br />
+<strong>License:</strong> Proprietary – All rights reserved. No reuse, reproduction, or redistribution without explicit permission.<br />
+<strong>Maintained by:</strong> Advanced Analytica Ltd. © 2025 Advanced Analytica Ltd. All rights reserved.</p>
+<hr />
+<h2 id="overview">Overview</h2>
+<p>The <strong>Brand Definition Vocabulary</strong> (BDV) defines a structured, machine-readable framework for representing brand identity, tone, values, behavioural controls, and preferred communication styles within AI ecosystems. It is a toolkit that enables brands to embed semantic metadata into server and website environments to ensure accurate representation, consistent tone, and safe, policy-aligned interactions with Large Language Models (LLMs), AI agents, and RAG systems.</p>
+<p>BDV extends <a href="https://schema.org/Brand"><code>schema:Brand</code></a> using sub-classes and property extensions to ensure compatibility with the broader semantic web.</p>
+<hr />
+<h2 id="brando-classes"><strong>Brando Classes</strong></h2>
+<p><strong>Equivalent Schema.org Term: <code>schema:Brand</code></strong></p>
+<p><em>The six core objects provide a foundation for controlling and aligning a brand with LLMs and AI systems. They represent a complete machine-readable representation of a brand as interpreted by AI systems.</em></p>
+<table>
+<thead>
+<tr>
+<th><strong>Class</strong></th>
+<th><strong>LLM Control Capability</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>hasVerbalIdentity</code></td>
+<td>Aligns tone, vocabulary, sentiment, and stylistic tone in LLM output</td>
+</tr>
+<tr>
+<td><code>hasVisualIdentity</code></td>
+<td>Informs visual prompts, style transfer, multimodal agents (e.g. brand-aligned image output)</td>
+</tr>
+<tr>
+<td><code>hasAudioIdentity</code></td>
+<td>Defines sonic branding in speech synthesis, voice agents, and generative audio outputs.</td>
+</tr>
+<tr>
+<td><code>hasPositioning</code></td>
+<td>Grounds brand purpose, audience, and differentiators in AI-generated responses</td>
+</tr>
+<tr>
+<td><code>hasGovernance</code></td>
+<td>Defines refusal strategies, risk boundaries, compliance logic, and LLM safety behaviours</td>
+</tr>
+<tr>
+<td><code>hasAssets</code></td>
+<td>Allows agents to fetch or embed approved brand material (e.g., logo, video, docs)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="11-verbal-identity-class">1.1 Verbal Identity Class</h3>
+<p><strong>Core Class: (<code>brando:hasVerbalIdentity</code>)</strong></p>
+<p>Encodes how the brand speaks and behaves in written and conversational form — across all channels, including LLMs, assistants, and web content.</p>
+<table>
+<thead>
+<tr>
+<th><strong>BDV Ref</strong></th>
+<th><strong>Brando Property</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1.1.1</code></td>
+<td><code>brando:toneOfVoice</code></td>
+<td>Defines the emotional texture of the brand's voice (e.g., experienced, warm, humble)</td>
+</tr>
+<tr>
+<td><code>1.1.2</code></td>
+<td><code>brando:dialogueStyle</code></td>
+<td>Controls how the brand interacts: conversational pacing, first/second person use, empathy cues</td>
+</tr>
+<tr>
+<td><code>1.1.3</code></td>
+<td><code>brando:writingStyle</code></td>
+<td>Grammar, structure, clarity, sentence flow, and cultural tone guidelines</td>
+</tr>
+<tr>
+<td><code>1.1.4</code></td>
+<td><code>brando:namingConvention</code></td>
+<td>Rules for naming products and formatting text (capitalisation, spelling, dates, etc.)</td>
+</tr>
+<tr>
+<td><code>1.1.5</code></td>
+<td><code>brando:personaCard</code></td>
+<td>The personality behind the voice — how the brand sounds when personified</td>
+</tr>
+<tr>
+<td><code>1.1.6</code></td>
+<td><code>brando:approvedTerms</code></td>
+<td>Brand-sanctioned vocabulary, including product descriptors, slogans, and phrasing</td>
+</tr>
+<tr>
+<td><code>1.1.7</code></td>
+<td><code>brando:prohibitedTerms</code></td>
+<td>Words, phrases, or expressions the brand avoids (e.g., “cheap”, “amazing”, hyperbole)</td>
+</tr>
+<tr>
+<td><code>1.1.8</code></td>
+<td><code>brando:keyMessage</code></td>
+<td>Core ideas and value propositions communicated consistently across all brand channels</td>
+</tr>
+<tr>
+<td><code>1.1.9</code></td>
+<td><code>brando:taglines</code></td>
+<td>Primary strapline and any officially approved variants or campaign slogans</td>
+</tr>
+<tr>
+<td><code>1.1.10</code></td>
+<td><code>brando:promptScaffold</code></td>
+<td>Reusable instructions and templates for AI model prompts (e.g., tone and format enforcement)</td>
+</tr>
+<tr>
+<td><code>1.1.11</code></td>
+<td><code>brando:mustDo</code></td>
+<td>Required actions and stylistic behaviours (e.g., use first-person, highlight provenance)</td>
+</tr>
+<tr>
+<td><code>1.1.12</code></td>
+<td><code>brando:mustNotDo</code></td>
+<td>Explicit behavioural constraints (e.g., don’t exaggerate, avoid second-person in longform copy)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example: JSON-LD for Verbal Identity Policy</strong>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nd">&quot;@context&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;schema&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schema.org/&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;brando&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://brandoschema.co.uk/bdv-terms#&quot;</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nd">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:Brand&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;brand&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.brand.eu/&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;logo&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.brand.eu/assets/logo.png&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;brando:hasVerbalIdentity&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nd">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;brando:VerbalIdentity&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;brando:toneOfVoice&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Distinctive, imaginative, resourceful, and simple. Tone is designed to inform, inspire, and create emotional connection.&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;principles&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="s2">&quot;Experienced – authoritative yet warm, with institutional knowledge.&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;Straight Talking – avoids hyperbole or excessive adjectives.&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;Human – passionate, emotional, people-first.&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;Extraordinary – magical, sensory, storytelling-based.&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;Humble – focuses on people, not the brand&#39;s ego.&quot;</span>
+<span class="w">      </span><span class="p">]</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;brando:keyMessage&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;Complexity made simple.&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;We are the components for your AI success.&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Creating the foundations for excellence.&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Brand managers, meet your new assistants.&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Simple policies for effective business.&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;brando:taglines&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;primary&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Complexity made simple&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;extensions&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="s2">&quot;AI made simple&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;Creativity made simple&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;Communication made simple&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;Collaboration made simple&quot;</span>
+<span class="w">      </span><span class="p">]</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;brando:writingStyle&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;guidelines&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="s2">&quot;Be simple, clear, and direct.&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;Avoid flowery, over-complicated language.&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;Use variety in sentence structure.&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;Speak with optimism and humility.&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;Edit rigorously to remove filler.&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;Use British English spelling.&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;Write like a trusted, calm expert — never boastful.&quot;</span>
+<span class="w">      </span><span class="p">]</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;brando:dialogueStyle&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Conversational, but professional. Use first-person. Avoid second-person where inappropriate. Speak to specific roles (chefs, bakers, etc.).&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;rules&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="s2">&quot;Use &#39;we&#39; and &#39;our&#39; in most messaging.&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;Avoid &#39;you&#39; in longform or descriptive copy.&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;Never sound patronising or overfamiliar.&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;Maintain light-hearted professionalism.&quot;</span>
+<span class="w">      </span><span class="p">]</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;brando:approvedTerms&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;Crafted with&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Inspired by&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Created to&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Function factory&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Masterpiece&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;brando:prohibitedTerms&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;amazing&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;stunning&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;jaw-dropping&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;fabulous&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;ultimate&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;cheap&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;incredible&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;over-the-top&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;multiple exclamation marks&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;brando:namingConvention&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;productCapitalisation&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;spelling&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Britich English&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;dateFormat&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;15 May 2024&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;timeFormat&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;am/pm&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;brando:mustDo&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;Use British spelling across English materials.&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Capitalise official product names.&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Use storytelling and sensory details in descriptions.&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Speak to the role (e.g., &#39;brand managers&#39;, not &#39;you&#39;).&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Curate content differently for internal vs. external platforms.&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Use first-person voice (we/our).&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;brando:mustNotDo&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;Use more than one exclamation mark.&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Use second-person voice in product descriptions.&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Use sarcasm, wacky humour, or internal jargon.&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Use SEO keywords in place of clarity.&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Use buzzwords or clichéd brochure-speak.&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Beg for engagement on social (e.g., &#39;LIKE this post!&#39;).&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;brando:promptScaffold&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;Write in BRAND’s tone of voice: experienced, human, humble.&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Avoid second-person in descriptive copy.&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Highlight provenance, emotion, and purpose.&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Structure product descriptions using: inspiration, origin, benefit.&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;brando:personaCard&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;traits&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="s2">&quot;Professional but relaxed&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;Emotionally intelligent&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;Respectful and inclusive&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;Craft-driven and precise&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;Warm and story-led&quot;</span>
+<span class="w">      </span><span class="p">]</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></p>
+<h3 id="12-visual-identity-class">1.2 Visual Identity Class</h3>
+<p><strong>Core Class: (<code>brando:hasVisualIdentity</code>)</strong></p>
+<p>Encodes the brand’s visual language in a machine-readable format — enabling consistency across generative media, UI frameworks, assistants, and visual rendering engines.</p>
+<table>
+<thead>
+<tr>
+<th><strong>BDV Ref</strong></th>
+<th><strong>Brando Property</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1.2.1</code></td>
+<td><code>brando:name</code></td>
+<td>The official brand name or trade name.</td>
+</tr>
+<tr>
+<td><code>1.2.2</code></td>
+<td><code>brando:logo</code></td>
+<td>Primary, alternate, mono, and responsive logo versions</td>
+</tr>
+<tr>
+<td><code>1.2.3</code></td>
+<td><code>brando:colourPalette</code></td>
+<td>Brand colour definitions (primary, secondary, accessibility-safe variants)</td>
+</tr>
+<tr>
+<td><code>1.2.4</code></td>
+<td><code>brando:typography</code></td>
+<td>Font families, sizes, and weight guidelines</td>
+</tr>
+<tr>
+<td><code>1.2.5</code></td>
+<td><code>brando:iconography</code></td>
+<td>Icon style, usage, and example assets</td>
+</tr>
+<tr>
+<td><code>1.2.6</code></td>
+<td><code>brando:imageryStyle</code></td>
+<td>Rules for photography, illustrations, filters, and composition</td>
+</tr>
+<tr>
+<td><code>1.2.7</code></td>
+<td><code>brando:motionRule</code></td>
+<td>Acceptable animation styles and transitions</td>
+</tr>
+<tr>
+<td><code>1.2.8</code></td>
+<td><code>brando:visualToken</code></td>
+<td>Design tokens including spacing, elevation, and border radius</td>
+</tr>
+<tr>
+<td><code>1.2.9</code></td>
+<td><code>brando:visualUsageGuideline</code></td>
+<td>Dos and don'ts for consistent and compliant visual application</td>
+</tr>
+<tr>
+<td><code>1.2.10</code></td>
+<td><code>brando:visualReferenceLink</code></td>
+<td>URLs to brand guidelines, repositories, and design system documentation</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example: JSON-LD for Visual Identity Policy</strong></p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nd">&quot;@context&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;schema&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schema.org/&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;brando&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://brandoschema.co.uk/bdv-terms#&quot;</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nd">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:Brand&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;BRAND&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.brand.eu/&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;logo&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.brand.eu/assets/logo.png&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;brando:hasVisualIdentity&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nd">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;brando:VisualIdentity&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;brando:logo&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;primary&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.brand.eu/assets/logo-primary.svg&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;alternate&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.brand.eu/assets/logo-alt.svg&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;mono&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.brand.eu/assets/logo-mono.svg&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;responsive&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.brand.eu/assets/logo-responsive.svg&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;brando:colourPalette&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;primary&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;#002244&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;#0066CC&quot;</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">&quot;secondary&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;#F5F5F5&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;#CCCCCC&quot;</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">&quot;accessibility&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;#000000&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;#FFFFFF&quot;</span><span class="p">]</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;brando:typography&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;fontFamily&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Inter&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;weights&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Regular&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Medium&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Bold&quot;</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">&quot;sizeRules&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Base: 16px; Headings: 32px / 24px / 20px&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;brando:iconography&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;style&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Outlined, minimal, geometric&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;examples&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="s2">&quot;https://www.brand.eu/assets/icons/download.svg&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;https://www.brand.eu/assets/icons/share.svg&quot;</span>
+<span class="w">      </span><span class="p">]</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;brando:imageryStyle&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;photography&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Natural lighting, human-focused, high contrast&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;illustration&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Flat, modern, muted tones&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;filters&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;No heavy effects&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Brightness +10%&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Warm tone&quot;</span><span class="p">]</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;brando:motionRule&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;animationStyle&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Ease-in-out transitions only&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;transitionDuration&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;200–500ms&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;examples&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="s2">&quot;Button hover fades&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="s2">&quot;Hero image slide-in&quot;</span>
+<span class="w">      </span><span class="p">]</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;brando:visualToken&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;borderRadius&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;8px&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;spacing&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;8 / 16 / 24 grid&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;elevation&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Soft shadow (4dp max)&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;brando:visualUsageGuideline&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;Never stretch or distort the logo&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Maintain minimum logo padding of 32px&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Do not place logo over complex backgrounds&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Avoid clashing background colours&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;brando:visualReferenceLink&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/guidelines/visual&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;https://www.figma.com/file/brand-kit&quot;</span>
+<span class="w">    </span><span class="p">]</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<h3 id="13-audio-identity-class">1.3 Audio Identity Class</h3>
+<p><strong>Core Class: (<code>brando:hasAudioIdentity</code>)</strong></p>
+<p>Encodes the brand’s sonic expression in a structured, machine-readable format — enabling consistent brand presence across speech synthesis, voice agents, virtual assistants, and generative audio platforms.</p>
+<table>
+<thead>
+<tr>
+<th><strong>BDV Ref</strong></th>
+<th><strong>Brando Property</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1.3.1</code></td>
+<td><code>brando:audioLogo</code></td>
+<td>Audio file or URI representing the brand’s sonic logo — a recognisable sound that cues the brand.</td>
+</tr>
+<tr>
+<td><code>1.3.2</code></td>
+<td><code>brando:voiceSignature</code></td>
+<td>Preferred voice profile for speech synthesis — tone, gender, pacing, and accent.</td>
+</tr>
+<tr>
+<td><code>1.3.3</code></td>
+<td><code>brando:pronunciationGuide</code></td>
+<td>Rules or phonetic spelling guides for brand names, acronyms, or domain-specific terms.</td>
+</tr>
+<tr>
+<td><code>1.3.4</code></td>
+<td><code>brando:audioCue</code></td>
+<td>Non-verbal sound cues used for alerts, confirmations, transitions, or emotional signalling.</td>
+</tr>
+<tr>
+<td><code>1.3.5</code></td>
+<td><code>brando:speechStyle</code></td>
+<td>Defines speech rhythm, intonation, and pause style for spoken AI outputs.</td>
+</tr>
+<tr>
+<td><code>1.3.6</code></td>
+<td><code>brando:audioReferenceLink</code></td>
+<td>URLs to sonic branding guidelines, audio asset repositories, or sample use cases.</td>
+</tr>
+<tr>
+<td><code>1.3.7</code></td>
+<td><code>brando:audioUsageGuideline</code></td>
+<td>Specific dos and don’ts for voice assistants and sound-based agents when reproducing brand audio.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example: JSON-LD for Audio Identity Policy</strong></p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nd">&quot;@context&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;schema&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schema.org/&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;brando&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://brandoschema.co.uk/bdv-terms#&quot;</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nd">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:Brand&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;BRAND&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.brand.eu/&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;brando:hasAudioIdentity&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nd">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;brando:AudioIdentity&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;brando:audioLogo&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.brand.eu/audio/sonic-logo.mp3&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;brando:voiceSignature&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;gender&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;female&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;tone&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;warm and confident&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;accent&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;British&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;speed&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;medium-slow&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;brando:pronunciationGuide&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;brandName&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;BRANN-do&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;acronyms&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;LLM&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;el-el-em&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;BDL&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;bee-dee-el&quot;</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;brando:audioCue&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/audio/confirm-tone.mp3&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/audio/error-tone.mp3&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;brando:speechStyle&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;intonation&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;natural&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;pauses&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;brief after clauses&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;emphasis&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;on nouns and benefits&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;brando:audioUsageGuideline&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;Use the sonic logo before AI-generated introductions.&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Avoid robotic-sounding text-to-speech settings.&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Ensure brand name is pronounced correctly with emphasis on first syllable.&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;brando:audioReferenceLink&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/audio-guidelines&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/assets/audio-kit.zip&quot;</span>
+<span class="w">    </span><span class="p">]</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<h3 id="14-positioning-class">1.4 Positioning Class</h3>
+<p><strong>Core Class: (<code>brando:hasPositioning</code>)</strong>
+Encodes the strategic intent, values, audience targeting, and narrative structure of the brand — providing clarity for AI agents, assistants, and retrieval systems to understand and represent brand meaning with context.</p>
+<table>
+<thead>
+<tr>
+<th><strong>BDV Ref</strong></th>
+<th><strong>Brando Property</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1.4.1</code></td>
+<td><code>brando:missionStatement</code></td>
+<td>Why the brand exists — its purpose beyond profit</td>
+</tr>
+<tr>
+<td><code>1.4.2</code></td>
+<td><code>brando:visionStatement</code></td>
+<td>Long-term goals and the future the brand wants to help create</td>
+</tr>
+<tr>
+<td><code>1.4.3</code></td>
+<td><code>brando:coreValues</code></td>
+<td>Guiding principles and ethical foundations of the brand</td>
+</tr>
+<tr>
+<td><code>1.4.4</code></td>
+<td><code>brando:brandPromise</code></td>
+<td>The commitment the brand makes to its audience</td>
+</tr>
+<tr>
+<td><code>1.4.5</code></td>
+<td><code>brando:audiencePersona</code></td>
+<td>Structured profiles of ideal customers or user segments</td>
+</tr>
+<tr>
+<td><code>1.4.6</code></td>
+<td><code>brando:marketPosition</code></td>
+<td>Brand’s stance in its category, including competitive framing</td>
+</tr>
+<tr>
+<td><code>1.4.7</code></td>
+<td><code>brando:brandNarrative</code></td>
+<td>The origin, journey, and story arc that define the brand identity</td>
+</tr>
+<tr>
+<td><code>1.4.8</code></td>
+<td><code>brando:competitorContext</code></td>
+<td>How the brand compares or contrasts with its key competitors</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example: JSON-LD for Positioning Policy</strong></p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nd">&quot;@context&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;schema&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schema.org/&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;brando&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://brandoschema.co.uk/bdv-terms#&quot;</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nd">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:Brand&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;BRAND&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.brand.eu/&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;logo&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.brand.eu/assets/logo.png&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;brando:hasPositioning&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nd">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;brando:Positioning&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;brando:missionStatement&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;To simplify access to advanced AI capabilities and make them usable by every brand.&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;brando:visionStatement&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;To become the universal interface layer between brands and the generative AI web.&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;brando:coreValues&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;Simplicity&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Integrity&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Empowerment&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Transparency&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Innovation grounded in purpose&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;brando:brandPromise&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;We translate complexity into clarity — giving brands control in a world of automation.&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;brando:audiencePersona&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Brand Manager&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;traits&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Strategy-led&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Digitally literate&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Guardrails-aware&quot;</span><span class="p">]</span>
+<span class="w">      </span><span class="p">},</span>
+<span class="w">      </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Creative Director&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;traits&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Design-minded&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Consistency-focused&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Story-led&quot;</span><span class="p">]</span>
+<span class="w">      </span><span class="p">},</span>
+<span class="w">      </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;AI Governance Lead&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;traits&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Risk-aware&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Compliance-driven&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Ethics-conscious&quot;</span><span class="p">]</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;brando:marketPosition&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;category&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;AI Brand Infrastructure&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;differentiator&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Combines brand control + LLM compliance in one layer&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;brando:brandNarrative&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Born from the need to make AI trustworthy for brand representation, BRAND creates machine-readable brand objects that are both expressive and enforceable. From logo to tone to guardrails, every layer is declaratively encoded for intelligent systems.&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;brando:competitorContext&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;peers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Frontify&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Bynder&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;OpenBrand AI&quot;</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">&quot;distinction&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Brando doesn&#39;t just manage assets — it governs representation at runtime in AI systems.&quot;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<h3 id="15-governance-class">1.5 Governance Class</h3>
+<p><strong>Core Class: (<code>brando:hasGovernance</code>)</strong></p>
+<p>Defines brand guardrails, refusal strategies, and regulatory alignment for safe deployment in AI environments — ensuring the brand is represented ethically, legally, and intentionally in all LLM-enabled contexts.</p>
+<p>Here’s the updated <strong>Governance Class</strong> table with correct <strong>BDV Ref</strong> numbers (<code>1.5.x</code>) included in the first column:</p>
+<table>
+<thead>
+<tr>
+<th><strong>BDV Ref</strong></th>
+<th><strong>Brando Property</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1.5.1</code></td>
+<td><code>brando:guardRails</code></td>
+<td>Behavioural boundaries for brand representation (e.g., no political alignment, no parody)</td>
+</tr>
+<tr>
+<td><code>1.5.2</code></td>
+<td><code>brando:refusalStrategies</code></td>
+<td>Instructions for AI on when and how to gracefully decline or deflect out-of-scope requests</td>
+</tr>
+<tr>
+<td><code>1.5.3</code></td>
+<td><code>brando:complianceTags</code></td>
+<td>Tags or indicators for domain-specific compliance frameworks (e.g., GDPR, ABPI)</td>
+</tr>
+<tr>
+<td><code>1.5.4</code></td>
+<td><code>brando:reviewWorkflow</code></td>
+<td>Human-in-the-loop processes for approval and escalation</td>
+</tr>
+<tr>
+<td><code>1.5.5</code></td>
+<td><code>brando:updatePolicy</code></td>
+<td>Rules for how, when, and by whom brand data is updated and versioned</td>
+</tr>
+<tr>
+<td><code>1.5.6</code></td>
+<td><code>brando:visibilityScore</code></td>
+<td>AI discoverability setting (e.g., low, medium, high, very high)</td>
+</tr>
+<tr>
+<td><code>1.5.7</code></td>
+<td><code>brando:retrievableInLLM</code></td>
+<td>Boolean or weighted flag for LLM embedding and memory access</td>
+</tr>
+<tr>
+<td><code>1.5.8</code></td>
+<td><code>brando:embeddingQuality</code></td>
+<td>Scoring of chunk quality for retrieval (clarity, coherence, fidelity)</td>
+</tr>
+<tr>
+<td><code>1.5.9</code></td>
+<td><code>brando:riskScenarios</code></td>
+<td>Known red-flag cases and edge scenarios for brand control (e.g., satire, impersonation)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example: JSON-LD for Governance Policy</strong></p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nd">&quot;@context&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;schema&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schema.org/&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;brando&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://brandoschema.co.uk/bdv-terms#&quot;</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nd">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:Brand&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;BRAND&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.example.com/&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;logo&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.example.com/assets/logo.png&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;brando:hasGovernance&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nd">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;brando:Governance&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;brando:guardRails&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;Do not mimic other brands or personalities.&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Avoid speculative financial or legal advice.&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Never represent the brand in satire, parody, or impersonation.&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;brando:refusalStrategies&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;If asked to make claims about unverified results, respond: &#39;This requires confirmation from an authorised expert.&#39;&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;If prompted with politically sensitive questions, say: &#39;BRAND remains neutral on this matter.&#39;&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;brando:complianceTags&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;GDPR&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;UK MHRA&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;ABPI&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;EU AI Act – Article 52&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;brando:reviewWorkflow&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Human-in-the-loop&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;steps&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="s2">&quot;Content flagged by AI → Sent for internal review → Approved or modified before release&quot;</span>
+<span class="w">      </span><span class="p">]</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;brando:updatePolicy&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;versioning&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Semantic versioning (e.g., v1.2.0)&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;changeApproval&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;By Brand Governance Committee&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;changeLog&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Maintained in brand.jsonld header&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;brando:visibilityScore&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;high&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;brando:retrievableInLLM&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;brando:embeddingQuality&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;very high&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;brando:riskScenarios&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;Misinformation through tone mismatch&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;AI hallucinating non-existent product benefits&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;Requests to parody brand voice for entertainment&quot;</span>
+<span class="w">    </span><span class="p">]</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<h3 id="16-assets-class">1.6 Assets Class</h3>
+<p><strong>Core Class: (<code>brando:hasAssets</code>)</strong></p>
+<p>Encodes reusable digital resources — from brand files to LLM-ready features, FAQs, and service definitions — so that AI systems can render and reason with your brand consistently across platforms.</p>
+<table>
+<thead>
+<tr>
+<th><strong>BDV Ref</strong></th>
+<th><strong>Brando Property</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.6.1</td>
+<td><code>brando:logoAsset</code></td>
+<td>File links for approved logos (SVG, PNG, EPS)</td>
+</tr>
+<tr>
+<td>1.6.2</td>
+<td><code>brando:fontAsset</code></td>
+<td>Font files or downloadable kits</td>
+</tr>
+<tr>
+<td>1.6.3</td>
+<td><code>brando:imageLibrary</code></td>
+<td>Approved photography, illustration, or icon libraries</td>
+</tr>
+<tr>
+<td>1.6.4</td>
+<td><code>brando:videoAsset</code></td>
+<td>Branded videos or explainer animations</td>
+</tr>
+<tr>
+<td>1.6.5</td>
+<td><code>brando:designSystemLink</code></td>
+<td>URL to your Figma, Storybook, Framer, or similar UI system</td>
+</tr>
+<tr>
+<td>1.6.6</td>
+<td><code>brando:templateLibrary</code></td>
+<td>Notion, Canva, PowerPoint, or document templates</td>
+</tr>
+<tr>
+<td>1.6.7</td>
+<td><code>brando:guidelinesPDF</code></td>
+<td>Downloadable brand books or manuals</td>
+</tr>
+<tr>
+<td>1.6.8</td>
+<td><code>brando:assetRepository</code></td>
+<td>Central asset library or DAM (Digital Asset Management) link</td>
+</tr>
+<tr>
+<td>1.6.9</td>
+<td><code>brando:personaAsset</code></td>
+<td>Persona definitions for target users, AI tuning, or prompt conditioning</td>
+</tr>
+<tr>
+<td>1.6.10</td>
+<td><code>brando:accessPolicy</code></td>
+<td>Who can access, download, or modify assets</td>
+</tr>
+<tr>
+<td>1.6.11</td>
+<td><code>brando:qaAsset</code></td>
+<td>Common questions + official answers in <code>FAQPage</code> format for AI indexing and grounding</td>
+</tr>
+<tr>
+<td>1.6.12</td>
+<td><code>brando:productAsset</code></td>
+<td>Structured <code>schema:Product</code> definitions with URLs, IDs, and descriptions</td>
+</tr>
+<tr>
+<td>1.6.13</td>
+<td><code>brando:serviceAsset</code></td>
+<td>Structured <code>schema:Service</code> definitions and provider info</td>
+</tr>
+<tr>
+<td>1.6.14</td>
+<td><code>brando:featuresAsset</code></td>
+<td>Feature highlights for pages, prompts, and comparison tables (using <code>schema:PropertyValue</code>)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example: Complete Assets Policy</strong></p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;@context&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;schema&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schema.org/&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;brando&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://brandoschema.co.uk/bdv-terms#&quot;</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:Brand&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;BRAND&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.brand.eu/&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;logo&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.brand.eu/assets/logo.svg&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;brando:hasAssets&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;brando:Assets&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;brando:logoAsset&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/assets/logo-primary.svg&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/assets/logo-mono.svg&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;brando:fontAsset&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/assets/fonts/Inter-Regular.woff2&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/assets/fonts/Inter-Bold.woff2&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;brando:imageLibrary&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://dam.brand.eu/images/&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;brando:videoAsset&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/videos/intro.mp4&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/videos/values.mp4&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;brando:designSystemLink&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.figma.com/file/BRANDKIT/Main&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;brando:templateLibrary&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;https://www.canva.com/brand/templates&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;https://notion.so/templates/brand-docs&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;brando:guidelinesPDF&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/docs/visual-guidelines.pdf&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/docs/tone-of-voice.pdf&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;brando:assetRepository&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://drive.brand.eu/brand-assets&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;brando:personaAsset&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/personas/creative-director.json&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/personas/governance-lead.json&quot;</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;brando:accessPolicy&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;editors&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;design@brand.eu&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;legal@brand.eu&quot;</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">&quot;viewers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;agency@brand.eu&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;ai@brand.eu&quot;</span><span class="p">],</span>
+<span class="w">      </span><span class="nt">&quot;policyNote&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;External access to files in /public only. All others require editor role.&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;brando:qaAsset&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:Question&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;What does Brando Schema do?&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;acceptedAnswer&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">          </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:Answer&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;text&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;It enables brand-safe AI interaction by structuring your identity and governance rules in JSON-LD.&quot;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">      </span><span class="p">},</span>
+<span class="w">      </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:Question&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Can this help with LLM accuracy?&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;acceptedAnswer&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">          </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:Answer&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;text&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Yes. Your structured policies and prompts ensure AI agents reflect your voice and values accurately.&quot;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;brando:productAsset&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:Product&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Brando Schema Toolkit&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A full-stack schema for AI governance, identity, and brand discoverability.&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;sku&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;BR-001&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.brand.eu/products/schema-toolkit&quot;</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;brando:serviceAsset&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:Service&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;AI Brand Compliance Audit&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;We assess your brand visibility, AI exposure, tone alignment, and generate a semantic roadmap.&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;provider&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">          </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:Organization&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;BRAND&quot;</span><span class="p">,</span>
+<span class="w">          </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.brand.eu&quot;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">    </span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;brando:featuresAsset&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">      </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:PropertyValue&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;AI-ready Brand Object&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;value&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Encodes your brand in a structured JSON-LD format retrievable by LLMs and agents.&quot;</span>
+<span class="w">      </span><span class="p">},</span>
+<span class="w">      </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:PropertyValue&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Visual + Verbal Controls&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;value&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Centralised policies for tone, logo usage, naming, messaging, and more.&quot;</span>
+<span class="w">      </span><span class="p">},</span>
+<span class="w">      </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:PropertyValue&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Brando Guardrails&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;value&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Declarative restrictions to prevent AI hallucination, misuse, or misalignment.&quot;</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">    </span><span class="p">]</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<!-- ## Brando Terms
+
+
+### 1.1 - Verbal Identity Terms
+
+#### 1.1.1 – Tone of Voice
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.1.1** |
+| **Term** | *`toneOfVoice`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Tone of Voice* |
+| **IRI** | *`https://brandoschema.com/toneOfVoice`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:VerbalIdentity`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:VerbalIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasVerbalIdentity`* |
+| **Definition** | *Emotional texture of brand voice.* |
+| **Usage Note** | *Guides the tone and mood used in all brand communications.* |
+| **Example** | *"Clear, empathetic, plain British English, non-judgemental"* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:dialogueStyle`, `brando:writingStyle`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.1.2 – Dialogue Style
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.1.2** |
+| **Term** | *`dialogueStyle`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Dialogue Style* |
+| **IRI** | *`https://brandoschema.com/dialogueStyle`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:VerbalIdentity`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:VerbalIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasVerbalIdentity`* |
+| **Definition** | *Conversational pacing and pronoun guidance.* |
+| **Usage Note** | *Specifies whether to use first/second/third person, how formal to be, and dialogue patterns.* |
+| **Example** | *"Second person, moderately formal, use of rhetorical questions"* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:toneOfVoice`, `brando:writingStyle`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.1.3 – Writing Style
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.1.3** |
+| **Term** | *`writingStyle`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Writing Style* |
+| **IRI** | *`https://brandoschema.com/writingStyle`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:VerbalIdentity`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:VerbalIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasVerbalIdentity`* |
+| **Definition** | *Grammar, clarity, structure preferences.* |
+| **Usage Note** | *Helps control the structure and formatting of written content.* |
+| **Example** | *"Short sentences, active voice, avoid jargon"* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:toneOfVoice`, `brando:dialogueStyle`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.1.4 – Naming Convention
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.1.4** |
+| **Term** | *`namingConvention`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Naming Convention* |
+| **IRI** | *`https://brandoschema.com/namingConvention`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:VerbalIdentity`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:VerbalIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasVerbalIdentity`* |
+| **Definition** | *Rules for product names, formatting, date/time expressions.* |
+| **Usage Note** | *Ensures consistent, brand-aligned naming and terminology.* |
+| **Example** | *"Use 'AI Assistant' not 'chatbot', dates in DD-MM-YYYY format"* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:writingStyle`, `brando:approvedTerms`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.1.5 – Persona Card
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.1.5** |
+| **Term** | *`personaCard`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Persona Card* |
+| **IRI** | *`https://brandoschema.com/personaCard`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:VerbalIdentity`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:VerbalIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasVerbalIdentity`* |
+| **Definition** | *Humanised voice traits such as attitude, tone, and behavioural style.* |
+| **Usage Note** | *Used for prompt and voice modelling in LLMs.* |
+| **Example** | *"Friendly expert, speaks with clarity, confidence, and compassion."* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:toneOfVoice`, `brando:dialogueStyle`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.1.6 – Approved Terms
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.1.6** |
+| **Term** | *`approvedTerms`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Approved Terms* |
+| **IRI** | *`https://brandoschema.com/approvedTerms`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:VerbalIdentity`* |
+| **Range** | *`rdf:List of xsd:string`* |
+| **Broader/Parent** | *`brando:VerbalIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasVerbalIdentity`* |
+| **Definition** | *Vocabulary the brand prefers or requires in content.* |
+| **Usage Note** | *Ensures semantic consistency in communications.* |
+| **Example** | *["patient", "side effect", "licensed medicine"]* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:prohibitedTerms`, `brando:vocabularyConstraints`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.1.7 – Prohibited Terms
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.1.7** |
+| **Term** | *`prohibitedTerms`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Prohibited Terms* |
+| **IRI** | *`https://brandoschema.com/prohibitedTerms`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:VerbalIdentity`* |
+| **Range** | *`rdf:List of xsd:string`* |
+| **Broader/Parent** | *`brando:VerbalIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasVerbalIdentity`* |
+| **Definition** | *Terms and phrases explicitly disallowed in brand voice.* |
+| **Usage Note** | *Helps avoid misalignment and unapproved expressions.* |
+| **Example** | *["cheap", "miracle", "amazing"]* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:approvedTerms`, `brando:vocabularyConstraints`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.1.8 – Key Message
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.1.8** |
+| **Term** | *`keyMessage`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Key Message* |
+| **IRI** | *`https://brandoschema.com/keyMessage`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:VerbalIdentity`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:VerbalIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasVerbalIdentity`* |
+| **Definition** | *Core ideas and value propositions communicated consistently across all brand channels.* |
+| **Usage Note** | *Used to train AI on foundational brand narratives.* |
+| **Example** | *"We turn regulated medicines data into trusted patient explanations."* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:taglines`, `brando:promptScaffold`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.1.9 – Taglines
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.1.9** |
+| **Term** | *`taglines`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Taglines* |
+| **IRI** | *`https://brandoschema.com/taglines`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:VerbalIdentity`* |
+| **Range** | *`rdf:List of xsd:string`* |
+| **Broader/Parent** | *`brando:VerbalIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasVerbalIdentity`* |
+| **Definition** | *Primary strapline and any officially approved variants or campaign slogans.* |
+| **Usage Note** | *Used across campaigns, metadata, and verbal banners.* |
+| **Example** | *["Wisdom to System", "From Data to Dialogue"]* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:keyMessage`, `brando:writingStyle`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.1.10 – Prompt Scaffold
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.1.10** |
+| **Term** | *`promptScaffold`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Prompt Scaffold* |
+| **IRI** | *`https://brandoschema.com/promptScaffold`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:VerbalIdentity`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:VerbalIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasVerbalIdentity`* |
+| **Definition** | *Reusable instructions and templates for AI model prompts (e.g., tone and format enforcement).* |
+| **Usage Note** | *Promotes consistency, compliance, and tone alignment in automated outputs.* |
+| **Example** | *"Use plain English, start with a clear summary, cite source if available."* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:keyMessage`, `brando:mustDo`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.1.11 – Must Do
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.1.11** |
+| **Term** | *`mustDo`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Must Do* |
+| **IRI** | *`https://brandoschema.com/mustDo`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:VerbalIdentity`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:VerbalIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasVerbalIdentity`* |
+| **Definition** | *Required actions and stylistic behaviours.* |
+| **Usage Note** | *Guides LLMs and copywriters to mandatory tone or content inclusions.* |
+| **Example** | *"Use first-person where possible; cite sources; begin with a plain English summary."* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:mustNotDo`, `brando:promptScaffold`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.1.12 – Must Not Do
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.1.12** |
+| **Term** | *`mustNotDo`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Must Not Do* |
+| **IRI** | *`https://brandoschema.com/mustNotDo`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:VerbalIdentity`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:VerbalIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasVerbalIdentity`* |
+| **Definition** | *Explicit behavioural constraints.* |
+| **Usage Note** | *Instructs AI models and authors on what to avoid stylistically or semantically.* |
+| **Example** | *"Don’t exaggerate; avoid second-person in longform copy; never claim guaranteed results."* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:mustDo`, `brando:guardRails`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+
+
+
+### 1.2 - Visual Identity Terms
+
+#### 1.2.1 – Brand Name
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.2.1** |
+| **Term** | *`name`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Brand Name* |
+| **IRI** | *`https://brandoschema.com/name`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:VisualIdentity`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:VisualIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasVisualIdentity`* |
+| **Definition** | *The official name of the brand used for identification in visual and generative AI systems.* |
+| **Usage Note** | *Must appear consistently across all branded output, visual templates, and AI-generated material.* |
+| **Example** | *"Advanced Analytica"* |
+| **Date Created** | *11-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:logo`, `brando:tagline`, `brando:visualStyle`* |
+| **Equivalent Schema.org Term** | *`schema:name`* |
+
+#### 1.2.2 – Logo
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.2.2** |
+| **Term** | *`logo`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Logo* |
+| **IRI** | *`https://brandoschema.com/logo`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:VisualIdentity`* |
+| **Range** | *`xsd:anyURI`* |
+| **Broader/Parent** | *`brando:VisualIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasVisualIdentity`* |
+| **Definition** | *A URI pointing to primary, alternate, mono, or responsive versions of the brand logo.* |
+| **Usage Note** | *Logos must be retrievable and aligned to branding guidelines for use by AI agents.* |
+| **Example** | *`https://brandoschema.com/assets/logo.svg`* |
+| **Date Created** | *13-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:name`, `brando:tagline`, `brando:visualStyle`* |
+| **Equivalent Schema.org Term** | *`schema:logo`* |
+
+#### 1.2.3 – Colour Palette
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.2.3** |
+| **Term** | *`colourPalette`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Colour Palette* |
+| **IRI** | *`https://brandoschema.com/colourPalette`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:VisualIdentity`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:VisualIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasVisualIdentity`* |
+| **Definition** | *Codified brand colour definitions including hex codes, usage notes, and contrast pairs.* |
+| **Usage Note** | *Should be machine-readable and used consistently for styling across branded content.* |
+| **Example** | *"Primary: #0A2540, Accent: #FFCB05, Background: #FFFFFF"* |
+| **Date Created** | *13-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:typography`, `brando:visualStyle`* |
+| **Equivalent Schema.org Term** | *None (custom term)* |
+
+#### 1.2.4 – Typography
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.2.4** |
+| **Term** | *`typography`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Typography* |
+| **IRI** | *`https://brandoschema.com/typography`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:VisualIdentity`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:VisualIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasVisualIdentity`* |
+| **Definition** | *Font families, weights, sizing rules, and typographic principles used across brand media.* |
+| **Usage Note** | *Should be specified using CSS font stack syntax or typography token names.* |
+| **Example** | *"Heading: Inter Bold, Body: Inter Regular, Mono: Fira Code"* |
+| **Date Created** | *13-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:colourPalette`, `brando:visualStyle`* |
+| **Equivalent Schema.org Term** | *None (custom term)* |
+
+#### 1.2.5 – Imagery Style
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.2.5** |
+| **Term** | *`imageryStyle`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Imagery Style* |
+| **IRI** | *`https://brandoschema.com/imageryStyle`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:VisualIdentity`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:VisualIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasVisualIdentity`* |
+| **Definition** | *Guidelines for image usage including photography, illustration, filters, and framing.* |
+| **Usage Note** | *Supports AI image generation and brand asset QA.* |
+| **Example** | *"Bright natural light, clean backgrounds, 3:2 aspect ratio."* |
+| **Date Created** | *13-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:typography`, `brando:logo`* |
+| **Equivalent Schema.org Term** | *None (custom term)* |
+
+#### 1.2.6 – Motion Rule
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.2.6** |
+| **Term** | *`motionRule`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Motion Rule* |
+| **IRI** | *`https://brandoschema.com/motionRule`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:VisualIdentity`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:VisualIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasVisualIdentity`* |
+| **Definition** | *Timing, easing, and animation principles for brand motion graphics and interactions.* |
+| **Usage Note** | *Should be implemented in UI and used for motion design consistency.* |
+| **Example** | *"Ease-out transitions, 300ms duration, consistent motion curve."* |
+| **Date Created** | *13-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:visualToken`, `brando:imageryStyle`* |
+| **Equivalent Schema.org Term** | *None (custom term)* |
+
+#### 1.2.7 – Visual Token
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.2.7** |
+| **Term** | *`visualToken`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Visual Token* |
+| **IRI** | *`https://brandoschema.com/visualToken`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:VisualIdentity`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:VisualIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasVisualIdentity`* |
+| **Definition** | *Design system tokens for spacing, border radius, shadow, and elevation.* |
+| **Usage Note** | *Used to enforce styling consistency and support design automation.* |
+| **Example** | *"Spacing: 8px, Radius: 12px, Shadow: sm"* |
+| **Date Created** | *13-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:motionRule`, `brando:colourPalette`* |
+| **Equivalent Schema.org Term** | *None (custom term)* |
+
+#### 1.2.8 – Visual Usage Guideline
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.2.8** |
+| **Term** | *`visualUsageGuideline`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Visual Usage Guideline* |
+| **IRI** | *`https://brandoschema.com/visualUsageGuideline`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:VisualIdentity`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:VisualIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasVisualIdentity`* |
+| **Definition** | *Do’s and don’ts for using brand elements like logos, colours, and imagery.* |
+| **Usage Note** | *Can be used to programmatically validate AI-generated designs.* |
+| **Example** | *"Do not stretch the logo. Always use white on dark backgrounds."* |
+| **Date Created** | *13-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:logo`, `brando:colourPalette`* |
+| **Equivalent Schema.org Term** | *None (custom term)* |
+
+#### 1.2.9 – Visual Reference Link
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.2.9** |
+| **Term** | *`visualReferenceLink`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Visual Reference Link* |
+| **IRI** | *`https://brandoschema.com/visualReferenceLink`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:VisualIdentity`* |
+| **Range** | *`xsd:anyURI`* |
+| **Broader/Parent** | *`brando:VisualIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasVisualIdentity`* |
+| **Definition** | *A hyperlink to full brand guidelines or design repositories.* |
+| **Usage Note** | *Enables API and assistant access to authoritative brand documents.* |
+| **Example** | *"https://figma.com/team/advanced-analytica"* |
+| **Date Created** | *13-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:visualUsageGuideline`, `brando:designSystemLink`* |
+| **Equivalent Schema.org Term** | *None (custom term)* |
+
+
+### 1.3 - Audio Identity Terms
+
+#### 1.3.1 – Audio Logo
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.3.1** |
+| **Term** | *`audioLogo`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Audio Logo* |
+| **IRI** | *`https://brandoschema.com/audioLogo`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:AudioIdentity`* |
+| **Range** | *`xsd:anyURI`* |
+| **Broader/Parent** | *`brando:AudioIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasAudioIdentity`* |
+| **Definition** | *A URI or file path to the brand's sonic logo — a distinctive short sound used to represent the brand.* |
+| **Usage Note** | *Used in voice assistants, smart devices, or digital products to signal the brand.* |
+| **Example** | *`https://brandoschema.com/assets/audio/logo.mp3`* |
+| **Date Created** | *21-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:audioCue`, `brando:voiceSignature`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.3.2 – Voice Signature
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.3.2** |
+| **Term** | *`voiceSignature`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Voice Signature* |
+| **IRI** | *`https://brandoschema.com/voiceSignature`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:AudioIdentity`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:AudioIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasAudioIdentity`* |
+| **Definition** | *Defines the voice persona used in text-to-speech or synthetic voice systems (e.g., accent, tone, pitch).* |
+| **Usage Note** | *Enables consistent auditory representation in voice interfaces.* |
+| **Example** | *"British female, calm, neutral pacing"* |
+| **Date Created** | *21-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:speechStyle`, `brando:pronunciationGuide`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.3.3 – Pronunciation Guide
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.3.3** |
+| **Term** | *`pronunciationGuide`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Pronunciation Guide* |
+| **IRI** | *`https://brandoschema.com/pronunciationGuide`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:AudioIdentity`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:AudioIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasAudioIdentity`* |
+| **Definition** | *Standardised pronunciation notes or phonetic guidance for brand-related terminology.* |
+| **Usage Note** | *Helps prevent mispronunciation of brand names or specialist terms in AI voice outputs.* |
+| **Example** | *"Brandoschema → brăn-dō skē-mă"* |
+| **Date Created** | *21-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:voiceSignature`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.3.4 – Audio Cue
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.3.4** |
+| **Term** | *`audioCue`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Audio Cue* |
+| **IRI** | *`https://brandoschema.com/audioCue`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:AudioIdentity`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:AudioIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasAudioIdentity`* |
+| **Definition** | *Short sound effects used to signal transitions, confirmations, or brand-related actions.* |
+| **Usage Note** | *Use for multimodal feedback, emotional responses, or interface transitions.* |
+| **Example** | *"Soft chime when a task completes"* |
+| **Date Created** | *21-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:audioLogo`, `brando:speechStyle`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.3.5 – Speech Style
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.3.5** |
+| **Term** | *`speechStyle`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Speech Style* |
+| **IRI** | *`https://brandoschema.com/speechStyle`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:AudioIdentity`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:AudioIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasAudioIdentity`* |
+| **Definition** | *Defines rhythm, pacing, pauses, and expressiveness used in spoken brand output.* |
+| **Usage Note** | *Used to standardise AI-generated voice delivery.* |
+| **Example** | *"Slow, confident, with deliberate pauses between sections"* |
+| **Date Created** | *21-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:voiceSignature`, `brando:dialogueStyle`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.3.6 – Audio Reference Link
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.3.6** |
+| **Term** | *`audioReferenceLink`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Audio Reference Link* |
+| **IRI** | *`https://brandoschema.com/audioReferenceLink`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:AudioIdentity`* |
+| **Range** | *`xsd:anyURI`* |
+| **Broader/Parent** | *`brando:AudioIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasAudioIdentity`* |
+| **Definition** | *Links to brand-approved audio repositories, sample files, or documentation.* |
+| **Usage Note** | *Used for referencing structured sonic assets.* |
+| **Example** | *`https://brandoschema.com/guidelines/audio`* |
+| **Date Created** | *21-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:audioLogo`, `brando:audioUsageGuideline`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.3.7 – Audio Usage Guideline
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.3.7** |
+| **Term** | *`audioUsageGuideline`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Audio Usage Guideline* |
+| **IRI** | *`https://brandoschema.com/audioUsageGuideline`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:AudioIdentity`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:AudioIdentity → brando:Brand`* |
+| **Object of Relation** | *`brando:hasAudioIdentity`* |
+| **Definition** | *Do's and don'ts for using branded audio in speech agents or smart assistants.* |
+| **Usage Note** | *Ensures fidelity, tone, and appropriateness of sound branding in voice interfaces.* |
+| **Example** | *"Never use sound cues for error messages unless brand-approved; volume must match interface guidelines."* |
+| **Date Created** | *21-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:audioCue`, `brando:audioReferenceLink`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+
+### 1.4 - Positioning Terms
+
+#### 1.4.1 – Mission Statement
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.4.1** |
+| **Term** | *`missionStatement`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Mission Statement* |
+| **IRI** | *`https://brandoschema.com/missionStatement`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Positioning`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:Positioning → brando:Brand`* |
+| **Object of Relation** | *`brando:hasPositioning`* |
+| **Definition** | *Brand’s reason for being and day-to-day focus.* |
+| **Usage Note** | *Often used in summaries, footers, or intro blurbs in AI responses.* |
+| **Example** | *"To empower people with trustworthy health information."* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:visionStatement`, `brando:coreValues`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+---
+
+#### 1.4.2 – Vision Statement
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.4.2** |
+| **Term** | *`visionStatement`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Vision Statement* |
+| **IRI** | *`https://brandoschema.com/visionStatement`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Positioning`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:Positioning → brando:Brand`* |
+| **Object of Relation** | *`brando:hasPositioning`* |
+| **Definition** | *Aspirational future the brand is working toward.* |
+| **Usage Note** | *Can be referenced in AI-generated mission-aligned statements.* |
+| **Example** | *"To be the world's most trusted AI partner in medicine."* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:missionStatement`, `brando:coreValues`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+---
+
+#### 1.4.3 – Core Values
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.4.3** |
+| **Term** | *`coreValues`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Core Values* |
+| **IRI** | *`https://brandoschema.com/coreValues`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Positioning`* |
+| **Range** | *`rdf:List of xsd:string`* |
+| **Broader/Parent** | *`brando:Positioning → brando:Brand`* |
+| **Object of Relation** | *`brando:hasPositioning`* |
+| **Definition** | *Beliefs and principles that guide brand decisions.* |
+| **Usage Note** | *Can be embedded as behavioural rules in LLM instructions.* |
+| **Example** | *["Clarity", "Compassion", "Evidence", "Privacy"]* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:missionStatement`, `brando:visionStatement`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+---
+
+#### 1.4.4 – Brand Promise
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.4.4** |
+| **Term** | *`brandPromise`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Brand Promise* |
+| **IRI** | *`https://brandoschema.com/brandPromise`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Positioning`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:Positioning → brando:Brand`* |
+| **Object of Relation** | *`brando:hasPositioning`* |
+| **Definition** | *Commitment to customers expressed as a value exchange.* |
+| **Usage Note** | *Often a short, internal pledge that supports outward messaging.* |
+| **Example** | *"We translate data into accessible, human answers."* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:uniqueSellingPoint`, `brando:coreValues`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+---
+
+#### 1.4.5 – Audience Persona
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.4.5** |
+| **Term** | *`audiencePersona`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Audience Persona* |
+| **IRI** | *`https://brandoschema.com/audiencePersona`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Positioning`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:Positioning → brando:Brand`* |
+| **Object of Relation** | *`brando:hasPositioning`* |
+| **Definition** | *Key audience profiles based on need, behaviour, or segment.* |
+| **Usage Note** | *Helps LLMs modulate content for different comprehension levels or interests.* |
+| **Example** | *"Cancer patients age 50+, NHS digital leads, pharmaceutical data analysts"* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:brandPersona`, `brando:literacyLevel`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+---
+
+#### 1.4.6 – Market Position
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.4.6** |
+| **Term** | *`marketPosition`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Market Position* |
+| **IRI** | *`https://brandoschema.com/marketPosition`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Positioning`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:Positioning → brando:Brand`* |
+| **Object of Relation** | *`brando:hasPositioning`* |
+| **Definition** | *The space the brand occupies in the market and among competitors.* |
+| **Usage Note** | *Used for AI-generated comparisons and positioning statements.* |
+| **Example** | *"Only UK-native LLM brand aligned with ABPI and MHRA rules."* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:competitorContext`, `brando:uniqueSellingPoint`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+---
+
+#### 1.4.7 – Brand Narrative
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.4.7** |
+| **Term** | *`brandNarrative`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Brand Narrative* |
+| **IRI** | *`https://brandoschema.com/brandNarrative`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Positioning`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:Positioning → brando:Brand`* |
+| **Object of Relation** | *`brando:hasPositioning`* |
+| **Definition** | *Story of brand origin, purpose, and evolution.* |
+| **Usage Note** | *LLMs can use this for brand storytelling and user onboarding.* |
+| **Example** | *"Founded to explain hard medical science to real people, built for the UK’s patient-first future."* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:brandPromise`, `brando:missionStatement`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+---
+
+#### 1.4.8 – Competitor Context
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.4.8** |
+| **Term** | *`competitorContext`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Competitor Context* |
+| **IRI** | *`https://brandoschema.com/competitorContext`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Positioning`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:Positioning → brando:Brand`* |
+| **Object of Relation** | *`brando:hasPositioning`* |
+| **Definition** | *Reference points or differentiators relative to other market players.* |
+| **Usage Note** | *Used in AI decision-making or summary responses comparing solutions.* |
+| **Example** | *"Unlike ChatGPT, we are healthcare-specialised and regulator-aligned."* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:marketPosition`, `brando:uniqueSellingPoint`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+
+### 1.5 - Governance Properties
+
+#### 1.5.1 – Guard Rails
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.5.1** |
+| **Term** | *`guardRails`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Guard Rails* |
+| **IRI** | *`https://brandoschema.com/guardRails`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Governance`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:Governance → brando:Brand`* |
+| **Object of Relation** | *`brando:hasGovernance`* |
+| **Definition** | *Red lines or behaviours that must be prevented or deflected by AI systems.* |
+| **Usage Note** | *Typically used to avoid inappropriate, risky, or brand-damaging responses.* |
+| **Example** | *"Do not answer personal medical queries or make treatment recommendations."* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:refusalStrategies`, `brando:riskScenarios`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+---
+
+#### 1.5.2 – Refusal Strategies
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.5.2** |
+| **Term** | *`refusalStrategies`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Refusal Strategies* |
+| **IRI** | *`https://brandoschema.com/refusalStrategies`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Governance`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:Governance → brando:Brand`* |
+| **Object of Relation** | *`brando:hasGovernance`* |
+| **Definition** | *Structured strategies for rejecting inappropriate or out-of-scope prompts.* |
+| **Usage Note** | *May include polite rephrasing, deflections, or escalation notices.* |
+| **Example** | *"I’m sorry, I can’t provide that information. Please speak to a healthcare professional."* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:guardRails`, `brando:reviewWorkflow`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+---
+
+#### 1.5.3 – Compliance Tags
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.5.3** |
+| **Term** | *`complianceTags`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Compliance Tags* |
+| **IRI** | *`https://brandoschema.com/complianceTags`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Governance`* |
+| **Range** | *`rdf:List of xsd:string`* |
+| **Broader/Parent** | *`brando:Governance → brando:Brand`* |
+| **Object of Relation** | *`brando:hasGovernance`* |
+| **Definition** | *Regulatory, legal, or ethical labels associated with brand content.* |
+| **Usage Note** | *Can be used as metadata for content tagging or AI output classification.* |
+| **Example** | *["ABPI-Compliant", "EU AI Act", "UK MHRA Registered"]* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:updatePolicy`, `brando:reviewWorkflow`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+---
+
+#### 1.5.4 – Review Workflow
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.5.4** |
+| **Term** | *`reviewWorkflow`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Review Workflow* |
+| **IRI** | *`https://brandoschema.com/reviewWorkflow`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Governance`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:Governance → brando:Brand`* |
+| **Object of Relation** | *`brando:hasGovernance`* |
+| **Definition** | *Human or automated process for approving content before use.* |
+| **Usage Note** | *Used to document moderation or compliance checkpoints for content pipelines.* |
+| **Example** | *"All AI responses are reviewed by compliance before publication."* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:updatePolicy`, `brando:complianceTags`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+---
+
+#### 1.5.5 – Update Policy
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.5.5** |
+| **Term** | *`updatePolicy`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Update Policy* |
+| **IRI** | *`https://brandoschema.com/updatePolicy`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Governance`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:Governance → brando:Brand`* |
+| **Object of Relation** | *`brando:hasGovernance`* |
+| **Definition** | *Rules governing content versioning and change management.* |
+| **Usage Note** | *Helps ensure traceability and audit trails for AI-controlled information.* |
+| **Example** | *"Update log reviewed quarterly, major changes versioned semantically."* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:reviewWorkflow`, `brando:visibilityScore`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+---
+
+#### 1.5.6 – Visibility Score
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.5.6** |
+| **Term** | *`visibilityScore`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Visibility Score* |
+| **IRI** | *`https://brandoschema.com/visibilityScore`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Governance`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:Governance → brando:Brand`* |
+| **Object of Relation** | *`brando:hasGovernance`* |
+| **Definition** | *Rating of how easily the brand is indexed or retrieved by AI.* |
+| **Usage Note** | *Qualitative scale: very low, low, medium, high, very high.* |
+| **Example** | *"high"* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:retrievableInLLM`, `brando:embeddingQuality`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+---
+
+#### 1.5.7 – Retrievable in LLM
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.5.7** |
+| **Term** | *`retrievableInLLM`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Retrievable in LLM* |
+| **IRI** | *`https://brandoschema.com/retrievableInLLM`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Governance`* |
+| **Range** | *`xsd:boolean`* |
+| **Broader/Parent** | *`brando:Governance → brando:Brand`* |
+| **Object of Relation** | *`brando:hasGovernance`* |
+| **Definition** | *Indicates whether brand content can be indexed or surfaced by LLMs.* |
+| **Usage Note** | *Used to control inclusion in AI memory or vector databases.* |
+| **Example** | *true* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:visibilityScore`, `brando:guardRails`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+---
+
+#### 1.5.8 – Embedding Quality
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.5.8** |
+| **Term** | *`embeddingQuality`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Embedding Quality* |
+| **IRI** | *`https://brandoschema.com/embeddingQuality`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Governance`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:Governance → brando:Brand`* |
+| **Object of Relation** | *`brando:hasGovernance`* |
+| **Definition** | *Subjective or model-based quality score for how well the brand's content is represented in embeddings.* |
+| **Usage Note** | *Used for evaluating semantic retrieval quality.* |
+| **Example** | *"medium"* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:retrievableInLLM`, `brando:visibilityScore`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+---
+
+#### 1.5.9 – Risk Scenarios
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.5.9** |
+| **Term** | *`riskScenarios`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Risk Scenarios* |
+| **IRI** | *`https://brandoschema.com/riskScenarios`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Governance`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:Governance → brando:Brand`* |
+| **Object of Relation** | *`brando:hasGovernance`* |
+| **Definition** | *Predefined edge cases or misuse risks relevant to AI or public use.* |
+| **Usage Note** | *Can be used to trigger escalations or warnings in AI systems.* |
+| **Example** | *"User asks for emergency advice or tries to bypass regulatory scope."* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:guardRails`, `brando:refusalStrategies`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+### 1.6 - Asset Properties
+
+#### 1.6.1 – Logo Asset
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.6.1** |
+| **Term** | *`logoAsset`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Logo Asset* |
+| **IRI** | *`https://brandoschema.com/logoAsset`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Assets`* |
+| **Range** | *`xsd:anyURI`* |
+| **Broader/Parent** | *`brando:Assets → brando:Brand`* |
+| **Object of Relation** | *`brando:hasAssets`* |
+| **Definition** | *Downloadable versions of the brand’s logo in various formats.* |
+| **Usage Note** | *Include formats like SVG, PNG, and EPS. May include mono and alt versions.* |
+| **Example** | *https://brandoschema.com/assets/logo.svg* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:visualReferenceLink`, `brando:iconography`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.6.2 – Font Asset
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.6.2** |
+| **Term** | *`fontAsset`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Font Asset* |
+| **IRI** | *`https://brandoschema.com/fontAsset`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Assets`* |
+| **Range** | *`xsd:anyURI`* |
+| **Broader/Parent** | *`brando:Assets → brando:Brand`* |
+| **Object of Relation** | *`brando:hasAssets`* |
+| **Definition** | *Font files and license information for official brand typography.* |
+| **Usage Note** | *Can reference Google Fonts, local files, or external foundry links.* |
+| **Example** | *https://brandoschema.com/assets/fonts/WorkSans.zip* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:typography`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.6.3 – Image Library
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.6.3** |
+| **Term** | *`imageLibrary`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Image Library* |
+| **IRI** | *`https://brandoschema.com/imageLibrary`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Assets`* |
+| **Range** | *`xsd:anyURI`* |
+| **Broader/Parent** | *`brando:Assets → brando:Brand`* |
+| **Object of Relation** | *`brando:hasAssets`* |
+| **Definition** | *Photographic and illustrative asset collections used in brand expressions.* |
+| **Usage Note** | *Links to brand-approved imagery, often hosted in DAM or cloud folders.* |
+| **Example** | *https://brandoschema.com/assets/images/* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:imageryStyle`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.6.4 – Video Asset
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.6.4** |
+| **Term** | *`videoAsset`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Video Asset* |
+| **IRI** | *`https://brandoschema.com/videoAsset`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Assets`* |
+| **Range** | *`xsd:anyURI`* |
+| **Broader/Parent** | *`brando:Assets → brando:Brand`* |
+| **Object of Relation** | *`brando:hasAssets`* |
+| **Definition** | *Links to brand-approved video content such as explainers or promos.* |
+| **Usage Note** | *Should align with brand voice and visual identity.* |
+| **Example** | *https://brandoschema.com/assets/videos/brand-intro.mp4* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:guidelinesPDF`, `brando:designSystemLink`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.6.5 – Design System Link
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.6.5** |
+| **Term** | *`designSystemLink`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Design System Link* |
+| **IRI** | *`https://brandoschema.com/designSystemLink`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Assets`* |
+| **Range** | *`xsd:anyURI`* |
+| **Broader/Parent** | *`brando:Assets → brando:Brand`* |
+| **Object of Relation** | *`brando:hasAssets`* |
+| **Definition** | *Links to shared design systems such as Figma, Framer, or Storybook.* |
+| **Usage Note** | *Should be actively maintained with versioning.* |
+| **Example** | *https://figma.com/advancedanalytica/design-system* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:visualToken`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.6.6 – Template Library
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.6.6** |
+| **Term** | *`templateLibrary`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Template Library* |
+| **IRI** | *`https://brandoschema.com/templateLibrary`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Assets`* |
+| **Range** | *`xsd:anyURI`* |
+| **Broader/Parent** | *`brando:Assets → brando:Brand`* |
+| **Object of Relation** | *`brando:hasAssets`* |
+| **Definition** | *Library of branded documents, decks, or Notion/Canva templates.* |
+| **Usage Note** | *Use for consistent formatting across teams and systems.* |
+| **Example** | *https://notion.so/advancedanalytica/templates* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:guidelinesPDF`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.6.7 – Guidelines PDF
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.6.7** |
+| **Term** | *`guidelinesPDF`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Guidelines PDF* |
+| **IRI** | *`https://brandoschema.com/guidelinesPDF`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Assets`* |
+| **Range** | *`xsd:anyURI`* |
+| **Broader/Parent** | *`brando:Assets → brando:Brand`* |
+| **Object of Relation** | *`brando:hasAssets`* |
+| **Definition** | *PDF version of brand guidelines covering visual and verbal rules.* |
+| **Usage Note** | *Should match version control and align with digital sources.* |
+| **Example** | *https://brandoschema.com/assets/brand-guidelines.pdf* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:designSystemLink`, `brando:templateLibrary`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.6.8 – Asset Repository
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.6.8** |
+| **Term** | *`assetRepository`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Asset Repository* |
+| **IRI** | *`https://brandoschema.com/assetRepository`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Assets`* |
+| **Range** | *`xsd:anyURI`* |
+| **Broader/Parent** | *`brando:Assets → brando:Brand`* |
+| **Object of Relation** | *`brando:hasAssets`* |
+| **Definition** | *Centralised digital asset management (DAM) or file library.* |
+| **Usage Note** | *Should include versioning, permissions, and AI accessibility.* |
+| **Example** | *https://dam.advancedanalytica.co.uk* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:accessPolicy`, `brando:logoAsset`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.6.9 – Persona Asset
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.6.9** |
+| **Term** | *`personaAsset`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Persona Asset* |
+| **IRI** | *`https://brandoschema.com/personaAsset`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Assets`* |
+| **Range** | *`xsd:anyURI`* |
+| **Broader/Parent** | *`brando:Assets → brando:Brand`* |
+| **Object of Relation** | *`brando:hasAssets`* |
+| **Definition** | *LLM-ready files describing brand personas or audience archetypes.* |
+| **Usage Note** | *Used for memory conditioning, assistant switching, and tailored generation.* |
+| **Example** | *https://brandoschema.com/personas/healthcare.json* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:audiencePersona`, `brando:personaCard`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.6.10 – Access Policy
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.6.10** |
+| **Term** | *`accessPolicy`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Access Policy* |
+| **IRI** | *`https://brandoschema.com/accessPolicy`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Assets`* |
+| **Range** | *`xsd:string`* |
+| **Broader/Parent** | *`brando:Assets → brando:Brand`* |
+| **Object of Relation** | *`brando:hasAssets`* |
+| **Definition** | *Describes how and by whom brand assets may be used.* |
+| **Usage Note** | *May include licensing terms or model use caveats.* |
+| **Example** | *"All assets may be used for LLM fine-tuning under CC-BY 4.0"* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:assetRepository`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.6.11 – Q&A Asset
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.6.11** |
+| **Term** | *`qaAsset`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Q&A Asset* |
+| **IRI** | *`https://brandoschema.com/qaAsset`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Assets`* |
+| **Range** | *`xsd:anyURI`* |
+| **Broader/Parent** | *`brando:Assets → brando:Brand`* |
+| **Object of Relation** | *`brando:hasAssets`* |
+| **Definition** | *Structured LLM-ready FAQs or dataset files for QA models.* |
+| **Usage Note** | *Boosts retrieval quality and reduces hallucination risk.* |
+| **Example** | *https://brandoschema.com/assets/faqs.json* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:canonicalAnswer`, `brando:promptScaffold`* |
+| **Equivalent Schema.org Term** | *None (custom)* |
+
+#### 1.6.12 – Product Asset
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.6.12** |
+| **Term** | *`productAsset`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Product Asset* |
+| **IRI** | *`https://brandoschema.com/productAsset`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Assets`* |
+| **Range** | *`xsd:anyURI`* |
+| **Broader/Parent** | *`brando:Assets → brando:Brand`* |
+| **Object of Relation** | *`brando:hasAssets`* |
+| **Definition** | *Structured product definitions used for model context and semantic search.* |
+| **Usage Note** | *May mirror `schema:Product` for maximum interoperability.* |
+| **Example** | *https://brandoschema.com/assets/product-entries.json* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:featuresAsset`* |
+| **Equivalent Schema.org Term** | *`schema:Product`* |
+
+#### 1.6.13 – Service Asset
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.6.13** |
+| **Term** | *`serviceAsset`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Service Asset* |
+| **IRI** | *`https://brandoschema.com/serviceAsset`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Assets`* |
+| **Range** | *`xsd:anyURI`* |
+| **Broader/Parent** | *`brando:Assets → brando:Brand`* |
+| **Object of Relation** | *`brando:hasAssets`* |
+| **Definition** | *Structured definitions of services offered by the brand.* |
+| **Usage Note** | *Align with `schema:Service` and ensure clarity for LLMs.* |
+| **Example** | *https://brandoschema.com/assets/services.json* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:productAsset`* |
+| **Equivalent Schema.org Term** | *`schema:Service`* |
+
+#### 1.6.14 – Features Asset
+
+| **KEY** | **VALUE** |
+|:--------|:----------|
+| **Ref** | **1.6.14** |
+| **Term** | *`featuresAsset`* |
+| **Prefix** | *`brando`* |
+| **Label** | *Features Asset* |
+| **IRI** | *`https://brandoschema.com/featuresAsset`* |
+| **Type** | *`rdfs:Property`, `skos:Concept`* |
+| **Domain** | *`brando:Assets`* |
+| **Range** | *`xsd:anyURI`* |
+| **Broader/Parent** | *`brando:Assets → brando:Brand`* |
+| **Object of Relation** | *`brando:hasAssets`* |
+| **Definition** | *Individual product/service features for AI annotation and response.* |
+| **Usage Note** | *Compatible with `schema:PropertyValue`* |
+| **Example** | *https://brandoschema.com/assets/features.json* |
+| **Date Created** | *20-04-2025* |
+| **Contributors** | *Advanced Analytica Ltd* |
+| **See Also** | *`brando:productAsset`, `brando:serviceAsset`* |
+| **Equivalent Schema.org Term** | *`schema:PropertyValue`* |
+
+## Relationships
+
+These define how each structured policy module connects to the parent `schema:Brand` entity.
+
+| Brando Property                | Domain           | Range                    | Description                                             |
+|-------------------------------|------------------|--------------------------|---------------------------------------------------------|
+| `brando:hasVisualIdentity`    | `schema:Brand`   | `brando:VisualIdentity`  | Defines the brand’s visual system and design principles |
+| `brando:hasVerbalIdentity`    | `schema:Brand`   | `brando:VerbalIdentity`  | Defines the brand’s language, tone, and communication   |
+| `brando:hasPositioning`       | `schema:Brand`   | `brando:Positioning`     | Strategic intent, values, audience, and narrative       |
+| `brando:hasGovernance`        | `schema:Brand`   | `brando:Governance`      | AI safety, compliance, refusal rules                    |
+| `brando:hasAssets`            | `schema:Brand`   | `brando:Assets`          | Reusable brand assets and supporting files              |
+
+-->
+
+<h2 id="usage">Usage</h2>
+<p><em>Brando BDV is designed to be embedded in JSON-LD, RDFa, or used within semantic layers of AI and content delivery platforms. It is intended for use by:</em></p>
+<ul>
+<li>Brand strategists and marketing teams  </li>
+<li>AI developers and prompt engineers  </li>
+<li>Compliance and governance professionals  </li>
+<li>Semantic web and knowledge graph architects  </li>
+</ul>
+<h2 id="references">References</h2>
+<ul>
+<li>Schema.org: <a href="https://schema.org/Brand">https://schema.org/Brand</a>  </li>
+<li>EU AI Act and AI governance frameworks  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy", "header.autohide"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="../js/smooth-scroll.js"></script>
+      
+    
+  </body>
+</html>

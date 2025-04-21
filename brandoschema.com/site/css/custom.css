@@ -1,53 +1,51 @@
-/* Example: Change the background color of the header */
+/* Custom Header Gradient */
 .md-header {
-  background: linear-gradient(90deg, 
-    #2b0052 0%, 
-    #360067 15%, 
-    #450086 35%, 
-    #5a00ad 55%, 
-    #7200dc 75%, 
+  background: linear-gradient(90deg,
+    #2b0052 0%,
+    #360067 15%,
+    #450086 35%,
+    #5a00ad 55%,
+    #7200dc 75%,
     #8200fa 100%);
 }
 
-/* Example: Customize link colors */
+/* Link Styling */
 a {
   color: #8200fa;
-  text-decoration: none; /* Prevent underlines on links */
+  text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline; /* Optional: add underline on hover */
+  text-decoration: underline;
 }
 
-/* Example: Adjust font sizes */
+/* Typography Tweaks */
 h1 {
   font-size: 2.5em;
 }
 
-/* General styling for code blocks */
+/* Code Block Improvements */
 pre {
-  white-space: pre-wrap; /* Allow line wrapping */
-  word-wrap: break-word; /* Break long words */
-  overflow-wrap: anywhere; /* Force long words to wrap */
-}
-
-/* Specific styling for JSON code blocks */
-pre code.language-json {
-  white-space: pre-wrap; /* Ensure wrapping for JSON specifically */
+  white-space: pre-wrap;
   word-wrap: break-word;
   overflow-wrap: anywhere;
 }
 
-/* Remove horizontal scrollbars for code blocks */
-code, pre {
-  overflow-x: auto; /* Ensure long lines don’t break the layout */
+pre code.language-json {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
 }
 
-/* Style for primary dark purple button */
+code, pre {
+  overflow-x: auto;
+}
+
+/* Primary Button Styling */
 .primary-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #4a148c; /* Dark purple background */
+  background-color: #4a148c;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -58,15 +56,61 @@ code, pre {
 }
 
 .primary-button:hover {
-  background-color: #6a1b9a; /* Lighter purple on hover */
+  background-color: #6a1b9a;
 }
 
-/* Target GitHub icon (for any icon using font-awesome or other icon libraries) */
-.md-header-nav .md-nav__link[href*="github.com"] i {
-  color: white !important;
+/* GitHub Icon: Always White & Visible */
+.md-header__source a.md-source {
+  opacity: 1 !important;
+  color: #ffffff !important;
 }
 
-/* If using FontAwesome for GitHub icon */
+/* GitHub Icon in Dark Mode */
+[data-md-color-scheme="slate"] .md-header__source a.md-source {
+  color: #ffffff !important;
+}
+
+/* FontAwesome GitHub fallback (if needed) */
 .md-header-nav .md-nav__link[href*="github.com"] i.fab {
-  color: white !important;
+  color: #ffffff !important;
 }
+
+/* Active nav link styling */
+.md-nav__link--active {
+  font-weight: bold !important;
+  color: #450086 !important; /* Highlight color */
+  text-decoration: underline;
+}
+
+/* Force hover color on nav links */
+.md-nav__link:hover,
+.md-nav__link:focus {
+  font-weight: bold !important;
+  color: #7200dc !important;  /* Your desired hover color */
+  text-decoration: underline;
+}
+
+/* Standardise table width site-wide */
+.md-typeset table {
+  width: 100%;
+  max-width: 800px; /* Adjust as needed */
+  table-layout: fixed;
+  margin: 1em auto;
+  border-collapse: collapse;
+}
+
+/* Ensure table cells wrap properly and look clean */
+.md-typeset table th,
+.md-typeset table td {
+  word-wrap: break-word;
+  word-break: break-word;
+  padding: 0.6em;
+  vertical-align: top;
+}
+
+/* Optional: make headers bold and improve spacing */
+.md-typeset table th {
+  font-weight: 600;
+  background-color: #f9f9f9;
+}
+

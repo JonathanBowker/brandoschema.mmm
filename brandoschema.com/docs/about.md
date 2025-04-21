@@ -9,6 +9,7 @@ At its core is the **Brand Definition Vocabulary (BDV)** — a machine-readable 
 **Traditional brand guidelines were designed for humans — not machines**. PDFs, style guides, and visual identity decks don’t translate to AI assistants, LLMs, or semantic search crawlers.
 
 Without structured metadata, brands risk:
+
 - Inconsistent tone and messaging
 - Misleading or non-compliant AI responses
 - Reduced visibility in AI-powered search and assistants
@@ -41,7 +42,6 @@ Brando enables organisations to define enforceable brand guidelines in a format 
 - **Alignment with business strategy and AI policy**
 - **Ethical and safety-aware AI deployment**
 
----
 
 ## UK Compliance Context
 
@@ -65,28 +65,23 @@ The Brand Definition Language supports:
 
 See the [Vocabulary Reference](vocabulary.md) for a complete list of Brando Schema terms — including `brando:hasVerbalIdentity`, `brando:hasVisualIdentity`, `brando:hasPositioning`, and `brando:hasGovernance`.
 
----
 
 ## Versioning
 
 - **Current version**: `v0.1.0`  
 - **Changelog and releases**: [GitHub Releases](https://github.com/jonathanbowker/brandoschema.com/releases)
 
----
-
 ## Licensing
 
-Brando BDV is released under the **Creative Commons Attribution 4.0 License (CC BY 4.0)**.
+The Brando Brand Definition Vocabulary (BDV) is a **proprietary framework** developed and maintained by **Advanced Analytica Ltd**.
 
-You are free to reuse, adapt, and build upon the framework for commercial and non-commercial purposes with attribution to **Advanced Analytica Ltd**.
+Unauthorised reproduction, redistribution, or commercial use is prohibited without explicit written permission. To request licensing or integration rights, please contact **ops@advancedanalytica.co.uk**.
 
 **© 2024–2025 Advanced Analytica Ltd. All rights reserved.**
 
----
-
 ## About the Author
 
-**Jonathan Bowker** is the creator of Brando and a specialist in AI governance, semantic branding, and structured data design. He helps organisations align their brand presence with intelligent systems, AI search infrastructure, and compliance requirements.
+**Jonathan Bowker** is the creator of Brando and a accredited specialist in AI governance, semantic branding, and structured data design. He helps organisations align their brand presence with intelligent systems, AI search infrastructure, and compliance requirements.
 
-- 🔗 LinkedIn: [jonathanbowker](https://www.linkedin.com/in/jonathanbowker)  
-- 💻 GitHub: [jonathanbowker](https://github.com/jonathanbowker)
+- LinkedIn: [jonathanbowker](https://www.linkedin.com/in/jbbowker/)  
+- GitHub: [jonathanbowker](https://github.com/jonathanbowker)

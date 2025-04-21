@@ -1,7 +1,7 @@
-site_name: Brando Schema
-site_description: Brando BDL is the Brand Definition Language for structuring brand identity, tone, and integrity in the AI Web.
+site_name: Brand Schema
+site_description: Brando BDV is the worlds first Brand Definition Vocabulary for structuring brand identity, tone, and integrity in the AI Web.
 site_author: Jonathan Bowker
-site_url: https://brandoschema.com
+site_url: https://jonathanbowker.github.io/brandoschema.com/
 repo_url: https://github.com/JonathanBowker/brandoschema.com
 repo_name: GitHub
 
@@ -81,7 +81,8 @@ markdown_extensions:
 
 nav:
   - Overview: index.md
-  - Vocabulary: vocabulary.md
-  - Transformation: transformation.md
-  - Usage: usage.md
+  - Brando Classes: bdv-classes/index.md
+  - Brando Terms: bdv-terms/index.md 
+  - Using Brando: how-to-use.md
+  - Licensing: licensing.md 
   - About: about.md

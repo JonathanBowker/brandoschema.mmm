@@ -71,7 +71,7 @@ Check your brand metadata’s semantic visibility and LLM alignment.
 
 For advanced users and implementers:
 
-- [BDL Vocabulary Reference](vocabulary.md)
+- [BDL Vocabulary Reference](bdv.md)
 - [Live JSON-LD Examples](examples.md)
 - [Prompt Design and Usage Guide](usage.md)
 - [Brando GitHub Repository](https://github.com/jonathanbowker/brando-bdl)
