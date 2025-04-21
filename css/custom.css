@@ -74,3 +74,18 @@ code, pre {
 .md-header-nav .md-nav__link[href*="github.com"] i.fab {
   color: #ffffff !important;
 }
+
+/* Active nav link styling */
+.md-nav__link--active {
+  font-weight: bold !important;
+  color: #450086 !important; /* Highlight color */
+  text-decoration: underline;
+}
+
+/* Force hover color on nav links */
+.md-nav__link:hover,
+.md-nav__link:focus {
+  font-weight: bold !important;
+  color: #7200dc !important;  /* Your desired hover color */
+  text-decoration: underline;
+}
