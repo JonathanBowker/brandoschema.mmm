@@ -1,14 +1,13 @@
-site_name: Brand Schema
-site_description: Brando BDV is the worlds first Brand Definition Vocabulary for structuring brand identity, tone, and integrity in the AI Web.
+site_name: Brando Schema
+site_description: Brando BDV is the world’s first Brand Definition Vocabulary for structuring brand identity, tone, and integrity in the AI Web.
 site_author: Jonathan Bowker
-site_url: https://jonathanbowker.github.io/brandoschema.com/
+site_url: https://brandoschema.com
 repo_url: https://github.com/JonathanBowker/brandoschema.com
 repo_name: GitHub
 
 theme:
   name: "material"
-  logo: "assets/images/logo.webp"  # Specify the path to your logo here
-#  custom_dir: "overrides"  # Only use if you have custom themes
+  logo: "assets/images/logo.webp"
   palette:
     - scheme: "default"
       primary: "deep purple"
@@ -37,20 +36,21 @@ theme:
 plugins:
   - search
   - tags
-  - copy-well-known  # ✅ No config block needed unless you extend the plugin
+  - copy-well-known
 
 extra:
+  custom_domain: brandoschema.com
   meta:
     - name: keywords
       content: brando, brand definition language, bdl, brand schema, ai brand safety, structured branding, LLM prompts, AI web, semantic brand metadata, tone of voice schema
     - property: og:title
       content: Brando – The Brand Definition Language for the AI Web
     - property: og:description
-      content: Brando is a machine-readable Brand Definition Language (BDL) that protects and structures brand identity in the AI era. Designed for large language models, intelligent agents, and brand-safe digital ecosystems.
+      content: Brando is a machine-readable Brand Definition Language (BDL) that protects and structures brand identity in the AI era.
     - property: og:url
-      content: https://brandschema.com/bdl/
+      content: https://brandoschema.com/bdl/
     - property: og:image
-      content: brandschema.com/assets/images/brando-og-image.png  # Replace with your actual OG image path
+      content: https://brandoschema.com/assets/images/brando-og-image.png
     - name: twitter:card
       content: summary_large_image
     - name: twitter:title
@@ -58,14 +58,13 @@ extra:
     - name: twitter:description
       content: Structure your brand identity, tone, and values for intelligent agents and LLMs with Brando BDL.
     - name: twitter:image
-      content: brandschema.com/assets/images/brando-og-image.png  # Update as needed
-  custom_domain: brandoschema.com
+      content: https://brandoschema.com/assets/images/brando-og-image.png
 
 extra_css:
   - "css/custom.css"
 
 extra_javascript:
-  - js/smooth-scroll.js  # Adds smooth scrolling to anchor links
+  - js/smooth-scroll.js
 
 markdown_extensions:
   - admonition
