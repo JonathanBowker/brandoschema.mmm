@@ -89,3 +89,28 @@ code, pre {
   color: #7200dc !important;  /* Your desired hover color */
   text-decoration: underline;
 }
+
+/* Standardise table width site-wide */
+.md-typeset table {
+  width: 100%;
+  max-width: 800px; /* Adjust as needed */
+  table-layout: fixed;
+  margin: 1em auto;
+  border-collapse: collapse;
+}
+
+/* Ensure table cells wrap properly and look clean */
+.md-typeset table th,
+.md-typeset table td {
+  word-wrap: break-word;
+  word-break: break-word;
+  padding: 0.6em;
+  vertical-align: top;
+}
+
+/* Optional: make headers bold and improve spacing */
+.md-typeset table th {
+  font-weight: 600;
+  background-color: #f9f9f9;
+}
+

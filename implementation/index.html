@@ -12,13 +12,13 @@
         <meta name="author" content="Jonathan Bowker">
       
       
-        <link rel="canonical" href="https://jonathanbowker.github.io/brandoschema.com/usage/">
+        <link rel="canonical" href="https://jonathanbowker.github.io/brandoschema.com/implementation/">
       
       
-        <link rel="prev" href="../transformation/">
+        <link rel="prev" href="../bdv/">
       
       
-        <link rel="next" href="../about/">
+        <link rel="next" href="../licensing/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -26,7 +26,7 @@
     
     
       
-        <title>Usage - Brando Schema</title>
+        <title>Implementation - Brando Schema</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#how-to-use-brando-bdl" class="md-skip">
+        <a href="#how-to-use-brando-bdv" class="md-skip">
           Skip to content
         </a>
       
@@ -115,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Usage
+              Implementation
             
           </span>
         </div>
@@ -282,34 +282,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../vocabulary/" class="md-nav__link">
+      <a href="../bdv/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     Vocabulary
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../transformation/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Transformation
     
   </span>
   
@@ -340,7 +318,7 @@
   
   
   <span class="md-ellipsis">
-    Usage
+    Implementation
     
   </span>
   
@@ -353,7 +331,7 @@
   
   
   <span class="md-ellipsis">
-    Usage
+    Implementation
     
   </span>
   
@@ -376,13 +354,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-embedding-sticky-guidelines-as-json-ld" class="md-nav__link">
+  <a href="#1-embedding-policies-as-json-ld" class="md-nav__link">
     <span class="md-ellipsis">
-      1. Embedding Sticky Guidelines as JSON-LD
+      1. Embedding Policies as JSON-LD
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="1. Embedding Sticky Guidelines as JSON-LD">
+    <nav class="md-nav" aria-label="1. Embedding Policies as JSON-LD">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -558,6 +536,28 @@
   
   
     <li class="md-nav__item">
+      <a href="../licensing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Licensing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../about/" class="md-nav__link">
         
   
@@ -600,13 +600,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-embedding-sticky-guidelines-as-json-ld" class="md-nav__link">
+  <a href="#1-embedding-policies-as-json-ld" class="md-nav__link">
     <span class="md-ellipsis">
-      1. Embedding Sticky Guidelines as JSON-LD
+      1. Embedding Policies as JSON-LD
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="1. Embedding Sticky Guidelines as JSON-LD">
+    <nav class="md-nav" aria-label="1. Embedding Policies as JSON-LD">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -786,29 +786,29 @@
   
 
 
-<h1 id="how-to-use-brando-bdl">How to Use Brando BDL</h1>
-<p>This guide explains how to apply the Brand Definition Language (BDL) in practical environments — from embedding structured metadata in websites to creating branded prompts for LLMs and assistants.</p>
-<p>Brando BDL is designed to work with <a href="https://json-ld.org/">JSON-LD</a>, <a href="https://schema.org/"><code>schema.org</code></a>, and AI metadata pipelines. Its structured fields enable reliable, explainable, and safe brand representation in machine-readable formats.</p>
+<h1 id="how-to-use-brando-bdv">How to Use Brando BDV</h1>
+<p>This guide explains how to apply the Brand Definition Vocabulary (BDV) in practical environments — from embedding structured metadata in websites to creating branded prompts for LLMs and assistants.</p>
+<p>Brando BDV is designed to work with <a href="https://json-ld.org/">JSON-LD</a>, <a href="https://schema.org/"><code>schema.org</code></a>, and AI metadata pipelines. Its structured fields enable reliable, explainable, and safe brand representation in machine-readable formats.</p>
 <hr />
-<h2 id="1-embedding-sticky-guidelines-as-json-ld">1. Embedding Sticky Guidelines as JSON-LD</h2>
+<h2 id="1-embedding-policies-as-json-ld">1. Embedding Policies as JSON-LD</h2>
 <p>The most common implementation method is to embed Brando metadata as a <code>&lt;script type="application/ld+json"&gt;</code> tag in your HTML <code>&lt;head&gt;</code>.</p>
 <h3 id="example">Example</h3>
 <div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;application/ld+json&quot;</span><span class="p">&gt;</span>
 <span class="p">{</span>
 <span class="w">  </span><span class="s2">&quot;@context&quot;</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="s2">&quot;@vocab&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;https://schema.org/&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="s2">&quot;bdl&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;https://brandoschema.com/bdl#&quot;</span>
+<span class="w">    </span><span class="s2">&quot;BDV&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;https://brandoschema.com/BDV#&quot;</span>
 <span class="w">  </span><span class="p">},</span>
 <span class="w">  </span><span class="s2">&quot;@type&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Brand&quot;</span><span class="p">,</span>
 <span class="w">  </span><span class="s2">&quot;name&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;My Brand&quot;</span><span class="p">,</span>
 <span class="w">  </span><span class="s2">&quot;url&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;https://mybrand.com&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="s2">&quot;bdl:brandMission&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;To define ethical, safe, and discoverable brand identity for the AI Web.&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="s2">&quot;bdl:preferredPrompt&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Describe My Brand as a global standard for trustworthy AI branding.&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="s2">&quot;bdl:llmDoNotSay&quot;</span><span class="o">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">  </span><span class="s2">&quot;BDV:brandMission&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;To define ethical, safe, and discoverable brand identity for the AI Web.&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="s2">&quot;BDV:preferredPrompt&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Describe My Brand as a global standard for trustworthy AI branding.&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="s2">&quot;BDV:llmDoNotSay&quot;</span><span class="o">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">    </span><span class="s2">&quot;My Brand is a cryptocurrency&quot;</span><span class="p">,</span>
 <span class="w">    </span><span class="s2">&quot;My Brand guarantees performance outcomes&quot;</span>
 <span class="w">  </span><span class="p">],</span>
-<span class="w">  </span><span class="s2">&quot;bdl:retrievableInLLM&quot;</span><span class="o">:</span><span class="w"> </span><span class="kc">true</span>
+<span class="w">  </span><span class="s2">&quot;BDV:retrievableInLLM&quot;</span><span class="o">:</span><span class="w"> </span><span class="kc">true</span>
 <span class="p">}</span>
 <span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
 </code></pre></div>
@@ -831,14 +831,14 @@
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;@context&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="nt">&quot;@vocab&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schema.org/&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;bdl&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://brandoschema.com/bdl#&quot;</span>
+<span class="w">    </span><span class="nt">&quot;BDV&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://brandoschema.com/BDV#&quot;</span>
 <span class="w">  </span><span class="p">},</span>
 <span class="w">  </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Brand&quot;</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;My Brand&quot;</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://mybrand.com&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;bdl:preferredPrompt&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Describe My Brand as a global standard for structured and safe AI branding.&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;bdl:retrievableInLLM&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;bdl:representationConstraints&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;BDV:preferredPrompt&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Describe My Brand as a global standard for structured and safe AI branding.&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;BDV:retrievableInLLM&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;BDV:representationConstraints&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="nt">&quot;scenarioRestrictions&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">      </span><span class="s2">&quot;Avoid use in political campaigns or gambling content&quot;</span>
 <span class="w">    </span><span class="p">]</span>
@@ -881,9 +881,9 @@ Sticky-Guidelines: https://mybrand.com/sticky_guidelines.json
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Brand&quot;</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;My Brand&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;bdl:brandTOV&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Empowering, warm, human-first.&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;bdl:brandUseCases&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Product launch&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Mental health awareness&quot;</span><span class="p">],</span>
-<span class="w">  </span><span class="nt">&quot;bdl:representationConstraints&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;BDV:brandTOV&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Empowering, warm, human-first.&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;BDV:brandUseCases&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Product launch&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Mental health awareness&quot;</span><span class="p">],</span>
+<span class="w">  </span><span class="nt">&quot;BDV:representationConstraints&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="nt">&quot;visualRestrictions&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Avoid imagery showing stress or anxiety&quot;</span><span class="p">]</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
@@ -892,7 +892,7 @@ Sticky-Guidelines: https://mybrand.com/sticky_guidelines.json
 <ul>
 <li>Create a <strong>“Brand Metadata”</strong> component or schema block</li>
 <li>Store defaults globally, override locally for context-aware use</li>
-<li>Validate use of safety fields like <code>bdl:llmDoNotSay</code> and <code>bdl:requiresInternalApproval</code></li>
+<li>Validate use of safety fields like <code>BDV:llmDoNotSay</code> and <code>BDV:requiresInternalApproval</code></li>
 <li>Provide content teams with pre-approved dropdowns or macros for brand tone, exclusions, and legal flags</li>
 </ul>
 <hr />
@@ -907,7 +907,7 @@ Sticky-Guidelines: https://mybrand.com/sticky_guidelines.json
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Brand&quot;</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;My Brand&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;bdl:preferredPrompt&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Introduce My Brand as a trusted leader in responsible branding for intelligent systems.&quot;</span>
+<span class="w">  </span><span class="nt">&quot;BDV:preferredPrompt&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Introduce My Brand as a trusted leader in responsible branding for intelligent systems.&quot;</span>
 <span class="p">}</span>
 </code></pre></div>
 <hr />
@@ -916,7 +916,7 @@ Sticky-Guidelines: https://mybrand.com/sticky_guidelines.json
 <ul>
 <li>Testing with Brando Validator (coming soon)</li>
 <li>Periodic reviews of AI-generated content for tone, exclusions, and accuracy</li>
-<li>Internal approval logging with <code>bdl:requiresInternalApproval</code></li>
+<li>Internal approval logging with <code>BDV:requiresInternalApproval</code></li>
 <li>Reviewing brand performance in assistant logs or SEO AI summaries</li>
 </ul>
 <hr />
@@ -925,13 +925,13 @@ Sticky-Guidelines: https://mybrand.com/sticky_guidelines.json
 <li>Use <code>sticky_guidelines.json</code> as a canonical file for AI-safe branding  </li>
 <li>Coordinate across legal, brand, marketing, and AI product teams  </li>
 <li>Keep metadata visible, verifiable, and easy to audit  </li>
-<li>Link <code>bdl:dataProtectionStatement</code> and <code>bdl:policyReferenceURL</code> for trust and compliance  </li>
-<li>Update <code>bdl:visibilityScore</code> and <code>bdl:llmDoNotSay</code> regularly based on performance and risk</li>
+<li>Link <code>BDV:dataProtectionStatement</code> and <code>BDV:policyReferenceURL</code> for trust and compliance  </li>
+<li>Update <code>BDV:visibilityScore</code> and <code>BDV:llmDoNotSay</code> regularly based on performance and risk</li>
 </ul>
 <hr />
 <h2 id="see-also">See Also</h2>
 <ul>
-<li><a href="../vocabulary/">Vocabulary Reference</a>  </li>
+<li><a href="vocabulary.md">Vocabulary Reference</a>  </li>
 <li><a href="../examples/">Examples</a>  </li>
 <li><a href="../sticky-guidelines/">Sticky Guidelines</a>  </li>
 <li><a href="../tools/">Tools &amp; Validator</a>  </li>
