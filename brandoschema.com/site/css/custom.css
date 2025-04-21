@@ -1,0 +1,72 @@
+/* Example: Change the background color of the header */
+.md-header {
+  background: linear-gradient(90deg, 
+    #2b0052 0%, 
+    #360067 15%, 
+    #450086 35%, 
+    #5a00ad 55%, 
+    #7200dc 75%, 
+    #8200fa 100%);
+}
+
+/* Example: Customize link colors */
+a {
+  color: #8200fa;
+  text-decoration: none; /* Prevent underlines on links */
+}
+
+a:hover {
+  text-decoration: underline; /* Optional: add underline on hover */
+}
+
+/* Example: Adjust font sizes */
+h1 {
+  font-size: 2.5em;
+}
+
+/* General styling for code blocks */
+pre {
+  white-space: pre-wrap; /* Allow line wrapping */
+  word-wrap: break-word; /* Break long words */
+  overflow-wrap: anywhere; /* Force long words to wrap */
+}
+
+/* Specific styling for JSON code blocks */
+pre code.language-json {
+  white-space: pre-wrap; /* Ensure wrapping for JSON specifically */
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+}
+
+/* Remove horizontal scrollbars for code blocks */
+code, pre {
+  overflow-x: auto; /* Ensure long lines don’t break the layout */
+}
+
+/* Style for primary dark purple button */
+.primary-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4a148c; /* Dark purple background */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.primary-button:hover {
+  background-color: #6a1b9a; /* Lighter purple on hover */
+}
+
+/* Target GitHub icon (for any icon using font-awesome or other icon libraries) */
+.md-header-nav .md-nav__link[href*="github.com"] i {
+  color: white !important;
+}
+
+/* If using FontAwesome for GitHub icon */
+.md-header-nav .md-nav__link[href*="github.com"] i.fab {
+  color: white !important;
+}
