@@ -147,7 +147,7 @@
       "brando:guidelinesPDF": "https://brandoschema.com/files/brand-guidelines.pdf",
       "brando:assetRepository": "https://brandoschema.com/assets/",
       "brando:personaAsset": "https://brandoschema.com/personas.json",
-      "brando:accessPolicy": "Assets are available under Creative Commons Attribution 4.0 unless marked proprietary",
+      "brando:accessPolicy": "Assets are available under a Commercial License",
       "brando:qaAsset": "https://brandoschema.com/faq",
       "brando:productAsset": "https://brandoschema.com/products.json",
       "brando:serviceAsset": "https://brandoschema.com/services.json",
