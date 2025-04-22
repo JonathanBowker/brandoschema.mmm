@@ -22,7 +22,7 @@ Brando uses [Brand Definition Vocabulary (BDV)](https://brandoschema.com/bdv-cla
 This AI-facing brand policy is published in a public, discoverable format:  
  
 ```
-/.well-known/ai-control-policy.json
+/.well-known/ai-brand-policy.json
 ```  
   
 Structured using **JSON-LD** and aligned to Schema.org principles, this file serves as the authoritative interface between your brand and AI systems — guiding how models interpret, generate, and respond.
@@ -47,7 +47,7 @@ The rise of the **AI web** demands that brands become **AI-native entities** —
 
 **Brando solves this** — creating a semantic bridge between your brand guidelines and the systems interpreting them.
 
-## What Brando Enables
+## What Brando Does
 
 Brando transforms brand assets into machine-actionable controls, enabling:
 

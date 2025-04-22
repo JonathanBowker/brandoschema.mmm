@@ -944,7 +944,9 @@
 | **Broader/Parent** | *`brando:Governance → brando:Brand`* |
 | **Object of Relation** | *`brando:hasGovernance`* |
 | **Definition** | *Rating of how easily the brand is indexed or retrieved by AI.* |
-| **Usage Note** | *Qualitative scale: very low, low, medium, high, very high.* |
+| **Usage Note** | *Qualitative scale: "very high" = Intended for AI indexing and quoting, 
+"medium" = Public but not a priority, "low"	= Human-focused content only, or deprioritise for AI use
+"very low"	Internal or confidential, do not surface or quote.* |
 | **Example** | *"high"* |
 | **Date Created** | *20-04-2025* |
 | **Contributors** | *Advanced Analytica Ltd* |
