@@ -317,6 +317,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#what-you-can-do-with-this" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔄 What You Can Do With This
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#why-brands-need-brando" class="md-nav__link">
     <span class="md-ellipsis">
       Why Brands Need Brando
@@ -515,6 +524,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#what-you-can-do-with-this" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔄 What You Can Do With This
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#why-brands-need-brando" class="md-nav__link">
     <span class="md-ellipsis">
       Why Brands Need Brando
@@ -593,6 +611,57 @@
 <li><strong>Brand Governance</strong> – rules, escalation, constraints, ethics etc</li>
 <li><strong>Brand Assets</strong> – files, templates, schemas, Q&amp;A sources etc</li>
 </ul>
+<table>
+<thead>
+<tr>
+<th>Pillar</th>
+<th>Class (Brando Schema)</th>
+<th>What it Covers</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1. Verbal Identity</strong></td>
+<td><code>brando:hasVerbalIdentity</code></td>
+<td><code>toneOfVoice</code>, <code>preferredTone</code>, <code>vocabularyConstraints</code>, <code>dialogueStyle</code>, <code>canonicalQAs</code>, <code>promptTemplates</code></td>
+</tr>
+<tr>
+<td><strong>2. Visual Identity</strong></td>
+<td><code>brando:hasVisualIdentity</code></td>
+<td><code>logo</code>, <code>colorPalette</code>, <code>typography</code>, <code>layoutPrinciples</code>, <code>imageStyle</code>, <code>iconography</code></td>
+</tr>
+<tr>
+<td><strong>3. Audio Identity</strong></td>
+<td><code>brando:hasAudioIdentity</code></td>
+<td><code>voiceProfile</code>, <code>intonation</code>, <code>soundLogo</code>, <code>audioUX</code>, <code>spokenStyle</code></td>
+</tr>
+<tr>
+<td><strong>4. Brand Positioning</strong></td>
+<td><code>brando:hasPositioning</code></td>
+<td><code>mission</code>, <code>vision</code>, <code>brandPromise</code>, <code>audience</code>, <code>personas</code>, <code>values</code>, <code>USP</code></td>
+</tr>
+<tr>
+<td><strong>5. Brand Governance</strong></td>
+<td><code>brando:hasGovernance</code></td>
+<td><code>guardRails</code>, <code>escalationProtocol</code>, <code>ethicalAICommitments</code>, <code>alignmentSignal</code>, <code>acceptableTopics</code>, <code>prohibitedExpressions</code></td>
+</tr>
+<tr>
+<td><strong>6. Brand Assets</strong></td>
+<td><code>brando:hasAssets</code></td>
+<td><code>files</code>, <code>designTemplates</code>, <code>structuredSchemas</code>, <code>trainingSnippets</code>, <code>QAsourceFiles</code>, <code>imageSets</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="what-you-can-do-with-this">🔄 What You Can Do With This</h2>
+<ul>
+<li>Embed in your <code>.well-known/brand.json</code> or on <code>/brand</code></li>
+<li>Use it to drive dynamic assistant behaviour and AI prompt construction</li>
+<li>Serve as a machine-readable brandbook for internal or external agents</li>
+<li>Feed into Brando Audit tools, CMS backends, or vector indexes</li>
+<li>Enable persona-switching and multi-modal tone control (text/image/audio)</li>
+</ul>
+<hr />
+<p>Would you like me to generate a branded visual version of this as a <strong>one-page framework</strong>, or publish this as a <strong>machine-readable JSON-LD brand template</strong> with placeholders for clients?</p>
 <p>Brando uses Advanced Analytica's propriertary <a href="https://brandoschema.com/bdv-classes">Brand Definition Vocabulary (BDV)</a> to turn static brand guidelines into machine-executable controls for intelligent agents.</p>
 <p>This AI-facing brand policy is published in a public, discoverable format:  </p>
 <div class="highlight"><pre><span></span><code>/.well-known/ai-brand-policy.json
