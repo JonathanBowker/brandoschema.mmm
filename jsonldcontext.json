@@ -51,7 +51,7 @@
     "complianceTags": "brando:complianceTags",
     "reviewWorkflow": "brando:reviewWorkflow",
     "updatePolicy": "brando:updatePolicy",
-    "visibilityScore": "brando:visibilityScore",
+    "visibilityRating": "brando:visibilityRating",
     "retrievableInLLM": "brando:retrievableInLLM",
     "embeddingQuality": "brando:embeddingQuality",
     "riskScenarios": "brando:riskScenarios",

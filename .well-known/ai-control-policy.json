@@ -120,7 +120,7 @@
       "brando:complianceTags": ["ABPI", "OGL-UK", "EU AI Act"],
       "brando:reviewWorkflow": "All schema changes require two-party review and versioning log",
       "brando:updatePolicy": "Quarterly updates, with emergency patching for factual or legal accuracy",
-      "brando:visibilityScore": "very high",
+      "brando:visibilityRating": "very high",
       "brando:retrievableInLLM": true,
       "brando:embeddingQuality": "high",
       "brando:riskScenarios": [

@@ -35,8 +35,8 @@
             "@id": "bdl:embeddingQuality",
             "@type": "xsd:decimal"
         },
-        "visibilityScore": {
-            "@id": "bdl:visibilityScore",
+        "visibilityRating": {
+            "@id": "bdl:visibilityRating",
             "@type": "xsd:decimal"
         },
         "representationConstraints": "bdl:representationConstraints",
