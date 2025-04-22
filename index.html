@@ -602,48 +602,15 @@
 <meta name="author" content="Advanced Analytica"></p>
 <h2 id="building-ai-controls-using-brand-definition-vocabulary-bdv">Building AI controls using Brand Definition Vocabulary (BDV)</h2>
 <p><strong>Brando<sup>®</sup></strong> is a Schema.org–compatible framework that translates brand guidelines and governance policies into structured, machine-readable schemas. It enables consistent brand recognition, representation, and control across AI systems, LLMs, and intelligent search.</p>
-<p>At the heart of the Brando Schema is the <code>brando:BrandObject</code> — a foundational schema toolkit designed to encode the Six Pillars of Brand Identity for AI:</p>
-<table>
-<thead>
-<tr>
-<th>Pillar</th>
-<th>Class (Brando Schema)</th>
-<th>What it Covers</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>1. Verbal Identity</strong></td>
-<td><code>brando:hasVerbalIdentity</code></td>
-<td><code>toneOfVoice</code>, <code>preferredTone</code>, <code>vocabularyConstraints</code>, <code>dialogueStyle</code>, <code>canonicalQAs</code>, <code>promptTemplates</code></td>
-</tr>
-<tr>
-<td><strong>2. Visual Identity</strong></td>
-<td><code>brando:hasVisualIdentity</code></td>
-<td><code>logo</code>, <code>colorPalette</code>, <code>typography</code>, <code>layoutPrinciples</code>, <code>imageStyle</code>, <code>iconography</code></td>
-</tr>
-<tr>
-<td><strong>3. Audio Identity</strong></td>
-<td><code>brando:hasAudioIdentity</code></td>
-<td><code>voiceProfile</code>, <code>intonation</code>, <code>soundLogo</code>, <code>audioUX</code>, <code>spokenStyle</code></td>
-</tr>
-<tr>
-<td><strong>4. Brand Positioning</strong></td>
-<td><code>brando:hasPositioning</code></td>
-<td><code>mission</code>, <code>vision</code>, <code>brandPromise</code>, <code>audience</code>, <code>personas</code>, <code>values</code>, <code>USP</code></td>
-</tr>
-<tr>
-<td><strong>5. Brand Governance</strong></td>
-<td><code>brando:hasGovernance</code></td>
-<td><code>guardRails</code>, <code>escalationProtocol</code>, <code>ethicalAICommitments</code>, <code>alignmentSignal</code>, <code>acceptableTopics</code>, <code>prohibitedExpressions</code></td>
-</tr>
-<tr>
-<td><strong>6. Brand Assets</strong></td>
-<td><code>brando:hasAssets</code></td>
-<td><code>files</code>, <code>designTemplates</code>, <code>structuredSchemas</code>, <code>trainingSnippets</code>, <code>QAsourceFiles</code>, <code>imageSets</code></td>
-</tr>
-</tbody>
-</table>
+<p>At the heart of the Brando Schema is <code>brando:BrandObject</code> — a foundational schema toolkit designed to encode the Six Pillars of Brand Identity for AI:</p>
+<ul>
+<li><strong>Verbal Identity</strong> - tone, vocabulary, style, prompts etc</li>
+<li><strong>Visual Identity</strong> – logo, colour, layout. typography etc</li>
+<li><strong>Audio Identity</strong> – voice, intonation, sound cues, audio UX etc </li>
+<li><strong>Brand Positioning</strong> – mission, promise, audience, personas etc</li>
+<li><strong>Brand Governance</strong> – rules, escalation, constraints, ethics etc</li>
+<li><strong>Brand Assets</strong> – files, templates, schemas, Q&amp;A sources etc</li>
+</ul>
 <h2 id="what-you-can-do-with-this">🔄 What You Can Do With This</h2>
 <ul>
 <li>Embed in your <code>.well-known/brand.json</code> or on <code>/brand</code></li>
