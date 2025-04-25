@@ -11,49 +11,49 @@
                     "name": "toneOfVoice",
                     "definition": "Emotional texture of brand voice. Guides the tone and mood used in all brand communications.",
                     "type": "url",
-                    "url": "https://brandoschema.com/bdv-terms/#tone-of-voice"
+                    "url": "https://brandoschema.com/bdv-terms/#toneOfVoice"
                 },
                 {
                     "name": "dialogueStyle",
                     "definition": "Preferred conversational approach the brand uses when interacting with its audience.",
                     "type": "url",
-                    "url": "https://brandoschema.com/bdv-terms/#dialogue-style"
+                    "url": "https://brandoschema.com/bdv-terms/#dialogueStyle"
                 },
                 {
                     "name": "writingStyle",
                     "definition": "The specific manner in which the brand's written content is crafted, including grammar, punctuation, and sentence structure.",
                     "type": "url",
-                    "url": "https://brandoschema.com/bdv-terms/#writing-style"
+                    "url": "https://brandoschema.com/bdv-terms/#writingStyle"
                 },
                 {
                     "name": "namingConvention",
                     "definition": "Standardized rules and guidelines the brand follows for naming products, services, and other entities.",
                     "type": "url",
-                    "url": "https://brandoschema.com/bdv-terms/#naming-convention"
+                    "url": "https://brandoschema.com/bdv-terms/#namingConvention"
                 },
                 {
                     "name": "personaCard",
                     "definition": "A detailed profile representing the brand's archetype, including attributes, behaviors, and communication preferences.",
                     "type": "url",
-                    "url": "https://brandoschema.com/bdv-terms/#persona-card"
+                    "url": "https://brandoschema.com/bdv-terms/#personaCard"
                 },
                 {
                     "name": "approvedTerms",
                     "definition": "A curated list of words and phrases that are sanctioned for use in brand communications.",
                     "type": "url",
-                    "url": "https://brandoschema.com/bdv-terms/#approved-terms"
+                    "url": "https://brandoschema.com/bdv-terms/#approvedTerms"
                 },
                 {
                     "name": "prohibitedTerms",
                     "definition": "A list of words and phrases that are discouraged or forbidden in brand communications to maintain brand integrity.",
                     "type": "url",
-                    "url": "https://brandoschema.com/bdv-terms/#prohibited-terms"
+                    "url": "https://brandoschema.com/bdv-terms/#prohibitedTerms"
                 },
                 {
                     "name": "keyMessage",
                     "definition": "Core statements that encapsulate the brand's primary value propositions and messaging priorities.",
                     "type": "url",
-                    "url": "https://brandoschema.com/bdv-terms/#key-message"
+                    "url": "https://brandoschema.com/bdv-terms/#keyMessage"
                 },
                 {
                     "name": "taglines",
@@ -65,19 +65,19 @@
                     "name": "promptScaffold",
                     "definition": "Structured templates or frameworks designed to guide AI in generating brand-consistent content.",
                     "type": "url",
-                    "url": "https://brandoschema.com/bdv-terms/#prompt-scaffold"
+                    "url": "https://brandoschema.com/bdv-terms/#promptScaffold"
                 },
                 {
                     "name": "mustDo",
                     "definition": "Essential practices and guidelines that must be followed to ensure brand consistency in communications.",
                     "type": "url",
-                    "url": "https://brandoschema.com/bdv-terms/#must-do"
+                    "url": "https://brandoschema.com/bdv-terms/#mustDo"
                 },
                 {
                     "name": "mustNotDo",
                     "definition": "Practices and behaviors that are prohibited to prevent misrepresentation or dilution of the brand.",
                     "type": "url",
-                    "url": "https://brandoschema.com/bdv-terms/#must-not-do"
+                    "url": "https://brandoschema.com/bdv-terms/#mustNotDo"
                 }
             ]
         },
