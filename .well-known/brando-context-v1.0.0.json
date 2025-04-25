@@ -1,0 +1,196 @@
+{
+    "@context": {
+      "@version": 1.1,
+      
+      "brando": "https://brandoschema.com/vocab/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+  
+      "Brand": "brando:BrandObject",
+  
+      "name": {
+        "@id": "https://schema.org/name",
+        "@type": "xsd:string"
+      },
+      "description": {
+        "@id": "https://schema.org/description",
+        "@type": "xsd:string"
+      },
+  
+      ### VERBAL IDENTITY (1.2)
+      "toneOfVoice": {
+        "@id": "brando:toneOfVoice",
+        "@type": "xsd:string"
+      },
+      "dialogueStyle": {
+        "@id": "brando:dialogueStyle",
+        "@type": "xsd:string"
+      },
+      "writingStyle": {
+        "@id": "brando:writingStyle",
+        "@type": "xsd:string"
+      },
+      "namingConvention": {
+        "@id": "brando:namingConvention",
+        "@type": "xsd:string"
+      },
+      "brandPersona": {
+        "@id": "brando:brandPersona",
+        "@type": "@json"
+      },
+      "keyMessage": {
+        "@id": "brando:keyMessage",
+        "@type": "xsd:string"
+      },
+      "promptScaffold": {
+        "@id": "brando:promptScaffold",
+        "@type": "@json"
+      },
+      "mustDo": {
+        "@id": "brando:mustDo",
+        "@type": "@json"
+      },
+      "mustNotDo": {
+        "@id": "brando:mustNotDo",
+        "@type": "@json"
+      },
+      "approvedTerms": {
+        "@id": "brando:approvedTerms",
+        "@container": "@set"
+      },
+  
+      ### VISUAL IDENTITY (1.1)
+      "visualStyle": {
+        "@id": "brando:visualStyle",
+        "@type": "xsd:string"
+      },
+      "logo": {
+        "@id": "brando:logo",
+        "@type": "@id"
+      },
+      "visualToken": {
+        "@id": "brando:visualToken",
+        "@type": "xsd:string"
+      },
+  
+      ### POSITIONING (1.3)
+      "mission": {
+        "@id": "brando:mission",
+        "@type": "xsd:string"
+      },
+      "vision": {
+        "@id": "brando:vision",
+        "@type": "xsd:string"
+      },
+      "values": {
+        "@id": "brando:values",
+        "@container": "@set"
+      },
+      "brandPersonality": {
+        "@id": "brando:brandPersonality",
+        "@type": "xsd:string"
+      },
+      "targetAudience": {
+        "@id": "brando:targetAudience",
+        "@type": "xsd:string"
+      },
+      "brandPromise": {
+        "@id": "brando:brandPromise",
+        "@type": "xsd:string"
+      },
+      "uniqueSellingPoint": {
+        "@id": "brando:uniqueSellingPoint",
+        "@type": "xsd:string"
+      },
+      "tagline": {
+        "@id": "brando:tagline",
+        "@type": "xsd:string"
+      },
+  
+      ### GOVERNANCE & AI SAFETY (1.4)
+      "regulatoryFrameworks": {
+        "@id": "brando:regulatoryFrameworks",
+        "@type": "@json"
+      },
+      "ethicalAICommitments": {
+        "@id": "brando:ethicalAICommitments",
+        "@type": "@json"
+      },
+      "transparencyLevel": {
+        "@id": "brando:transparencyLevel",
+        "@type": "xsd:string"
+      },
+      "visibilityScore": {
+        "@id": "brando:visibilityScore",
+        "@type": "xsd:string"
+      },
+      "acceptableTopics": {
+        "@id": "brando:acceptableTopics",
+        "@container": "@set"
+      },
+      "prohibitedExpressions": {
+        "@id": "brando:prohibitedExpressions",
+        "@container": "@set"
+      },
+      "requiresHumanEscalation": {
+        "@id": "brando:requiresHumanEscalation",
+        "@type": "xsd:boolean"
+      },
+      "reinforcementCue": {
+        "@id": "brando:reinforcementCue",
+        "@type": "xsd:string"
+      },
+      "guardRails": {
+        "@id": "brando:guardRails",
+        "@type": "@json"
+      },
+      "clarificationStyle": {
+        "@id": "brando:clarificationStyle",
+        "@type": "xsd:string"
+      },
+      "alignmentSignal": {
+        "@id": "brando:alignmentSignal",
+        "@type": "xsd:string"
+      },
+  
+      ### ACCESSIBILITY (1.3.9–1.3.10)
+      "literacyLevel": {
+        "@id": "brando:literacyLevel",
+        "@type": "xsd:string"
+      },
+      "accessibilityNeeds": {
+        "@id": "brando:accessibilityNeeds",
+        "@container": "@set"
+      },
+  
+      ### ASSETS & DIGITAL IDENTITY (1.5)
+      "officialWebsite": {
+        "@id": "brando:officialWebsite",
+        "@type": "@id"
+      },
+      "socialProfiles": {
+        "@id": "brando:socialProfiles",
+        "@container": "@set"
+      },
+      "documentation": {
+        "@id": "brando:documentation",
+        "@type": "@id"
+      },
+      "assetRepository": {
+        "@id": "brando:assetRepository",
+        "@type": "@id"
+      },
+      "designSystem": {
+        "@id": "brando:designSystem",
+        "@type": "@id"
+      },
+      "personaDefinitions": {
+        "@id": "brando:personaDefinitions",
+        "@type": "@id"
+      },
+      "structuredQandA": {
+        "@id": "brando:structuredQandA",
+        "@type": "@json"
+      }
+    }
+  }
+  
