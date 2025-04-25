@@ -90,7 +90,7 @@
                     "name": "brandName",
                     "definition": "The official name of the brand as it should appear in all communications.",
                     "type": "url",
-                    "url": "https://brandoschema.com/bdv-terms/#brand-name"
+                    "url": "https://brandoschema.com/bdv-terms/#brandName"
                 },
                 {
                     "name": "logo",
@@ -102,7 +102,7 @@
                     "name": "colourPalette",
                     "definition": "The set of primary and secondary colors that represent the brand's visual identity.",
                     "type": "url",
-                    "url": "https://brandoschema.com/bdv-terms/#colour-palette"
+                    "url": "https://brandoschema.com/bdv-terms/#colourPalette"
                 },
                 {
                     "name": "typography",
@@ -120,31 +120,31 @@
                     "name": "imageryStyle",
                     "definition": "The guidelines for photographic and illustrative content that align with the brand's aesthetic.",
                     "type": "url",
-                    "url": "https://brandoschema.com/bdv-terms/#imagery-style"
+                    "url": "https://brandoschema.com/bdv-terms/#imageryStyle"
                 },
                 {
                     "name": "motionRule",
                     "definition": "The principles governing animation and motion design elements in brand materials.",
                     "type": "url",
-                    "url": "https://brandoschema.com/bdv-terms/#motion-rule"
+                    "url": "https://brandoschema.com/bdv-terms/#motionRule"
                 },
                 {
                     "name": "visualToken",
                     "definition": "Reusable design elements such as colors, typography, and spacing that ensure consistency.",
                     "type": "url",
-                    "url": "https://brandoschema.com/bdv-terms/#visual-token"
+                    "url": "https://brandoschema.com/bdv-terms/#visualToken"
                 },
                 {
                     "name": "visualUsageGuideline",
                     "definition": "Comprehensive rules and best practices for applying visual elements across various media.",
                     "type": "url",
-                    "url": "https://brandoschema.com/bdv-terms/#visual-usage-guideline"
+                    "url": "https://brandoschema.com/bdv-terms/#visualUsageGuideline"
                 },
                 {
                     "name": "visualReferenceLink",
                     "definition": "A link to external resources or documents that provide visual references for the brand.",
                     "type": "url",
-                    "url": "https://brandoschema.com/bdv-terms/#visual-reference-link"
+                    "url": "https://brandoschema.com/bdv-terms/#visualReferenceLink"
                 }
             ]
         },
