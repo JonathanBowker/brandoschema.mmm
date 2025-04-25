@@ -1,8 +1,8 @@
 {
     "@context": {
-      "@version": 1.1,
+      "@version": 1.0.0,
       "schema": "https://schema.org/",
-      "brando": "https://brandoschema.com/vocab/brando#",
+      "brando": "https://brandoschema.com/bdv-terms/#",
   
       "name": "schema:name",
       "description": "schema:description",
