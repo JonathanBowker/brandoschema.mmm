@@ -1,0 +1,2002 @@
+{
+    "name": "Thing",
+    "type": "folder",
+    "children": [
+      {
+        "name": "Action",
+        "type": "folder",
+        "children": [
+          {
+            "name": "AssessAction",
+            "type": "folder",
+            "children": [
+              {
+                "name": "ChooseAction",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "VoteAction",
+                    "type": "url",
+                    "url": "https://schema.org/VoteAction"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "AchieveAction",
+            "type": "folder",
+            "children": [
+              {
+                "name": "LoseAction",
+                "type": "url",
+                "url": "https://schema.org/LoseAction"
+              },
+              {
+                "name": "TieAction",
+                "type": "url",
+                "url": "https://schema.org/TieAction"
+              },
+              {
+                "name": "WinAction",
+                "type": "url",
+                "url": "https://schema.org/WinAction"
+              }
+            ]
+          },
+          {
+            "name": "ConsumeAction",
+            "type": "folder",
+            "children": [
+              {
+                "name": "DrinkAction",
+                "type": "url",
+                "url": "https://schema.org/DrinkAction"
+              },
+              {
+                "name": "EatAction",
+                "type": "url",
+                "url": "https://schema.org/EatAction"
+              },
+              {
+                "name": "InstallAction",
+                "type": "url",
+                "url": "https://schema.org/InstallAction"
+              },
+              {
+                "name": "ListenAction",
+                "type": "url",
+                "url": "https://schema.org/ListenAction"
+              },
+              {
+                "name": "PlayGameAction",
+                "type": "url",
+                "url": "https://schema.org/PlayGameAction"
+              },
+              {
+                "name": "ReadAction",
+                "type": "url",
+                "url": "https://schema.org/ReadAction"
+              },
+              {
+                "name": "UseAction",
+                "type": "url",
+                "url": "https://schema.org/UseAction"
+              },
+              {
+                "name": "WearAction",
+                "type": "url",
+                "url": "https://schema.org/WearAction"
+              },
+              {
+                "name": "ViewAction",
+                "type": "url",
+                "url": "https://schema.org/ViewAction"
+              },
+              {
+                "name": "WatchAction",
+                "type": "url",
+                "url": "https://schema.org/WatchAction"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "BioChemEntity",
+        "type": "folder",
+        "children": [
+          {
+            "name": "ChemicalSubstance",
+            "type": "url",
+            "url": "https://schema.org/ChemicalSubstance"
+          },
+          {
+            "name": "Gene",
+            "type": "url",
+            "url": "https://schema.org/Gene"
+          },
+          {
+            "name": "MolecularEntity",
+            "type": "url",
+            "url": "https://schema.org/MolecularEntity"
+          },
+          {
+            "name": "Protein",
+            "type": "url",
+            "url": "https://schema.org/Protein"
+          }
+        ]
+      },
+      {
+        "name": "CreativeWork",
+        "type": "folder",
+        "url": null,
+        "children": [
+          {
+            "name": "AmpStory",
+            "type": "url",
+            "url": "https://schema.org/AmpStory"
+          },
+          {
+            "name": "ArchiveComponent",
+            "type": "url",
+            "url": "https://schema.org/ArchiveComponent"
+          },
+          {
+            "name": "Article",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "AdvertiserContentArticle",
+                "type": "url",
+                "url": "https://schema.org/AdvertiserContentArticle"
+              },
+              {
+                "name": "NewsArticle",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "AnalysisNewsArticle",
+                    "type": "url",
+                    "url": "https://schema.org/AnalysisNewsArticle"
+                  },
+                  {
+                    "name": "AskPublicNewsArticle",
+                    "type": "url",
+                    "url": "https://schema.org/AskPublicNewsArticle"
+                  },
+                  {
+                    "name": "BackgroundNewsArticle",
+                    "type": "url",
+                    "url": "https://schema.org/BackgroundNewsArticle"
+                  },
+                  {
+                    "name": "OpinionNewsArticle",
+                    "type": "url",
+                    "url": "https://schema.org/OpinionNewsArticle"
+                  },
+                  {
+                    "name": "ReportageNewsArticle",
+                    "type": "url",
+                    "url": "https://schema.org/ReportageNewsArticle"
+                  },
+                  {
+                    "name": "ReviewNewsArticle",
+                    "type": "url",
+                    "url": "https://schema.org/ReviewNewsArticle"
+                  }
+                ]
+              },
+              {
+                "name": "Report",
+                "type": "url",
+                "url": "https://schema.org/Report"
+              },
+              {
+                "name": "SatiricalArticle",
+                "type": "url",
+                "url": "https://schema.org/SatiricalArticle"
+              },
+              {
+                "name": "ScholarlyArticle",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "MedicalScholarlyArticle",
+                    "type": "url",
+                    "url": "https://schema.org/MedicalScholarlyArticle"
+                  }
+                ]
+              },
+              {
+                "name": "SocialMediaPosting",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "BlogPosting",
+                    "type": "folder",
+                    "url": null,
+                    "children": [
+                      {
+                        "name": "LiveBlogPosting",
+                        "type": "url",
+                        "url": "https://schema.org/LiveBlogPosting"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "DiscussionForumPosting",
+                    "type": "url",
+                    "url": "https://schema.org/DiscussionForumPosting"
+                  }
+                ]
+              },
+              {
+                "name": "TechArticle",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "APIReference",
+                    "type": "url",
+                    "url": "https://schema.org/APIReference"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Atlas",
+            "type": "url",
+            "url": "https://schema.org/Atlas"
+          },
+          {
+            "name": "Blog",
+            "type": "url",
+            "url": "https://schema.org/Blog"
+          },
+          {
+            "name": "Book",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "Audiobook",
+                "type": "url",
+                "url": "https://schema.org/Audiobook"
+              }
+            ]
+          },
+          {
+            "name": "Certification",
+            "type": "url",
+            "url": "https://schema.org/Certification"
+          },
+          {
+            "name": "Chapter",
+            "type": "url",
+            "url": "https://schema.org/Chapter"
+          },
+          {
+            "name": "Claim",
+            "type": "url",
+            "url": "https://schema.org/Claim"
+          },
+          {
+            "name": "Clip",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "MovieClip",
+                "type": "url",
+                "url": "https://schema.org/MovieClip"
+              },
+              {
+                "name": "RadioClip",
+                "type": "url",
+                "url": "https://schema.org/RadioClip"
+              },
+              {
+                "name": "TVClip",
+                "type": "url",
+                "url": "https://schema.org/TVClip"
+              },
+              {
+                "name": "VideoGameClip",
+                "type": "url",
+                "url": "https://schema.org/VideoGameClip"
+              }
+            ]
+          },
+          {
+            "name": "Code",
+            "type": "url",
+            "url": "https://schema.org/Code"
+          },
+          {
+            "name": "Collection",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "ProductCollection",
+                "type": "url",
+                "url": "https://schema.org/ProductCollection"
+              }
+            ]
+          },
+          {
+            "name": "ComicStory",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "ComicCoverArt",
+                "type": "url",
+                "url": "https://schema.org/ComicCoverArt"
+              }
+            ]
+          },
+          {
+            "name": "Comment",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "Answer",
+                "type": "url",
+                "url": "https://schema.org/Answer"
+              },
+              {
+                "name": "CorrectionComment",
+                "type": "url",
+                "url": "https://schema.org/CorrectionComment"
+              },
+              {
+                "name": "Question",
+                "type": "url",
+                "url": "https://schema.org/Question"
+              }
+            ]
+          },
+          {
+            "name": "Conversation",
+            "type": "url",
+            "url": "https://schema.org/Conversation"
+          },
+          {
+            "name": "Course",
+            "type": "url",
+            "url": "https://schema.org/Course"
+          },
+          {
+            "name": "CreativeWorkSeason",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "PodcastSeason",
+                "type": "url",
+                "url": "https://schema.org/PodcastSeason"
+              },
+              {
+                "name": "RadioSeason",
+                "type": "url",
+                "url": "https://schema.org/RadioSeason"
+              },
+              {
+                "name": "TVSeason",
+                "type": "url",
+                "url": "https://schema.org/TVSeason"
+              }
+            ]
+          },
+          {
+            "name": "CreativeWorkSeries",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "BookSeries",
+                "type": "url",
+                "url": "https://schema.org/BookSeries"
+              },
+              {
+                "name": "MovieSeries",
+                "type": "url",
+                "url": "https://schema.org/MovieSeries"
+              },
+              {
+                "name": "Periodical",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "ComicSeries",
+                    "type": "url",
+                    "url": "https://schema.org/ComicSeries"
+                  },
+                  {
+                    "name": "Newspaper",
+                    "type": "url",
+                    "url": "https://schema.org/Newspaper"
+                  }
+                ]
+              },
+              {
+                "name": "PodcastSeries",
+                "type": "url",
+                "url": "https://schema.org/PodcastSeries"
+              },
+              {
+                "name": "RadioSeries",
+                "type": "url",
+                "url": "https://schema.org/RadioSeries"
+              },
+              {
+                "name": "TVSeries",
+                "type": "url",
+                "url": "https://schema.org/TVSeries"
+              },
+              {
+                "name": "VideoGameSeries",
+                "type": "url",
+                "url": "https://schema.org/VideoGameSeries"
+              }
+            ]
+          },
+          {
+            "name": "DataCatalog",
+            "type": "url",
+            "url": "https://schema.org/DataCatalog"
+          },
+          {
+            "name": "Dataset",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "DataFeed",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "CompleteDataFeed",
+                    "type": "url",
+                    "url": "https://schema.org/CompleteDataFeed"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "DefinedTermSet",
+            "type": "url",
+            "url": "https://schema.org/DefinedTermSet",
+            "children": [
+              {
+                "name": "CategoryCodeSet",
+                "type": "url",
+                "url": "https://schema.org/CategoryCodeSet"
+              }
+            ]
+          },
+          {
+            "name": "Diet",
+            "type": "url",
+            "url": "https://schema.org/Diet"
+          },
+          {
+            "name": "DigitalDocument",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "NoteDigitalDocument",
+                "type": "url",
+                "url": "https://schema.org/NoteDigitalDocument"
+              },
+              {
+                "name": "PresentationDigitalDocument",
+                "type": "url",
+                "url": "https://schema.org/PresentationDigitalDocument"
+              },
+              {
+                "name": "SpreadsheetDigitalDocument",
+                "type": "url",
+                "url": "https://schema.org/SpreadsheetDigitalDocument"
+              },
+              {
+                "name": "TextDigitalDocument",
+                "type": "url",
+                "url": "https://schema.org/TextDigitalDocument"
+              }
+            ]
+          },
+          {
+            "name": "Drawing",
+            "type": "url",
+            "url": "https://schema.org/Drawing"
+          },
+          {
+            "name": "EducationalOccupationalCredential",
+            "type": "url",
+            "url": "https://schema.org/EducationalOccupationalCredential"
+          },
+          {
+            "name": "Episode",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "PodcastEpisode",
+                "type": "url",
+                "url": "https://schema.org/PodcastEpisode"
+              },
+              {
+                "name": "RadioEpisode",
+                "type": "url",
+                "url": "https://schema.org/RadioEpisode"
+              },
+              {
+                "name": "TVEpisode",
+                "type": "url",
+                "url": "https://schema.org/TVEpisode"
+              }
+            ]
+          },
+          {
+            "name": "ExercisePlan",
+            "type": "url",
+            "url": "https://schema.org/ExercisePlan"
+          },
+          {
+            "name": "Game",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "VideoGame",
+                "type": "url",
+                "url": "https://schema.org/VideoGame"
+              }
+            ]
+          },
+          {
+            "name": "Guide",
+            "type": "url",
+            "url": "https://schema.org/Guide"
+          },
+          {
+            "name": "HowTo",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "Recipe",
+                "type": "url",
+                "url": "https://schema.org/Recipe"
+              }
+            ]
+          },
+          {
+            "name": "HowToDirection",
+            "type": "url",
+            "url": "https://schema.org/HowToDirection"
+          },
+          {
+            "name": "HowToSection",
+            "type": "url",
+            "url": "https://schema.org/HowToSection"
+          },
+          {
+            "name": "HowToStep",
+            "type": "url",
+            "url": "https://schema.org/HowToStep"
+          },
+          {
+            "name": "HowToTip",
+            "type": "url",
+            "url": "https://schema.org/HowToTip"
+          },
+          {
+            "name": "HyperToc",
+            "type": "url",
+            "url": "https://schema.org/HyperToc"
+          },
+          {
+            "name": "HyperTocEntry",
+            "type": "url",
+            "url": "https://schema.org/HyperTocEntry"
+          },
+          {
+            "name": "LearningResource",
+            "type": "url",
+            "url": "https://schema.org/LearningResource",
+            "children": [
+              {
+                "name": "Course",
+                "type": "url",
+                "url": "https://schema.org/Course"
+              },
+              {
+                "name": "Quiz",
+                "type": "url",
+                "url": "https://schema.org/Quiz"
+              },
+              {
+                "name": "Syllabus",
+                "type": "url",
+                "url": "https://schema.org/Syllabus"
+              }
+            ]
+          },
+          {
+            "name": "Legislation",
+            "type": "url",
+            "url": "https://schema.org/Legislation",
+            "children": [
+              {
+                "name": "LegislationObject",
+                "type": "url",
+                "url": "https://schema.org/LegislationObject"
+              }
+            ]
+          },
+          {
+            "name": "Manuscript",
+            "type": "url",
+            "url": "https://schema.org/Manuscript"
+          },
+          {
+            "name": "Map",
+            "type": "url",
+            "url": "https://schema.org/Map"
+          },
+          {
+            "name": "MathSolver",
+            "type": "url",
+            "url": "https://schema.org/MathSolver"
+          },
+          {
+            "name": "MediaObject",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "3DModel",
+                "type": "url",
+                "url": "https://schema.org/3DModel"
+              },
+              {
+                "name": "AmpStory",
+                "type": "url",
+                "url": "https://schema.org/AmpStory"
+              },
+              {
+                "name": "AudioObject",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "AudioObjectSnapshot",
+                    "type": "url",
+                    "url": "https://schema.org/AudioObjectSnapshot"
+                  },
+                  {
+                    "name": "Audiobook",
+                    "type": "url",
+                    "url": "https://schema.org/Audiobook"
+                  }
+                ]
+              },
+              {
+                "name": "DataDownload",
+                "type": "url",
+                "url": "https://schema.org/DataDownload"
+              },
+              {
+                "name": "ImageObject",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "Barcode",
+                    "type": "url",
+                    "url": "https://schema.org/Barcode"
+                  },
+                  {
+                    "name": "ImageObjectSnapshot",
+                    "type": "url",
+                    "url": "https://schema.org/ImageObjectSnapshot"
+                  }
+                ]
+              },
+              {
+                "name": "LegislationObject",
+                "type": "url",
+                "url": "https://schema.org/LegislationObject"
+              },
+              {
+                "name": "MusicVideoObject",
+                "type": "url",
+                "url": "https://schema.org/MusicVideoObject"
+              },
+              {
+                "name": "TextObject",
+                "type": "url",
+                "url": "https://schema.org/TextObject"
+              },
+              {
+                "name": "VideoObject",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "VideoObjectSnapshot",
+                    "type": "url",
+                    "url": "https://schema.org/VideoObjectSnapshot"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "MediaReviewItem",
+            "type": "url",
+            "url": "https://schema.org/MediaReviewItem"
+          },
+          {
+            "name": "Menu",
+            "type": "url",
+            "url": "https://schema.org/Menu"
+          },
+          {
+            "name": "MenuSection",
+            "type": "url",
+            "url": "https://schema.org/MenuSection"
+          },
+          {
+            "name": "Message",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "EmailMessage",
+                "type": "url",
+                "url": "https://schema.org/EmailMessage"
+              }
+            ]
+          },
+          {
+            "name": "Movie",
+            "type": "url",
+            "url": "https://schema.org/Movie"
+          },
+          {
+            "name": "MusicComposition",
+            "type": "url",
+            "url": "https://schema.org/MusicComposition"
+          },
+          {
+            "name": "MusicPlaylist",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "MusicAlbum",
+                "type": "url",
+                "url": "https://schema.org/MusicAlbum"
+              },
+              {
+                "name": "MusicRelease",
+                "type": "url",
+                "url": "https://schema.org/MusicRelease"
+              }
+            ]
+          },
+          {
+            "name": "MusicRecording",
+            "type": "url",
+            "url": "https://schema.org/MusicRecording"
+          },
+          {
+            "name": "Painting",
+            "type": "url",
+            "url": "https://schema.org/Painting"
+          },
+          {
+            "name": "Photograph",
+            "type": "url",
+            "url": "https://schema.org/Photograph"
+          },
+          {
+            "name": "Play",
+            "type": "url",
+            "url": "https://schema.org/Play"
+          },
+          {
+            "name": "Poster",
+            "type": "url",
+            "url": "https://schema.org/Poster"
+          },
+          {
+            "name": "PublicationIssue",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "ComicIssue",
+                "type": "url",
+                "url": "https://schema.org/ComicIssue"
+              }
+            ]
+          },
+          {
+            "name": "PublicationVolume",
+            "type": "url",
+            "url": "https://schema.org/PublicationVolume"
+          },
+          {
+            "name": "Quotation",
+            "type": "url",
+            "url": "https://schema.org/Quotation"
+          },
+          {
+            "name": "Review",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "ClaimReview",
+                "type": "url",
+                "url": "https://schema.org/ClaimReview"
+              },
+              {
+                "name": "CriticReview",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "ReviewNewsArticle",
+                    "type": "url",
+                    "url": "https://schema.org/ReviewNewsArticle"
+                  }
+                ]
+              },
+              {
+                "name": "EmployerReview",
+                "type": "url",
+                "url": "https://schema.org/EmployerReview"
+              },
+              {
+                "name": "MediaReview",
+                "type": "url",
+                "url": "https://schema.org/MediaReview"
+              },
+              {
+                "name": "Recommendation",
+                "type": "url",
+                "url": "https://schema.org/Recommendation"
+              },
+              {
+                "name": "UserReview",
+                "type": "url",
+                "url": "https://schema.org/UserReview"
+              }
+            ]
+          },
+          {
+            "name": "Sculpture",
+            "type": "url",
+            "url": "https://schema.org/Sculpture"
+          },
+          {
+            "name": "Season",
+            "type": "url",
+            "url": "https://schema.org/Season"
+          },
+          {
+            "name": "SheetMusic",
+            "type": "url",
+            "url": "https://schema.org/SheetMusic"
+          },
+          {
+            "name": "ShortStory",
+            "type": "url",
+            "url": "https://schema.org/ShortStory"
+          },
+          {
+            "name": "SoftwareApplication",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "MobileApplication",
+                "type": "url",
+                "url": "https://schema.org/MobileApplication"
+              },
+              {
+                "name": "VideoGame",
+                "type": "url",
+                "url": "https://schema.org/VideoGame"
+              },
+              {
+                "name": "WebApplication",
+                "type": "url",
+                "url": "https://schema.org/WebApplication"
+              }
+            ]
+          },
+          {
+            "name": "SoftwareSourceCode",
+            "type": "url",
+            "url": "https://schema.org/SoftwareSourceCode"
+          },
+          {
+            "name": "SpecialAnnouncement",
+            "type": "url",
+            "url": "https://schema.org/SpecialAnnouncement"
+          },
+          {
+            "name": "Statement",
+            "type": "url",
+            "url": "https://schema.org/Statement"
+          },
+          {
+            "name": "TVSeason",
+            "type": "url",
+            "url": "https://schema.org/TVSeason"
+          },
+          {
+            "name": "TVSeries",
+            "type": "url",
+            "url": "https://schema.org/TVSeries"
+          },
+          {
+            "name": "Thesis",
+            "type": "url",
+            "url": "https://schema.org/Thesis"
+          },
+          {
+            "name": "VisualArtwork",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "CoverArt",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "ComicCoverArt",
+                    "type": "url",
+                    "url": "https://schema.org/ComicCoverArt"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "WebContent",
+            "type": "url",
+            "url": "https://schema.org/WebContent",
+            "children": [
+              {
+                "name": "HealthTopicContent",
+                "type": "url",
+                "url": "https://schema.org/HealthTopicContent"
+              }
+            ]
+          },
+          {
+            "name": "WebPage",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "AboutPage",
+                "type": "url",
+                "url": "https://schema.org/AboutPage"
+              },
+              {
+                "name": "CheckoutPage",
+                "type": "url",
+                "url": "https://schema.org/CheckoutPage"
+              },
+              {
+                "name": "CollectionPage",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "MediaGallery",
+                    "type": "folder",
+                    "url": null,
+                    "children": [
+                      {
+                        "name": "ImageGallery",
+                        "type": "url",
+                        "url": "https://schema.org/ImageGallery"
+                      },
+                      {
+                        "name": "VideoGallery",
+                        "type": "url",
+                        "url": "https://schema.org/VideoGallery"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "ContactPage",
+                "type": "url",
+                "url": "https://schema.org/ContactPage"
+              },
+              {
+                "name": "FAQPage",
+                "type": "url",
+                "url": "https://schema.org/FAQPage"
+              },
+              {
+                "name": "ItemPage",
+                "type": "url",
+                "url": "https://schema.org/ItemPage"
+              },
+              {
+                "name": "MedicalWebPage",
+                "type": "url",
+                "url": "https://schema.org/MedicalWebPage"
+              },
+              {
+                "name": "ProfilePage",
+                "type": "url",
+                "url": "https://schema.org/ProfilePage"
+              },
+              {
+                "name": "QAPage",
+                "type": "url",
+                "url": "https://schema.org/QAPage"
+              },
+              {
+                "name": "RealEstateListing",
+                "type": "url",
+                "url": "https://schema.org/RealEstateListing"
+              },
+              {
+                "name": "SearchResultsPage",
+                "type": "url",
+                "url": "https://schema.org/SearchResultsPage"
+              }
+            ]
+          },
+          {
+            "name": "WebPageElement",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "SiteNavigationElement",
+                "type": "url",
+                "url": "https://schema.org/SiteNavigationElement"
+              },
+              {
+                "name": "Table",
+                "type": "url",
+                "url": "https://schema.org/Table"
+              },
+              {
+                "name": "WPAdBlock",
+                "type": "url",
+                "url": "https://schema.org/WPAdBlock"
+              },
+              {
+                "name": "WPFooter",
+                "type": "url",
+                "url": "https://schema.org/WPFooter"
+              },
+              {
+                "name": "WPHeader",
+                "type": "url",
+                "url": "https://schema.org/WPHeader"
+              },
+              {
+                "name": "WPSideBar",
+                "type": "url",
+                "url": "https://schema.org/WPSideBar"
+              }
+            ]
+          },
+          {
+            "name": "WebSite",
+            "type": "url",
+            "url": "https://schema.org/WebSite"
+          }
+        ]
+      },
+      {
+        "name": "Event",
+        "type": "folder",
+        "url": null,
+        "children": [
+          {
+            "name": "BusinessEvent",
+            "type": "url",
+            "url": "https://schema.org/BusinessEvent"
+          },
+          {
+            "name": "ChildrensEvent",
+            "type": "url",
+            "url": "https://schema.org/ChildrensEvent"
+          },
+          {
+            "name": "ComedyEvent",
+            "type": "url",
+            "url": "https://schema.org/ComedyEvent"
+          },
+          {
+            "name": "CourseInstance",
+            "type": "url",
+            "url": "https://schema.org/CourseInstance"
+          },
+          {
+            "name": "DanceEvent",
+            "type": "url",
+            "url": "https://schema.org/DanceEvent"
+          },
+          {
+            "name": "DeliveryEvent",
+            "type": "url",
+            "url": "https://schema.org/DeliveryEvent"
+          },
+          {
+            "name": "EducationEvent",
+            "type": "url",
+            "url": "https://schema.org/EducationEvent"
+          },
+          {
+            "name": "EventSeries",
+            "type": "url",
+            "url": "https://schema.org/EventSeries"
+          },
+          {
+            "name": "ExhibitionEvent",
+            "type": "url",
+            "url": "https://schema.org/ExhibitionEvent"
+          },
+          {
+            "name": "Festival",
+            "type": "url",
+            "url": "https://schema.org/Festival"
+          },
+          {
+            "name": "FoodEvent",
+            "type": "url",
+            "url": "https://schema.org/FoodEvent"
+          },
+          {
+            "name": "Hackathon",
+            "type": "url",
+            "url": "https://schema.org/Hackathon"
+          },
+          {
+            "name": "LiteraryEvent",
+            "type": "url",
+            "url": "https://schema.org/LiteraryEvent"
+          },
+          {
+            "name": "MusicEvent",
+            "type": "url",
+            "url": "https://schema.org/MusicEvent"
+          },
+          {
+            "name": "PublicationEvent",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "BroadcastEvent",
+                "type": "url",
+                "url": "https://schema.org/BroadcastEvent"
+              },
+              {
+                "name": "OnDemandEvent",
+                "type": "url",
+                "url": "https://schema.org/OnDemandEvent"
+              }
+            ]
+          },
+          {
+            "name": "SaleEvent",
+            "type": "url",
+            "url": "https://schema.org/SaleEvent"
+          },
+          {
+            "name": "ScreeningEvent",
+            "type": "url",
+            "url": "https://schema.org/ScreeningEvent"
+          },
+          {
+            "name": "SocialEvent",
+            "type": "url",
+            "url": "https://schema.org/SocialEvent"
+          },
+          {
+            "name": "SportsEvent",
+            "type": "url",
+            "url": "https://schema.org/SportsEvent"
+          },
+          {
+            "name": "TheaterEvent",
+            "type": "url",
+            "url": "https://schema.org/TheaterEvent"
+          },
+          {
+            "name": "UserInteraction",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "UserBlocks",
+                "type": "url",
+                "url": "https://schema.org/UserBlocks"
+              },
+              {
+                "name": "UserCheckins",
+                "type": "url",
+                "url": "https://schema.org/UserCheckins"
+              },
+              {
+                "name": "UserComments",
+                "type": "url",
+                "url": "https://schema.org/UserComments"
+              },
+              {
+                "name": "UserDownloads",
+                "type": "url",
+                "url": "https://schema.org/UserDownloads"
+              },
+              {
+                "name": "UserLikes",
+                "type": "url",
+                "url": "https://schema.org/UserLikes"
+              },
+              {
+                "name": "UserPageVisits",
+                "type": "url",
+                "url": "https://schema.org/UserPageVisits"
+              },
+              {
+                "name": "UserPlays",
+                "type": "url",
+                "url": "https://schema.org/UserPlays"
+              },
+              {
+                "name": "UserPlusOnes",
+                "type": "url",
+                "url": "https://schema.org/UserPlusOnes"
+              },
+              {
+                "name": "UserTweets",
+                "type": "url",
+                "url": "https://schema.org/UserTweets"
+              }
+            ]
+          },
+          {
+            "name": "VisualArtsEvent",
+            "type": "url",
+            "url": "https://schema.org/VisualArtsEvent"
+          }
+        ]
+      },
+      {
+        "name": "Organization",
+        "type": "folder",
+        "url": null,
+        "children": [
+          {
+            "name": "Airline",
+            "type": "url",
+            "url": "https://schema.org/Airline"
+          },
+          {
+            "name": "Consortium",
+            "type": "url",
+            "url": "https://schema.org/Consortium"
+          },
+          {
+            "name": "Corporation",
+            "type": "url",
+            "url": "https://schema.org/Corporation"
+          },
+          {
+            "name": "EducationalOrganization",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "CollegeOrUniversity",
+                "type": "url",
+                "url": "https://schema.org/CollegeOrUniversity"
+              },
+              {
+                "name": "ElementarySchool",
+                "type": "url",
+                "url": "https://schema.org/ElementarySchool"
+              },
+              {
+                "name": "HighSchool",
+                "type": "url",
+                "url": "https://schema.org/HighSchool"
+              },
+              {
+                "name": "MiddleSchool",
+                "type": "url",
+                "url": "https://schema.org/MiddleSchool"
+              },
+              {
+                "name": "Preschool",
+                "type": "url",
+                "url": "https://schema.org/Preschool"
+              },
+              {
+                "name": "School",
+                "type": "url",
+                "url": "https://schema.org/School"
+              }
+            ]
+          },
+          {
+            "name": "FundingScheme",
+            "type": "url",
+            "url": "https://schema.org/FundingScheme"
+          },
+          {
+            "name": "GovernmentOrganization",
+            "type": "url",
+            "url": "https://schema.org/GovernmentOrganization"
+          },
+          {
+            "name": "LibrarySystem",
+            "type": "url",
+            "url": "https://schema.org/LibrarySystem"
+          },
+          {
+            "name": "LocalBusiness",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "AnimalShelter",
+                "type": "url",
+                "url": "https://schema.org/AnimalShelter"
+              },
+              {
+                "name": "ArchiveOrganization",
+                "type": "url",
+                "url": "https://schema.org/ArchiveOrganization"
+              },
+              {
+                "name": "AutomotiveBusiness",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "AutoBodyShop",
+                    "type": "url",
+                    "url": "https://schema.org/AutoBodyShop"
+                  },
+                  {
+                    "name": "AutoDealer",
+                    "type": "url",
+                    "url": "https://schema.org/AutoDealer"
+                  },
+                  {
+                    "name": "AutoPartsStore",
+                    "type": "url",
+                    "url": "https://schema.org/AutoPartsStore"
+                  },
+                  {
+                    "name": "AutoRental",
+                    "type": "url",
+                    "url": "https://schema.org/AutoRental"
+                  },
+                  {
+                    "name": "AutoRepair",
+                    "type": "url",
+                    "url": "https://schema.org/AutoRepair"
+                  },
+                  {
+                    "name": "AutoWash",
+                    "type": "url",
+                    "url": "https://schema.org/AutoWash"
+                  },
+                  {
+                    "name": "GasStation",
+                    "type": "url",
+                    "url": "https://schema.org/GasStation"
+                  },
+                  {
+                    "name": "MotorcycleDealer",
+                    "type": "url",
+                    "url": "https://schema.org/MotorcycleDealer"
+                  },
+                  {
+                    "name": "MotorcycleRepair",
+                    "type": "url",
+                    "url": "https://schema.org/MotorcycleRepair"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ChildCare",
+            "type": "url",
+            "url": "https://schema.org/ChildCare"
+          },
+          {
+            "name": "Dentist",
+            "type": "url",
+            "url": "https://schema.org/Dentist"
+          },
+          {
+            "name": "DryCleaningOrLaundry",
+            "type": "url",
+            "url": "https://schema.org/DryCleaningOrLaundry"
+          },
+          {
+            "name": "EmergencyService",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "FireStation",
+                "type": "url",
+                "url": "https://schema.org/FireStation"
+              },
+              {
+                "name": "Hospital",
+                "type": "url",
+                "url": "https://schema.org/Hospital"
+              },
+              {
+                "name": "PoliceStation",
+                "type": "url",
+                "url": "https://schema.org/PoliceStation"
+              }
+            ]
+          },
+          {
+            "name": "EmploymentAgency",
+            "type": "url",
+            "url": "https://schema.org/EmploymentAgency"
+          },
+          {
+            "name": "EntertainmentBusiness",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "AdultEntertainment",
+                "type": "url",
+                "url": "https://schema.org/AdultEntertainment"
+              },
+              {
+                "name": "AmusementPark",
+                "type": "url",
+                "url": "https://schema.org/AmusementPark"
+              },
+              {
+                "name": "ArtGallery",
+                "type": "url",
+                "url": "https://schema.org/ArtGallery"
+              },
+              {
+                "name": "Casino",
+                "type": "url",
+                "url": "https://schema.org/Casino"
+              },
+              {
+                "name": "ComedyClub",
+                "type": "url",
+                "url": "https://schema.org/ComedyClub"
+              },
+              {
+                "name": "MovieTheater",
+                "type": "url",
+                "url": "https://schema.org/MovieTheater"
+              },
+              {
+                "name": "NightClub",
+                "type": "url",
+                "url": "https://schema.org/NightClub"
+              }
+            ]
+          },
+          {
+            "name": "FinancialService",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "AccountingService",
+                "type": "url",
+                "url": "https://schema.org/AccountingService"
+              },
+              {
+                "name": "AutomatedTeller",
+                "type": "url",
+                "url": "https://schema.org/AutomatedTeller"
+              },
+              {
+                "name": "BankOrCreditUnion",
+                "type": "url",
+                "url": "https://schema.org/BankOrCreditUnion"
+              },
+              {
+                "name": "InsuranceAgency",
+                "type": "url",
+                "url": "https://schema.org/InsuranceAgency"
+              }
+            ]
+          },
+          {
+            "name": "FoodEstablishment",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "Bakery",
+                "type": "url",
+                "url": "https://schema.org/Bakery"
+              },
+              {
+                "name": "BarOrPub",
+                "type": "url",
+                "url": "https://schema.org/BarOrPub"
+              },
+              {
+                "name": "Brewery",
+                "type": "url",
+                "url": "https://schema.org/Brewery"
+              },
+              {
+                "name": "CafeOrCoffeeShop",
+                "type": "url",
+                "url": "https://schema.org/CafeOrCoffeeShop"
+              },
+              {
+                "name": "Distillery",
+                "type": "url",
+                "url": "https://schema.org/Distillery"
+              },
+              {
+                "name": "FastFoodRestaurant",
+                "type": "url",
+                "url": "https://schema.org/FastFoodRestaurant"
+              },
+              {
+                "name": "IceCreamShop",
+                "type": "url",
+                "url": "https://schema.org/IceCreamShop"
+              },
+              {
+                "name": "Restaurant",
+                "type": "url",
+                "url": "https://schema.org/Restaurant"
+              },
+              {
+                "name": "Winery",
+                "type": "url",
+                "url": "https://schema.org/Winery"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Person",
+        "type": "folder",
+        "url": null,
+        "children": [
+          {
+            "name": "Patient",
+            "type": "url",
+            "url": "https://schema.org/Patient"
+          }
+        ]
+      },
+      {
+        "name": "Place",
+        "type": "folder",
+        "url": null,
+        "children": [
+          {
+            "name": "Accommodation",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "Apartment",
+                "type": "url",
+                "url": "/Apartment"
+              },
+              {
+                "name": "CampingPitch",
+                "type": "url",
+                "url": "/CampingPitch"
+              },
+              {
+                "name": "House",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "SingleFamilyResidence",
+                    "type": "url",
+                    "url": "/SingleFamilyResidence"
+                  }
+                ]
+              },
+              {
+                "name": "Room",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "HotelRoom",
+                    "type": "url",
+                    "url": "/HotelRoom"
+                  },
+                  {
+                    "name": "MeetingRoom",
+                    "type": "url",
+                    "url": "/MeetingRoom"
+                  },
+                  {
+                    "name": "Suite",
+                    "type": "url",
+                    "url": "/Suite"
+                  }
+                ]
+              },
+              {
+                "name": "AdministrativeArea",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "City",
+                    "type": "url",
+                    "url": "/City"
+                  },
+                  {
+                    "name": "Country",
+                    "type": "url",
+                    "url": "/Country"
+                  },
+                  {
+                    "name": "SchoolDistrict",
+                    "type": "url",
+                    "url": "/SchoolDistrict"
+                  },
+                  {
+                    "name": "State",
+                    "type": "url",
+                    "url": "/State"
+                  }
+                ]
+              },
+              {
+                "name": "CivicStructure",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "Airport",
+                    "type": "url",
+                    "url": "/Airport"
+                  },
+                  {
+                    "name": "Aquarium",
+                    "type": "url",
+                    "url": "/Aquarium"
+                  },
+                  {
+                    "name": "Beach",
+                    "type": "url",
+                    "url": "/Beach"
+                  },
+                  {
+                    "name": "BoatTerminal",
+                    "type": "url",
+                    "url": "/BoatTerminal"
+                  },
+                  {
+                    "name": "Bridge",
+                    "type": "url",
+                    "url": "/Bridge"
+                  },
+                  {
+                    "name": "BusStation",
+                    "type": "url",
+                    "url": "/BusStation"
+                  },
+                  {
+                    "name": "BusStop",
+                    "type": "url",
+                    "url": "/BusStop"
+                  },
+                  {
+                    "name": "Campground",
+                    "type": "url",
+                    "url": "/Campground"
+                  },
+                  {
+                    "name": "Cemetery",
+                    "type": "url",
+                    "url": "/Cemetery"
+                  },
+                  {
+                    "name": "Crematorium",
+                    "type": "url",
+                    "url": "/Crematorium"
+                  },
+                  {
+                    "name": "EducationalOrganization",
+                    "type": "url",
+                    "url": "/EducationalOrganization"
+                  },
+                  {
+                    "name": "EventVenue",
+                    "type": "url",
+                    "url": "/EventVenue"
+                  },
+                  {
+                    "name": "FireStation",
+                    "type": "url",
+                    "url": "/FireStation"
+                  },
+                  {
+                    "name": "GovernmentBuilding",
+                    "type": "folder",
+                    "url": null,
+                    "children": [
+                      {
+                        "name": "CityHall",
+                        "type": "url",
+                        "url": "/CityHall"
+                      },
+                      {
+                        "name": "Courthouse",
+                        "type": "url",
+                        "url": "/Courthouse"
+                      },
+                      {
+                        "name": "DefenceEstablishment",
+                        "type": "url",
+                        "url": "/DefenceEstablishment"
+                      },
+                      {
+                        "name": "Embassy",
+                        "type": "url",
+                        "url": "/Embassy"
+                      },
+                      {
+                        "name": "LegislativeBuilding",
+                        "type": "url",
+                        "url": "/LegislativeBuilding"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Hospital",
+                    "type": "url",
+                    "url": "/Hospital"
+                  },
+                  {
+                    "name": "MovieTheater",
+                    "type": "url",
+                    "url": "/MovieTheater"
+                  },
+                  {
+                    "name": "Museum",
+                    "type": "url",
+                    "url": "/Museum"
+                  },
+                  {
+                    "name": "MusicVenue",
+                    "type": "url",
+                    "url": "/MusicVenue"
+                  },
+                  {
+                    "name": "Park",
+                    "type": "url",
+                    "url": "/Park"
+                  },
+                  {
+                    "name": "ParkingFacility",
+                    "type": "url",
+                    "url": "/ParkingFacility"
+                  },
+                  {
+                    "name": "PerformingArtsTheater",
+                    "type": "url",
+                    "url": "/PerformingArtsTheater"
+                  },
+                  {
+                    "name": "PlaceOfWorship",
+                    "type": "folder",
+                    "url": null,
+                    "children": [
+                      {
+                        "name": "BuddhistTemple",
+                        "type": "url",
+                        "url": "/BuddhistTemple"
+                      },
+                      {
+                        "name": "Church",
+                        "type": "folder",
+                        "url": null,
+                        "children": [
+                          {
+                            "name": "CatholicChurch",
+                            "type": "url",
+                            "url": "/CatholicChurch"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "HinduTemple",
+                        "type": "url",
+                        "url": "/HinduTemple"
+                      },
+                      {
+                        "name": "Mosque",
+                        "type": "url",
+                        "url": "/Mosque"
+                      },
+                      {
+                        "name": "Synagogue",
+                        "type": "url",
+                        "url": "/Synagogue"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Playground",
+                    "type": "url",
+                    "url": "/Playground"
+                  },
+                  {
+                    "name": "PoliceStation",
+                    "type": "url",
+                    "url": "/PoliceStation"
+                  },
+                  {
+                    "name": "PublicToilet",
+                    "type": "url",
+                    "url": "/PublicToilet"
+                  },
+                  {
+                    "name": "RVPark",
+                    "type": "url",
+                    "url": "/RVPark"
+                  },
+                  {
+                    "name": "StadiumOrArena",
+                    "type": "url",
+                    "url": "/StadiumOrArena"
+                  },
+                  {
+                    "name": "SubwayStation",
+                    "type": "url",
+                    "url": "/SubwayStation"
+                  },
+                  {
+                    "name": "TaxiStand",
+                    "type": "url",
+                    "url": "/TaxiStand"
+                  },
+                  {
+                    "name": "TrainStation",
+                    "type": "url",
+                    "url": "/TrainStation"
+                  },
+                  {
+                    "name": "Zoo",
+                    "type": "url",
+                    "url": "/Zoo"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Product",
+        "type": "folder",
+        "url": null,
+        "children": [
+          {
+            "name": "DietarySupplement",
+            "type": "url",
+            "url": "/DietarySupplement"
+          },
+          {
+            "name": "Drug",
+            "type": "url",
+            "url": "/Drug"
+          },
+          {
+            "name": "IndividualProduct",
+            "type": "url",
+            "url": "/IndividualProduct"
+          },
+          {
+            "name": "ProductCollection",
+            "type": "url",
+            "url": "/ProductCollection"
+          },
+          {
+            "name": "ProductGroup",
+            "type": "url",
+            "url": "/ProductGroup"
+          },
+          {
+            "name": "ProductModel",
+            "type": "url",
+            "url": "/ProductModel"
+          },
+          {
+            "name": "SomeProducts",
+            "type": "url",
+            "url": "/SomeProducts"
+          },
+          {
+            "name": "Vehicle",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "BusOrCoach",
+                "type": "url",
+                "url": "/BusOrCoach"
+              },
+              {
+                "name": "Car",
+                "type": "url",
+                "url": "/Car"
+              },
+              {
+                "name": "Motorcycle",
+                "type": "url",
+                "url": "/Motorcycle"
+              },
+              {
+                "name": "MotorizedBicycle",
+                "type": "url",
+                "url": "/MotorizedBicycle"
+              }
+            ]
+          }
+        ]
+      }
+      
+      
+      
+      
+      
+            
+    ]
+  }
+  

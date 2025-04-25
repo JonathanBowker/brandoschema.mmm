@@ -1,0 +1,555 @@
+{
+    "name": "brando®",
+    "type": "folder",
+    "children": [
+        {
+            "name": "positioning",
+            "type": "folder",
+            "children": [
+                {
+                    "name": "positioning_statement",
+                    "type": "url",
+                    "url": "https://dataservices.cloud/brando/positioning/positioning_statement"
+                },
+                {
+                    "name": "unique_selling_proposition",
+                    "type": "url",
+                    "url": "https://dataservices.cloud/brando/positioning/unique_selling_proposition"
+                },
+                {
+                    "name": "target_audience_b2b",
+                    "type": "url",
+                    "url": "https://dataservices.cloud/brando/positioning/target_audience_b2b"
+                },
+                {
+                    "name": "target_audience_b2c",
+                    "type": "url",
+                    "url": "https://dataservices.cloud/brando/positioning/target_audience_b2c"
+                },
+                {
+                    "name": "functional_benefit",
+                    "type": "url",
+                    "url": "https://dataservices.cloud/brando/positioning/functional_benefit"
+                },
+                {
+                    "name": "emotional_benefit",
+                    "type": "url",
+                    "url": "https://dataservices.cloud/brando/positioning/emotional_benefit"
+                },
+                {
+                    "name": "market_analysis",
+                    "type": "url",
+                    "url": "https://dataservices.cloud/brando/positioning/market_analysis"
+                },
+                {
+                    "name": "competitor_analysis",
+                    "type": "url",
+                    "url": "https://dataservices.cloud/brando/positioning/competitor_analysis"
+                },
+                {
+                    "name": "customer_analysis",
+                    "type": "url",
+                    "url": "https://dataservices.cloud/brando/positioning/customer_analysis"
+                }
+            ]
+        },
+        {
+            "name": "messaging",
+            "type": "folder",
+            "children": [
+                {
+                    "name": "tone_of_voice",
+                    "type": "url",
+                    "url": "https://dataservices.cloud/brando/messaging/verbal_identity/tone_of_voice"
+                },
+                {
+                    "name": "key_vocabulary",
+                    "type": "url",
+                    "url": "https://dataservices.cloud/brando/messaging/verbal_identity/key_vocabulary"
+                },
+                {
+                    "name": "key_spokesperson",
+                    "type": "url",
+                    "url": "https://dataservices.cloud/brando/messaging/verbal_identity/key_spokesperson"
+                },
+                {
+                    "name": "website_copy",
+                    "type": "url",
+                    "url": "https://dataservices.cloud/brando/messaging/verbal_identity/website_copy"
+                },
+                {
+                    "name": "advertising_copy_guidelines",
+                    "type": "url",
+                    "url": "https://dataservices.cloud/brando/messaging/verbal_identity/advertising_copy_guidelines"
+                },
+                {
+                    "name": "social_media_guideline",
+                    "type": "url",
+                    "url": "https://dataservices.cloud/brando/messaging/verbal_identity/social_media_guidelines"
+                },
+                {
+                    "name": "boilerplate_copy",
+                    "type": "url",
+                    "url": "https://dataservices.cloud/brando/messaging/verbal_identity/boilerplate_copy"
+                },
+                {
+                    "name": "customer_service_script",
+                    "type": "url",
+                    "url": "https://dataservices.cloud/brando/messaging/verbal_identity/customer_service_script"
+                },
+                {
+                    "name": "storytelling_guideline",
+                    "type": "url",
+                    "url": "https://dataservices.cloud/brando/messaging/verbal_identity/storytelling_guidelines"
+                },
+                {
+                    "name": "logo",
+                    "type": "url",
+                    "url": "https://dataservices.cloud/brando/messaging/visual_identity/logo"
+                },
+                {
+                    "name": "colour",
+                    "type": "url",
+                    "url": "https://dataservices.cloud/brando/messaging/visual_identity/colour"
+                },
+                {
+                    "name": "typography",
+                    "type": "url",
+                    "url": "https://dataservices.cloud/brando/messaging/visual_identity/typography"
+                },
+                {
+                    "name": "imagery",
+                    "type": "url",
+                    "url": "https://dataservices.cloud/brando/messaging/visual_identity/imagery"
+                },
+                {
+                    "name": "photography",
+                    "type": "url",
+                    "url": "https://dataservices.cloud/brando/messaging/visual_identity/photography"
+                },
+                {
+                    "name": "iconography",
+                    "type": "url",
+                    "url": "https://dataservices.cloud/brando/messaging/visual_identity/iconography"
+                },
+                {
+                    "name": "layout_and_grid",
+                    "type": "url",
+                    "url": "https://dataservices.cloud/brando/messaging/visual_identity/layout_and_grid"
+                },
+                {
+                    "name": "buttons_and_calls_to_action",
+                    "type": "url",
+                    "url": "https://dataservices.cloud/brando/messaging/visual_identity/buttons_and_calls_to_action"
+                }
+            ]
+        },
+        {
+            "name": "personas",
+            "type": "folder",
+            "children": [
+                {
+                    "name": "internal",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "executive_management",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/personas/internal/executive_management"
+                        },
+                        {
+                            "name": "market_segment",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/personas/internal/market_segment"
+                        },
+                        {
+                            "name": "decision_maker",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/personas/internal/decision_maker"
+                        },
+                        {
+                            "name": "stakeholder",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/personas/internal/stakeholder"
+                        },
+                        {
+                            "name": "project_manager",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/personas/internal/project_manager"
+                        },
+                        {
+                            "name": "middle_management",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/personas/internal/middle_management"
+                        },
+                        {
+                            "name": "technical_lead",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/personas/internal/technical_lead"
+                        },
+                        {
+                            "name": "team_leader",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/personas/internal/team_leader"
+                        }
+                    ]
+                },
+                {
+                    "name": "customer",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "customer_persona",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/personas/customer/customer_persona"
+                        },
+                        {
+                            "name": "audience_archetype",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/personas/customer/audience_archetype"
+                        },
+                        {
+                            "name": "early_adopter",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/personas/customer/early_adopter"
+                        },
+                        {
+                            "name": "loyal_customer",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/personas/customer/loyal_customer"
+                        },
+                        {
+                            "name": "bargain_seeker",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/personas/customer/bargain_seeker"
+                        },
+                        {
+                            "name": "brand_advocate",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/personas/customer/brand_advocate"
+                        },
+                        {
+                            "name": "casual_buyer",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/personas/customer/casual_buyer"
+                        },
+                        {
+                            "name": "impulse_buyer",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/personas/customer/impulse_buyer"
+                        }
+                    ]
+                },
+                {
+                    "name": "competitor",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "executive_management",
+                            "type": "description",
+                            "url": "https://dataservices.cloud/brando/personas/competitor/executive_management",
+                            "focus": "Long-term company goals, ROI, and competitive advantage from research outcomes."
+                        },
+                        {
+                            "name": "research_analyst",
+                            "type": "description",
+                            "url": "https://dataservices.cloud/brando/personas/competitor/research_analyst",
+                            "focus": "Understanding data patterns, synthesising findings, and producing actionable insights."
+                        },
+                        {
+                            "name": "project_manager",
+                            "type": "description",
+                            "url": "https://dataservices.cloud/brando/personas/competitor/project_manager",
+                            "focus": "Task coordination, schedule management, and communication between research stakeholders."
+                        },
+                        {
+                            "name": "technical_lead",
+                            "type": "description",
+                            "url": "https://dataservices.cloud/brando/personas/competitor/technical_lead",
+                            "focus": "Validating research approaches, ensuring quality, and troubleshooting technical issues."
+                        },
+                        {
+                            "name": "product_manager",
+                            "type": "description",
+                            "url": "https://dataservices.cloud/brando/personas/competitor/product_manager",
+                            "focus": "Understanding customer needs and implications of research findings on product strategy."
+                        },
+                        {
+                            "name": "stakeholders",
+                            "type": "description",
+                            "url": "https://dataservices.cloud/brando/personas/competitor/stakeholders",
+                            "focus": "Ensuring that their interests or concerns are addressed in the research process."
+                        },
+                        {
+                            "name": "market_researcher",
+                            "type": "description",
+                            "url": "https://dataservices.cloud/brando/personas/competitor/market_researcher",
+                            "focus": "Gathering insights on consumer behaviour and preferences to guide strategic decisions."
+                        },
+                        {
+                            "name": "data_scientist",
+                            "type": "description",
+                            "url": "https://dataservices.cloud/brando/personas/competitor/data_scientist",
+                            "focus": "Statistical analysis, machine learning, and predictive modelling to uncover hidden patterns."
+                        },
+                        {
+                            "name": "communications_specialist",
+                            "type": "description",
+                            "url": "https://dataservices.cloud/brando/personas/competitor/communications_specialist",
+                            "focus": "Crafting compelling narratives, visualisations, and reports that effectively communicate results."
+                        },
+                        {
+                            "name": "ethics_officer",
+                            "type": "description",
+                            "url": "https://dataservices.cloud/brando/personas/competitor/ethics_officer",
+                            "focus": "Upholding ethical considerations in research practices, safeguarding participant rights."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "governance",
+            "type": "folder",
+            "children": [
+                {
+                    "name": "data_protection",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "privacy_notices",
+                            "type": "folder",
+                            "children": [
+                                {
+                                    "name": "website_users",
+                                    "type": "url",
+                                    "url": "https://dataservices.cloud/brando/governance/data_protection/privacy_notices/website_users"
+                                },
+                                {
+                                    "name": "employees",
+                                    "type": "url",
+                                    "url": "https://dataservices.cloud/brando/governance/data_protection/privacy_notices/employees"
+                                },
+                                {
+                                    "name": "research_participants",
+                                    "type": "url",
+                                    "url": "https://dataservices.cloud/brando/governance/data_protection/privacy_notices/research_participants"
+                                },
+                                {
+                                    "name": "contractors",
+                                    "type": "url",
+                                    "url": "https://dataservices.cloud/brando/governance/data_protection/privacy_notices/contractors"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "data_subjects_rights",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/governance/data_protection/data_subjects_rights"
+                        },
+                        {
+                            "name": "data_protection_policy",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/governance/data_protection/data_protection_policy"
+                        },
+                        {
+                            "name": "report_breach",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/governance/data_protection/report_breach"
+                        }
+                    ]
+                },
+                {
+                    "name": "information_security",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "information_security_policy",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/governance/information_security/information_security_policy"
+                        },
+                        {
+                            "name": "access_control",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/governance/information_security/access_control"
+                        },
+                        {
+                            "name": "clear_desk_and_screen_control",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/governance/information_security/clear_desk_and_screen_control"
+                        },
+                        {
+                            "name": "cloud_computing_control",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/governance/information_security/cloud_computing_control"
+                        },
+                        {
+                            "name": "communications_security_control",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/governance/information_security/communications_security_control"
+                        },
+                        {
+                            "name": "generative_ai_usage_control",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/governance/information_security/generative_ai_usage_control"
+                        }
+                    ]
+                },
+                {
+                    "name": "artificial_intelligence",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "usage_policy",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/governance/artificial_intelligence/usage_policy"
+                        },
+                        {
+                            "name": "asset_register",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/governance/artificial_intelligence/asset_register"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ai_agent",
+            "type": "folder",
+            "children": [
+                {
+                    "name": "copy",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "article",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/operations/verbal/article"
+                        },
+                        {
+                            "name": "social_post",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/operations/verbal/social_post"
+                        },
+                        {
+                            "name": "press_release",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/operations/verbal/press_release"
+                        },
+                        {
+                            "name": "one_pager",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/operations/verbal/one_pager"
+                        },
+                        {
+                            "name": "disclosure",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/operations/verbal/disclosure"
+                        },
+                        {
+                            "name": "newsletter",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/operations/verbal/newsletter"
+                        },
+                        {
+                            "name": "targeted_email",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/operations/verbal/targeted_email"
+                        },
+                        {
+                            "name": "campaign_brief",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/operations/verbal/campaign_brief"
+                        },
+                        {
+                            "name": "project_plan",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/operations/verbal/project_plan"
+                        },
+                        {
+                            "name": "pricing_strategy",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/operations/verbal/pricing_strategy"
+                        },
+                        {
+                            "name": "storyline_narrative",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/operations/verbal/storyline_narrative"
+                        },
+                        {
+                            "name": "ad_copy",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/operations/verbal/ad_copy"
+                        },
+                        {
+                            "name": "website_copy",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/operations/verbal/website_copy"
+                        }
+                    ]
+                },
+                {
+                    "name": "image",
+                    "type": "folder",
+                    "children": [
+                        {
+                            "name": "ad_creative",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/operations/visual/ad_creative"
+                        },
+                        {
+                            "name": "analytics_reporting",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/operations/visual/analytics_reporting"
+                        },
+                        {
+                            "name": "banners_and_poster",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/operations/visual/banners_and_poster"
+                        },
+                        {
+                            "name": "digital_downloadable",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/operations/visual/digital_downloadable"
+                        },
+                        {
+                            "name": "photography",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/operations/visual/photography"
+                        },
+                        {
+                            "name": "event_branding",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/operations/visual/event_branding"
+                        },
+                        {
+                            "name": "dynamic_display",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/operations/visual/dynamic_display"
+                        },
+                        {
+                            "name": "landing_page",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/operations/visual/landing_page"
+                        },
+                        {
+                            "name": "instagram_image",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/operations/visual/instagram_image"
+                        },
+                        {
+                            "name": "ai_powered_video",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/operations/visual/ai_powered_video"
+                        },
+                        {
+                            "name": "augmented_reality_asset",
+                            "type": "url",
+                            "url": "https://dataservices.cloud/brando/operations/visual/augmented_reality_asset"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
