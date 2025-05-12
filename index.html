@@ -341,6 +341,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#agentic-ai-workflows" class="md-nav__link">
+    <span class="md-ellipsis">
+      Agentic AI Workflows
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#why-brands-need-brando" class="md-nav__link">
     <span class="md-ellipsis">
       Why Brands Need Brando
@@ -607,6 +616,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#agentic-ai-workflows" class="md-nav__link">
+    <span class="md-ellipsis">
+      Agentic AI Workflows
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#why-brands-need-brando" class="md-nav__link">
     <span class="md-ellipsis">
       Why Brands Need Brando
@@ -684,15 +702,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <h2 id="making-brands-machine-readable-and-semantically-actionable-by-llms">Making brands machine-readable and semantically actionable by LLMs</h2>
 <h3 id="create-a-structured-ai-first-brand-not-just-a-website">Create a structured, AI-first brand, not just a website.</h3>
-<p><strong>Brando<sup>®</sup></strong> is a Brand Definition Framework and Vocabulary that offers a structured approach to defining and managing a brand's identity and strategy. It is a Schema.org–compatible framework and Brand Definition Vocabulary (BDV) designed for use in the AI web. Brando transforms brand guidelines and governance policies into structured, machine-readable data, enabling consistent recognition, representation, and control across AI systems, large language models (LLMs), and intelligent search.</p>
-<p>At the heart of the Brando Schema is <code>brando:BrandObject</code> — a foundational schema toolkit designed to encode the Six Pillars of Brand Identity for AI:</p>
+<p><strong>Brando<sup>®</sup></strong> - (short for Brand Oracle)  is a Schema.org–compatible Brand Definition Vocabulary (BDV). It provides a framework for overlaying static brand elements, guidelines and governance policies with an intelligence layer, transforming them into structured, machine-readable data. This enables you to build flexible brand knowledge graphs for the AI-powered web, ensuring consistent discovery, representation, and control across AI systems, large language model (LLM) interactions, and intelligent search.</p>
+<p>At the core of the Brando Schema is <code>brando:BrandObject</code> — a foundational node designed to encode the Six Pillars of Brand Identity for AI:</p>
 <ul>
-<li><strong>Verbal Identity</strong> - tone, vocabulary, style, prompts etc</li>
-<li><strong>Visual Identity</strong> – logo, colour, layout. typography etc</li>
-<li><strong>Audio Identity</strong> – voice, intonation, sound cues, audio UX etc </li>
-<li><strong>Brand Positioning</strong> – mission, promise, audience, personas etc</li>
-<li><strong>Brand Governance</strong> – rules, escalation, constraints, ethics etc</li>
-<li><strong>Brand Assets</strong> – files, templates, schemas, Q&amp;A sources etc</li>
+<li><strong>Verbal Identity</strong> - Tone, vocabulary, style and prompt scaffolds.</li>
+<li><strong>Visual Identity</strong> – Logo, colour palette, layout and typography.</li>
+<li><strong>Audio Identity</strong> – Voice persona, intonation, sound cues and audio UX.</li>
+<li><strong>Brand Positioning</strong> – Mission, promise, audience personas and market context.</li>
+<li><strong>Brand Governance</strong> – Rules, escalation paths, constraints and ethical guardrails.</li>
+<li><strong>Brand Assets</strong> – Files, templates, schemas and Q&amp;A source materials.</li>
 </ul>
 <h2 id="what-you-can-do-with-bdv">What You Can Do With BDV</h2>
 <ul>
@@ -702,26 +720,44 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <li>Feed into Brando Audit tools, CMS backends, or vector indexes</li>
 <li>Enable persona-switching and multi-modal tone control (text/image/audio)</li>
 </ul>
-<hr />
-<p>Would you like me to generate a branded visual version of this as a <strong>one-page framework</strong>, or publish this as a <strong>machine-readable JSON-LD brand template</strong> with placeholders for clients?</p>
-<p>Brando uses Advanced Analytica's propriertary <a href="https://brandoschema.com/bdv-classes">Brand Definition Vocabulary (BDV)</a> to turn static brand guidelines into machine-executable controls for intelligent agents.</p>
-<p>This AI-facing brand policy is published in a public, discoverable format:  </p>
-<div class="highlight"><pre><span></span><code>/.well-known/ai-brand-policy.json
-</code></pre></div>
-<p>Structured using <strong>JSON-LD</strong> and aligned to Schema.org principles, this file serves as the authoritative interface between your brand and AI systems — guiding how models interpret, generate, and respond.</p>
-<h2 id="why-brands-need-brando">Why Brands Need Brando</h2>
-<p>As AI-powered systems and large language models (LLMs) are becoming the dominant channels for customer interaction and content gatekeeping, <strong>brands face new risks</strong>:</p>
+<h2 id="agentic-ai-workflows">Agentic AI Workflows</h2>
 <ul>
-<li>Being misrepresented in LLM answers  </li>
-<li>Losing tone, intent, or uniqueness in AI-generated content  </li>
-<li>Failing compliance, ethical, or reputational checks in automated outputs  </li>
-<li>Becoming invisible in semantic and conversational search</li>
+<li>
+<p><strong>Configure agent personas</strong> - Dynamically load <code>brando:BrandObject</code> settings to initialize agent tone, style, and behaviour for each task.  </p>
+</li>
+<li>
+<p><strong>Policy-driven decisioning</strong> - Embed governance rules (<code>brando:Governance</code>) into agent planning chains to enforce guardrails, escalation paths, and compliance at each step.  </p>
+</li>
+<li>
+<p><strong>Multi-agent orchestration</strong> - Use Visual, Audio or Verbal Identity pillars to spin up specialised sub-agents (e.g. a voice-formatting agent or a brand‐consistent copywriting agent) and route tasks dynamically.  </p>
+</li>
+<li>
+<p><strong>Prompt template scaffolding</strong> - Inject Prompt Scaffolds (<code>brando:PromptScaffold</code>) into chain-of-thought prompts, ensuring every LLM calls adhere to brand vocabulary and style.  </p>
+</li>
+<li>
+<p><strong>Contextual memory indexing</strong> - Store and index conversation state or retrieved facts against <code>brando:BrandAssets</code> (schemas, Q&amp;A sources), allowing agents to fetch brand-approved content on demand.  </p>
+</li>
+<li>
+<p><strong>Dynamic persona switching</strong> - At runtime, switch between audience-specific personas (<code>brando:AudiencePersona</code>) or tone profiles to adapt output for different segments (e.g. patient vs. regulator).  </p>
+</li>
+<li>
+<p><strong>Audit &amp; feedback loops</strong> - Pipeline agent outputs through Brando Audit tools, feeding back compliance tags and visibility ratings to refine future behaviour.  </p>
+</li>
 </ul>
-<p>Search Engine Optimisation (SEO) is no longer enough. Brands need <strong>AI Optimisation</strong> — machine-readable operating policies that govern brand representation at inference time.</p>
+<hr />
+<h2 id="why-brands-need-brando">Why Brands Need Brando</h2>
+<p>As AI-powered systems and LLMs become the dominant channels for customer interaction and content gatekeeping, <strong>brands face new risks</strong>:</p>
+<ul>
+<li>Misrepresentation in LLM-driven conversations and dialogues  </li>
+<li>Loss of tone, intent or distinctiveness in AI-generated content  </li>
+<li>Compliance, ethical or reputational failures in automated outputs  </li>
+<li>Invisibility in the semantic web and conversational search  </li>
+</ul>
+<p>Traditional Search Engine Optimisation (SEO) is no longer enough. Brands must <strong>optimise for AI</strong> with machine-readable knowledge graphs and control policies that govern brand representation at inference time.</p>
 <h2 id="the-case-for-ai-native-brand-governance">The Case for AI-Native Brand Governance</h2>
 <p>The rise of the <strong>AI web</strong> demands that brands become <strong>AI-native entities</strong> — able to interact, reason, and respond reliably across platforms, plugins, and voice agents.</p>
 <blockquote>
-<p>Without clear policies guiding how a brand should — and should <em>not</em> — speak, appear, and behave, it risks losing visibility, control, and trust in AI-driven environments.</p>
+<p>Without clear policies guiding how a brand should — and should <em>not</em> — speak, appear, and behave, business risk losing visibility, control, and trust in AI-driven environments.</p>
 </blockquote>
 <p><strong>Brando solves this</strong> — creating a semantic bridge between your brand guidelines and the systems interpreting them.</p>
 <h2 id="what-brando-does">What Brando Does</h2>
@@ -746,10 +782,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <li><strong>Machine-readable</strong></li>
 <li><strong>AI-visible</strong></li>
 <li><strong>Compliance-aware</strong></li>
-<li><strong>On-brand by default</strong></li>
 </ul>
 <blockquote>
-<p><strong>Brando is the first schema framework that enables brands to express who they are, what they believe, and how they should behave — in a format machines can enforce.</strong></p>
+<p><strong>Brando is the first schema that lets brands declare who they are, what they believe, and how they should behave on the AI-powered web – in a format that AI can enforce.</strong></p>
 </blockquote>
 <!-- ## Quick Links
 
