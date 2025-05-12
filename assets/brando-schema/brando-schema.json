@@ -50,10 +50,10 @@
                     "url": "https://brandoschema.com/bdv-terms/#prohibitedTerms"
                 },
                 {
-                    "name": "keyMessage",
+                    "name": "keyMessages",
                     "definition": "Core statements that encapsulate the brand's primary value propositions and messaging priorities.",
                     "type": "url",
-                    "url": "https://brandoschema.com/bdv-terms/#keyMessage"
+                    "url": "https://brandoschema.com/bdv-terms/#keyMessages"
                 },
                 {
                     "name": "taglines",
@@ -68,16 +68,16 @@
                     "url": "https://brandoschema.com/bdv-terms/#promptScaffold"
                 },
                 {
-                    "name": "mustDo",
+                    "name": "mustDos",
                     "definition": "Essential practices and guidelines that must be followed to ensure brand consistency in communications.",
                     "type": "url",
-                    "url": "https://brandoschema.com/bdv-terms/#mustDo"
+                    "url": "https://brandoschema.com/bdv-terms/#mustDos"
                 },
                 {
-                    "name": "mustNotDo",
+                    "name": "mustNotDos",
                     "definition": "Practices and behaviors that are prohibited to prevent misrepresentation or dilution of the brand.",
                     "type": "url",
-                    "url": "https://brandoschema.com/bdv-terms/#mustNotDo"
+                    "url": "https://brandoschema.com/bdv-terms/#mustNotDos"
                 }
             ]
         },
@@ -135,10 +135,10 @@
                     "url": "https://brandoschema.com/bdv-terms/#visualToken"
                 },
                 {
-                    "name": "visualUsageGuideline",
+                    "name": "visualUsageGuidelines",
                     "definition": "Comprehensive rules and best practices for applying visual elements across various media.",
                     "type": "url",
-                    "url": "https://brandoschema.com/bdv-terms/#visualUsageGuideline"
+                    "url": "https://brandoschema.com/bdv-terms/#visualUsageGuidelines"
                 },
                 {
                     "name": "visualReferenceLink",
@@ -166,10 +166,10 @@
                     "url": "https://brandoschema.com/bdv-terms/#voiceSignature"
                 },
                 {
-                    "name": "pronunciationGuide",
+                    "name": "pronunciationGuides",
                     "definition": "Instructions on how to correctly pronounce brand-specific terms and names.",
                     "type": "url",
-                    "url": "https://brandoschema.com/bdv-terms/#pronunciationGuide"
+                    "url": "https://brandoschema.com/bdv-terms/#pronunciationGuides"
                 },
                 {
                     "name": "audioCue",
@@ -190,10 +190,10 @@
                     "url": "https://brandoschema.com/bdv-terms/#audioReferenceLink"
                 },
                 {
-                    "name": "audioUsageGuideline",
+                    "name": "audioUsageGuidelines",
                     "definition": "Guidelines outlining the appropriate use of audio elements in brand materials.",
                     "type": "url",
-                    "url": "https://brandoschema.com/bdv-terms/#audioUsageGuideline"
+                    "url": "https://brandoschema.com/bdv-terms/#audioUsageGuidelines"
                 }
             ]
         },
