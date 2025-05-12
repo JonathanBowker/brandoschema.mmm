@@ -150,7 +150,7 @@
         },
         {
             "name": "hasAudioIdentity",
-            "definition": "EEncodes the brand’s sonic expression in a structured, machine-readable format — enabling consistent brand presence across speech synthesis, voice agents, virtual assistants, and generative audio platforms.",
+            "definition": "Encodes the brand’s sonic expression in a structured, machine-readable format — enabling consistent brand presence across speech synthesis, voice agents, virtual assistants, and generative audio platforms.",
             "type": "folder",
             "children": [
                 {
