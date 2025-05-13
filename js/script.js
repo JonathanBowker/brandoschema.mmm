@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let duration = 500;      // Duration for transitions
 
     // Load the schema JSON data
-    d3.json("brando-schema.json").then(function (data) {
+    d3.json("data/brando-schema.json").then(function (data) {
         // Convert raw JSON into a D3 hierarchy
         const root = d3.hierarchy(data, d => d.children);
         root.x0 = treeHeight / 2;
