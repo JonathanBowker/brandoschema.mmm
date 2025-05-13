@@ -1,3 +1,4 @@
+console.log("linked_map.js loaded");
 document.addEventListener('DOMContentLoaded', function () {
     const svg = d3.select("svg"),
         width = +svg.attr("width"),
