@@ -996,6 +996,24 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#single-ai-agent-singleagentaiasset" class="md-nav__link">
+    <span class="md-ellipsis">
+      Single AI Agent: singleAgentAIAsset
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multi-ai-agent-multiagentaiasset" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multi AI Agent: multiAgentAIAsset
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1818,6 +1836,24 @@
   <a href="#textAsset" class="md-nav__link">
     <span class="md-ellipsis">
       Text Asset
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#single-ai-agent-singleagentaiasset" class="md-nav__link">
+    <span class="md-ellipsis">
+      Single AI Agent: singleAgentAIAsset
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multi-ai-agent-multiagentaiasset" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multi AI Agent: multiAgentAIAsset
     </span>
   </a>
   
@@ -6262,6 +6298,185 @@
 <tr>
 <td style="text-align: left;"><strong>Equivalent Schema.org Term</strong></td>
 <td style="text-align: left;"><em>None (custom)</em></td>
+</tr>
+</tbody>
+</table>
+<p>Interesting idea! Adding an <strong>Asset class for multiAgentAI</strong> makes a lot of sense if your brand involves multiple AI agents working together or if you want to manage AI agent-related assets distinctly. This could cover things like:</p>
+<ul>
+<li>Agent configurations or manifests</li>
+<li>Interaction scripts or conversation flows</li>
+<li>Training datasets or model versions specific to each agent</li>
+<li>Monitoring dashboards or logs</li>
+<li>API endpoints and credentials per agent</li>
+<li>Visual/branding elements unique to agents (avatars, voice profiles)</li>
+</ul>
+<hr />
+<p>Got it! For a <strong>single-agent AI asset</strong> class, here’s a tailored version focused on managing assets related to an individual AI agent:</p>
+<hr />
+<h3 id="single-ai-agent-singleagentaiasset">Single AI Agent: <code>singleAgentAIAsset</code></h3>
+<table>
+<thead>
+<tr>
+<th><strong>KEY</strong></th>
+<th><strong>VALUE</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Ref</strong></td>
+<td><strong>1.6.6</strong></td>
+</tr>
+<tr>
+<td><strong>Term</strong></td>
+<td><em><code>singleAgentAIAsset</code></em></td>
+</tr>
+<tr>
+<td><strong>Prefix</strong></td>
+<td><em><code>brando</code></em></td>
+</tr>
+<tr>
+<td><strong>Label</strong></td>
+<td><em>Single Agent AI Asset</em></td>
+</tr>
+<tr>
+<td><strong>IRI</strong></td>
+<td><em><code>https://brandoschema.com/bdv-terms/#singleAgentAIAsset</code></em></td>
+</tr>
+<tr>
+<td><strong>Programmatic Key</strong></td>
+<td><em><code>assets.single_agent_ai_asset</code></em></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td><em><code>rdfs:Property</code>, <code>skos:Concept</code></em></td>
+</tr>
+<tr>
+<td><strong>Domain</strong></td>
+<td><em><code>brando:Assets</code></em></td>
+</tr>
+<tr>
+<td><strong>Range</strong></td>
+<td><em><code>URL</code></em></td>
+</tr>
+<tr>
+<td><strong>Parent</strong></td>
+<td><em><code>brando:Assets → brando:Brand</code></em></td>
+</tr>
+<tr>
+<td><strong>Object of Relation</strong></td>
+<td><em><code>brando:hasAssets</code></em></td>
+</tr>
+<tr>
+<td><strong>Definition</strong></td>
+<td><em>Links or references to configurations, models, scripts, or resources used by a single AI agent associated with the brand.</em></td>
+</tr>
+<tr>
+<td><strong>Usage Note</strong></td>
+<td><em>Helps organize and manage individual AI agent assets for version control and deployment.</em></td>
+</tr>
+<tr>
+<td><strong>Example</strong></td>
+<td><em><a href="https://brandoschema.com/assets/agents/agent1-config.json">https://brandoschema.com/assets/agents/agent1-config.json</a></em></td>
+</tr>
+<tr>
+<td><strong>Date Created</strong></td>
+<td><em>2025-05-18</em></td>
+</tr>
+<tr>
+<td><strong>Contributors</strong></td>
+<td><em>Advanced Analytica Ltd</em></td>
+</tr>
+<tr>
+<td><strong>See Also</strong></td>
+<td><em><code>brando:assets</code>, <code>brando:textAsset</code>, <code>brando:audioAsset</code></em></td>
+</tr>
+<tr>
+<td><strong>Equivalent Schema.org Term</strong></td>
+<td><em>None (custom)</em></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="multi-ai-agent-multiagentaiasset">Multi AI Agent: <code>multiAgentAIAsset</code></h3>
+<table>
+<thead>
+<tr>
+<th><strong>KEY</strong></th>
+<th><strong>VALUE</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Ref</strong></td>
+<td><strong>1.6.6</strong></td>
+</tr>
+<tr>
+<td><strong>Term</strong></td>
+<td><em><code>multiAgentAIAsset</code></em></td>
+</tr>
+<tr>
+<td><strong>Prefix</strong></td>
+<td><em><code>brando</code></em></td>
+</tr>
+<tr>
+<td><strong>Label</strong></td>
+<td><em>Multi-Agent AI Asset</em></td>
+</tr>
+<tr>
+<td><strong>IRI</strong></td>
+<td><em><code>https://brandoschema.com/bdv-terms/#multiAgentAIAsset</code></em></td>
+</tr>
+<tr>
+<td><strong>Programmatic Key</strong></td>
+<td><em><code>assets.multi_agent_ai_asset</code></em></td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td><em><code>rdfs:Property</code>, <code>skos:Concept</code></em></td>
+</tr>
+<tr>
+<td><strong>Domain</strong></td>
+<td><em><code>brando:Assets</code></em></td>
+</tr>
+<tr>
+<td><strong>Range</strong></td>
+<td><em><code>URL</code></em></td>
+</tr>
+<tr>
+<td><strong>Parent</strong></td>
+<td><em><code>brando:Assets → brando:Brand</code></em></td>
+</tr>
+<tr>
+<td><strong>Object of Relation</strong></td>
+<td><em><code>brando:hasAssets</code></em></td>
+</tr>
+<tr>
+<td><strong>Definition</strong></td>
+<td><em>Links or references to configurations, data, or resources used by multi-agent AI systems associated with the brand.</em></td>
+</tr>
+<tr>
+<td><strong>Usage Note</strong></td>
+<td><em>Useful for organizing and controlling multi-agent AI deployments, versioning, and asset tracking.</em></td>
+</tr>
+<tr>
+<td><strong>Example</strong></td>
+<td><em><a href="https://brandoschema.com/assets/agents/agent-config.yaml">https://brandoschema.com/assets/agents/agent-config.yaml</a></em></td>
+</tr>
+<tr>
+<td><strong>Date Created</strong></td>
+<td><em>2025-05-18</em></td>
+</tr>
+<tr>
+<td><strong>Contributors</strong></td>
+<td><em>Advanced Analytica Ltd</em></td>
+</tr>
+<tr>
+<td><strong>See Also</strong></td>
+<td><em><code>brando:assets</code>, <code>brando:audioAsset</code>, <code>brando:textAsset</code></em></td>
+</tr>
+<tr>
+<td><strong>Equivalent Schema.org Term</strong></td>
+<td><em>None (custom)</em></td>
 </tr>
 </tbody>
 </table>
