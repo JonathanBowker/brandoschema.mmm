@@ -2,7 +2,7 @@
 
 **Brando Schema: Machine-Readable Brand Identity Structures for AI and LLMs**
 
-Brando repository contains specifications for the Brando Brand Definition Vocabulary (BDV), a schema.org extension providing modular, machine-readable constructs to model brand identity facets—verbal, visual, audio, positioning, governance, and assets—designed to enable consistent, compliant, and expressive brand representation in AI systems and LLM-enabled environments.
+BrandoBrando<sup>®</sup> repository contains specifications for the Brando Brand Definition Vocabulary (BDV), a schema.org extension providing modular, machine-readable constructs to model brand identity facets—verbal, visual, audio, positioning, governance, and assets—designed to enable consistent, compliant, and expressive brand representation in AI systems and LLM-enabled environments.
 
 ---
 
