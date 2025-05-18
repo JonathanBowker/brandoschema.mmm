@@ -451,17 +451,17 @@
   
 </li>
         
-          <li class="md-nav__item">
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#16-assets-class" class="md-nav__link">
     <span class="md-ellipsis">
       1.6 Assets Class
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -806,17 +806,17 @@
   
 </li>
         
-          <li class="md-nav__item">
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#16-assets-class" class="md-nav__link">
     <span class="md-ellipsis">
       1.6 Assets Class
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1537,7 +1537,8 @@ Encodes the strategic intent, values, audience targeting, and narrative structur
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<h3 id="16-assets-class">1.6 Assets Class</h3>
+<hr />
+<h2 id="16-assets-class">1.6 Assets Class</h2>
 <p><strong>Core Class: (<code>brando:hasAssets</code>)</strong></p>
 <p>Encodes reusable digital resources — from brand files to LLM-ready features, FAQs, and service definitions — so that AI systems can render and reason with your brand consistently across platforms.</p>
 <table>
@@ -1602,7 +1603,7 @@ Encodes the strategic intent, values, audience targeting, and narrative structur
 <tr>
 <td style="text-align: left;">1.6.11</td>
 <td style="text-align: left;"><nobr><code>brando:qaAsset</code></nobr></td>
-<td style="text-align: left;">Common Q&amp;A and FAQ-style content structured for AI and semantic indexing (<code>FAQPage</code> format)</td>
+<td style="text-align: left;">Common Q\&amp;A and FAQ-style content structured for AI and semantic indexing (<code>FAQPage</code> format)</td>
 </tr>
 <tr>
 <td style="text-align: left;">1.6.12</td>
@@ -1627,117 +1628,21 @@ Encodes the strategic intent, values, audience targeting, and narrative structur
 <tr>
 <td style="text-align: left;">1.6.16</td>
 <td style="text-align: left;"><nobr><code>brando:knowledgeAsset</code></nobr></td>
-<td style="text-align: left;">Reference to structured brand knowledge assets intended for AI semantic retrieval and interpretation.</td>
+<td style="text-align: left;">Reference to structured brand knowledge assets intended for AI semantic retrieval and interpretation</td>
+</tr>
+<tr>
+<td style="text-align: left;">1.6.17</td>
+<td style="text-align: left;"><nobr><code>brando:singleAgentAIAsset</code></nobr></td>
+<td style="text-align: left;">Links or references to configurations, models, or scripts used by a <strong>single AI agent</strong> associated with the brand</td>
+</tr>
+<tr>
+<td style="text-align: left;">1.6.18</td>
+<td style="text-align: left;"><nobr><code>brando:multiAgentAIAsset</code></nobr></td>
+<td style="text-align: left;">Links or references to configurations, models, or orchestrations used by <strong>multi-agent AI systems</strong> associated with the brand</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Example: Complete Assets Policy</strong></p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;@context&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;schema&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schema.org/&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;brando&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://brandoschema.com/bdv-terms/#&quot;</span>
-<span class="w">  </span><span class="p">},</span>
-<span class="w">  </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:Brand&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;BRAND&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.brand.eu/&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;logo&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.brand.eu/assets/logo.svg&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;brando:hasAssets&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;brando:Assets&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;brando:logoAsset&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/assets/logo-primary.svg&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/assets/logo-mono.svg&quot;</span>
-<span class="w">    </span><span class="p">],</span>
-<span class="w">    </span><span class="nt">&quot;brando:fontAsset&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/assets/fonts/Inter-Regular.woff2&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/assets/fonts/Inter-Bold.woff2&quot;</span>
-<span class="w">    </span><span class="p">],</span>
-<span class="w">    </span><span class="nt">&quot;brando:imageLibrary&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://dam.brand.eu/images/&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;brando:videoAsset&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/videos/intro.mp4&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/videos/values.mp4&quot;</span>
-<span class="w">    </span><span class="p">],</span>
-<span class="w">    </span><span class="nt">&quot;brando:designSystemLink&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.figma.com/file/BRANDKIT/Main&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;brando:templateLibrary&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">      </span><span class="s2">&quot;https://www.canva.com/brand/templates&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="s2">&quot;https://notion.so/templates/brand-docs&quot;</span>
-<span class="w">    </span><span class="p">],</span>
-<span class="w">    </span><span class="nt">&quot;brando:guidelinesPDF&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/docs/visual-guidelines.pdf&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/docs/tone-of-voice.pdf&quot;</span>
-<span class="w">    </span><span class="p">],</span>
-<span class="w">    </span><span class="nt">&quot;brando:assetRepository&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://drive.brand.eu/brand-assets&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;brando:personaAsset&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/personas/creative-director.json&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/personas/governance-lead.json&quot;</span>
-<span class="w">    </span><span class="p">],</span>
-<span class="w">    </span><span class="nt">&quot;brando:accessPolicy&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;editors&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;design@brand.eu&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;legal@brand.eu&quot;</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">&quot;viewers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;agency@brand.eu&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;ai@brand.eu&quot;</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">&quot;policyNote&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;External access to files in /public only. All others require editor role.&quot;</span>
-<span class="w">    </span><span class="p">},</span>
-<span class="w">    </span><span class="nt">&quot;brando:qaAsset&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">      </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:Question&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;What does Brando Schema do?&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;acceptedAnswer&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">          </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:Answer&quot;</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">&quot;text&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;It enables brand-safe AI interaction by structuring your identity and governance rules in JSON-LD.&quot;</span>
-<span class="w">        </span><span class="p">}</span>
-<span class="w">      </span><span class="p">},</span>
-<span class="w">      </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:Question&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Can this help with LLM accuracy?&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;acceptedAnswer&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">          </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:Answer&quot;</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">&quot;text&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Yes. Your structured policies and prompts ensure AI agents reflect your voice and values accurately.&quot;</span>
-<span class="w">        </span><span class="p">}</span>
-<span class="w">      </span><span class="p">}</span>
-<span class="w">    </span><span class="p">],</span>
-<span class="w">    </span><span class="nt">&quot;brando:productAsset&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">      </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:Product&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Brando Schema Toolkit&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;A full-stack schema for AI governance, identity, and brand discoverability.&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;sku&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;BR-001&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.brand.eu/products/schema-toolkit&quot;</span>
-<span class="w">      </span><span class="p">}</span>
-<span class="w">    </span><span class="p">],</span>
-<span class="w">    </span><span class="nt">&quot;brando:serviceAsset&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">      </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:Service&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;AI Brand Compliance Audit&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;We assess your brand visibility, AI exposure, tone alignment, and generate a semantic roadmap.&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;provider&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">          </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:Organization&quot;</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;BRAND&quot;</span><span class="p">,</span>
-<span class="w">          </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.brand.eu/&quot;</span>
-<span class="w">        </span><span class="p">}</span>
-<span class="w">      </span><span class="p">}</span>
-<span class="w">    </span><span class="p">],</span>
-<span class="w">    </span><span class="nt">&quot;brando:featuresAsset&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">      </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:PropertyValue&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;AI-ready Brand Object&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;value&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Encodes your brand in a structured JSON-LD format retrievable by LLMs and agents.&quot;</span>
-<span class="w">      </span><span class="p">},</span>
-<span class="w">      </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:PropertyValue&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Visual + Verbal Controls&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;value&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Centralised policies for tone, logo usage, naming, messaging, and more.&quot;</span>
-<span class="w">      </span><span class="p">},</span>
-<span class="w">      </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;schema:PropertyValue&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Brando Guardrails&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;value&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Declarative restrictions to prevent AI hallucination, misuse, or misalignment.&quot;</span>
-<span class="w">      </span><span class="p">}</span>
-<span class="w">    </span><span class="p">],</span>
-<span class="w">    </span><span class="nt">&quot;brando:datasetAsset&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/datasets/feature-dataset.json&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="s2">&quot;https://www.brand.eu/datasets/brand-training-corpus.json&quot;</span>
-<span class="w">    </span><span class="p">]</span>
-<span class="w">  </span><span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div>
+<p>```</p>
 <h2 id="usage">Usage</h2>
 <p><em>Brando BDV is designed to be embedded in JSON-LD, RDFa, or used within semantic layers of AI and content delivery platforms. It is intended for use by:</em></p>
 <ul>
